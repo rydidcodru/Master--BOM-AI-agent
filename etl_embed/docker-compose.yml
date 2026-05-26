@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: etl_postgres
+    environment:
+      POSTGRES_DB: etl_dev
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: etl_pass
+    ports:
+      - "15432:5432"
+    volumes:
+      - etl_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U etl_user -d etl_dev"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  etl_pgdata:
