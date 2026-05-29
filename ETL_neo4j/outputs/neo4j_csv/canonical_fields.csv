@@ -1,0 +1,12 @@
+key,displayName,description,dataType
+row_no,Row No,Source row number,integer
+bom_level,BOM Level,Parsed BOM hierarchy level,integer
+part_type,Part Type,Source part category,string
+base_part_no,Base P/No,Base part number,string
+new_part_no,New P/No,New part number or source symbol,string
+part_name,Part Name,Part name or class description,string
+quantity,Quantity,Quantity or source quantity symbol,string
+changing_point,Changing Point,Change point text,string
+changing_reason,Changing Reason,Change reason text,string
+supplier_name,Supplier,Supplier name,string
+classification,Classification,Common Change New Delete,string
