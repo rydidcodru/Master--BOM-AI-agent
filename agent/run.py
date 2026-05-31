@@ -8,6 +8,7 @@ from config import get_neo4j_driver
 from bom_tree import parse_bom_excel, InMemoryBOMRepository, Neo4jBOMRepository
 from ppt_parser import parse_pptx_file
 from query_agent import process_change_request, match_target_node_with_llm
+from compact_oven_processor import run_pipeline
 
 
 def build_and_verify_tree(bom_path: Path, use_neo4j: bool) -> InMemoryBOMRepository:
@@ -241,7 +242,16 @@ def main():
         default="",
         help="에이전트 쿼리 확장에 적용할 PPT 파트 명칭 (선택 사항)"
     )
+    parser.add_argument(
+        "--compact-oven",
+        action="store_true",
+        help="Compact Oven 마스터 엑셀 자동 업데이트 파이프라인 구동"
+    )
     args = parser.parse_args()
+    
+    if args.compact_oven:
+        run_pipeline()
+        sys.exit(0)
     
     # 1단계 실행
     repo = build_and_verify_tree(Path(args.bom), args.neo4j)

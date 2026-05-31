@@ -7,11 +7,12 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 
-def _ppt_text_from_shape(shape) -> str:
-    """PPT 도형에서 텍스트를 추출하며, 취소선이 그어진 부분은 제외합니다."""
+def _ppt_text_from_shape(shape) -> tuple[str, list[str]]:
+    """PPT 도형에서 텍스트를 추출하며, 취소선이 그어진 부분은 제외하고 굵게(bold) 표시된 키워드를 식별합니다."""
     if not getattr(shape, "has_text_frame", False):
-        return ""
+        return "", []
     chunks = []
+    bold_texts = []
     tf = shape.text_frame
     for p in tf.paragraphs:
         run_text = []
@@ -21,11 +22,44 @@ def _ppt_text_from_shape(shape) -> str:
                     continue
             except Exception:
                 pass
-            run_text.append(r.text or "")
+            txt = r.text or ""
+            run_text.append(txt)
+            try:
+                if getattr(r.font, "bold", False) and txt.strip():
+                    bold_texts.append(txt.strip())
+            except Exception:
+                pass
         line = "".join(run_text).strip()
         if line:
             chunks.append(line)
-    return "\n".join(chunks).strip()
+    return "\n".join(chunks).strip(), bold_texts
+
+
+def _ppt_text_from_cell(cell) -> tuple[str, list[str]]:
+    """테이블 셀에서 텍스트를 추출하며, 취소선이 그어진 부분은 제외하고 굵게(bold) 표시된 키워드를 식별합니다."""
+    if not getattr(cell, "text_frame", None):
+        return "", []
+    chunks = []
+    bold_texts = []
+    for p in cell.text_frame.paragraphs:
+        run_text = []
+        for r in p.runs:
+            try:
+                if getattr(r.font, "strike", False):
+                    continue
+            except Exception:
+                pass
+            txt = r.text or ""
+            run_text.append(txt)
+            try:
+                if getattr(r.font, "bold", False) and txt.strip():
+                    bold_texts.append(txt.strip())
+            except Exception:
+                pass
+        line = "".join(run_text).strip()
+        if line:
+            chunks.append(line)
+    return "\n".join(chunks).strip(), bold_texts
 
 
 def _norm_header(h: str) -> str:
@@ -232,9 +266,10 @@ def _classify_slide_role(slide_lines: list[str], table_headers: list[str]) -> di
         if k.upper() in blob:
             overview_hits += 1
 
-    for k in ["유첨", "개발 변경점 상세", "CAVITY", "DOOR", "CONTROLLER ASSEMBLY", "구분", "변경 내역", "BASE", "NEW"]:
+    for k in ["유첨", "개발 변경점 상세", "CAVITY", "DOOR", "CONTROLLER ASSEMBLY", "구분", "변경 내역", "BASE", "NEW",
+              "유첨3. 개발 변경점", "주요 변경점", "모듈명", "Oven+MWO", "Oven Only", "Oven+MWO+Steam", "Compact Oven"]:
         if k.upper() in blob:
-            detail_hits += 1
+            detail_hits += 2
 
     for k in ["개발 등급 분류 기준", "운영 기준", "부표", "기준", "절차", "정의", "상세", "참고"]:
         if k.upper() in blob:
@@ -411,7 +446,10 @@ def extract_change_review_from_pptx_bytes(pptx_bytes: bytes, ctx: dict | None = 
         def _has_any_compact(src_compact: str, kws: list[str]) -> bool:
             return any(re.sub(r"[^A-Z0-9가-힣]", "", k.upper()) in src_compact for k in kws)
 
-        # MAIN_CHANGE_TABLE
+        has_module_col = _has_any(hraw_join, ["MODULE", "모듈명", "모듈"])
+        has_change_col = _has_any(hraw_join, ["변경점", "주요 변경점", "변경내역", "CHANGE"])
+        
+        # MAIN_CHANGE_TABLE / SUMMARY_TABLE
         has_change = _has_any(hraw_join, ["변경내역", "변경 내역", "CHANGE"]) or _has_any_compact(hraw_compact, ["변경내역"])
         has_before_after = (
             _has_any(hraw_join, ["변경 전", "변경 후", "->", "→", "BEFORE", "AFTER"])
@@ -421,15 +459,20 @@ def extract_change_review_from_pptx_bytes(pptx_bytes: bytes, ctx: dict | None = 
         has_reason = _has_any(hraw_join, ["변경사유", "변경 사유", "REASON"]) or _has_any_compact(hraw_compact, ["변경사유"])
         has_concern = _has_any(hraw_join, ["걱정점", "걱정 점", "우려", "CONCERN"]) or _has_any_compact(hraw_compact, ["걱정점", "우려"])
         has_part = _has_any(hraw_join, ["PART", "부품"]) or _has_any_compact(hraw_compact, ["PART", "부품"])
+        
         if has_change and has_before_after and has_reason and has_concern and has_part:
             return {"type": "MAIN_CHANGE_TABLE", "why": "whitelist_main_change"}
+            
+        if has_module_col and has_change_col:
+            return {"type": "MAIN_CHANGE_TABLE", "why": "whitelist_compact_oven_summary"}
 
         # DETAIL_CHANGE_TABLE
         has_base = _has_any(hraw_join, ["BASE"])
-        has_new = _has_any(hraw_join, ["NEW"])
+        has_new_flexible = _has_any(hraw_join, ["NEW", "B700", "B900", "Compact Oven", "COMPACT"])
         has_mod_or_remark = _has_any(hraw_join, ["MODULE", "모듈", "REMARK", "비고"])
-        if has_base and has_new and has_mod_or_remark:
-            return {"type": "DETAIL_CHANGE_TABLE", "why": "whitelist_detail_change"}
+        
+        if (has_base and has_new_flexible and has_mod_or_remark) or (has_module_col and has_base and has_new_flexible):
+            return {"type": "DETAIL_CHANGE_TABLE", "why": "whitelist_detail_change_flexible"}
 
         # RISK_TABLE
         has_risk = _has_any(hraw_join, ["우려", "걱정", "CONCERN"]) or _has_any_compact(hraw_compact, ["우려", "걱정"])
@@ -446,7 +489,7 @@ def extract_change_review_from_pptx_bytes(pptx_bytes: bytes, ctx: dict | None = 
         table_seq = 0
         for sh in slide.shapes:
             if getattr(sh, "has_text_frame", False):
-                txt = _ppt_text_from_shape(sh)
+                txt, bolds = _ppt_text_from_shape(sh)
                 if txt:
                     ls = _split_lines_text(txt)
                     slide_lines.extend(ls)
@@ -455,10 +498,13 @@ def extract_change_review_from_pptx_bytes(pptx_bytes: bytes, ctx: dict | None = 
                 table_seq += 1
                 t = sh.table
                 rows = []
+                bold_words_in_table = []
                 for r in t.rows:
                     row = []
                     for c in r.cells:
-                        row.append(re.sub(r"\s+", " ", c.text or "").strip())
+                        val, bolds = _ppt_text_from_cell(c)
+                        row.append(val)
+                        bold_words_in_table.extend(bolds)
                     rows.append(row)
                 if rows:
                     for rr in rows:
@@ -474,6 +520,7 @@ def extract_change_review_from_pptx_bytes(pptx_bytes: bytes, ctx: dict | None = 
                         "table_id": f"S{s_idx}-T{table_seq}",
                         "rows": rows,
                         "slide_lines": list(slide_lines),
+                        "bold_words": bold_words_in_table,
                     })
         slide_lines_map[s_idx] = list(slide_lines)
         slide_table_headers_map[s_idx] = list(slide_table_headers)

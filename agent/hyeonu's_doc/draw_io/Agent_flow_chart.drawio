@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36">
+  <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
+    <mxGraphModel dx="1414" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- ========================================== -->
+        <!-- 레이어 컨테이너 1: NLP & Semantic Query Layer -->
+        <!-- ========================================== -->
+        <mxCell id="container_nlp" parent="1" style="shape=swimlane;fontStyle=1;align=left;verticalAlign=top;fillColor=#F8FAFC;strokeColor=#E2E8F0;strokeWidth=2;rounded=1;arcSize=6;shadow=0;startSize=30;fontSize=13;fontColor=#1E293B;fontFamily=Helvetica;spacingLeft=10;" value="NLP &amp; Semantic Query Layer" vertex="1">
+          <mxGeometry height="190" width="750" x="38" y="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Process 1: PPTX Input Parsing -->
+        <mxCell id="p1" parent="container_nlp" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#EFF6FF;strokeColor=#3B82F6;fontColor=#1E3A8A;shadow=1;" value="&lt;strong&gt;Process 1&lt;/strong&gt;&lt;hr/&gt;PPTX Input&lt;br/&gt;Parsing" vertex="1">
+          <mxGeometry height="75" width="130" x="40" y="70" as="geometry" />
+        </mxCell>
+        
+        <!-- Process 2: Query Expansion -->
+        <mxCell id="p2" parent="container_nlp" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#EFF6FF;strokeColor=#3B82F6;fontColor=#1E3A8A;shadow=1;" value="&lt;strong&gt;Process 2&lt;/strong&gt;&lt;hr/&gt;Query&lt;br/&gt;Expansion" vertex="1">
+          <mxGeometry height="75" width="130" x="220" y="70" as="geometry" />
+        </mxCell>
+        
+        <!-- Process 3: Self-Verification -->
+        <mxCell id="p3" parent="container_nlp" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#EFF6FF;strokeColor=#3B82F6;fontColor=#1E3A8A;shadow=1;" value="&lt;strong&gt;Process 3&lt;/strong&gt;&lt;hr/&gt;Self-&lt;br/&gt;Verification" vertex="1">
+          <mxGeometry height="75" width="130" x="400" y="70" as="geometry" />
+        </mxCell>
+        
+        <!-- LLM Client (Gemini API) -->
+        <mxCell id="actor_llm" parent="container_nlp" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=2;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontSize=12;rounded=1;shadow=1;" value="LLM Client&#xa;(Gemini 1.5 Pro)" vertex="1">
+          <mxGeometry height="75" width="120" x="580" y="70" as="geometry" />
+        </mxCell>
+
+        <!-- ========================================== -->
+        <!-- 레이어 컨테이너 2: BOM Hierarchy & Execution Layer -->
+        <!-- ========================================== -->
+        <mxCell id="container_bom" parent="1" style="shape=swimlane;fontStyle=1;align=left;verticalAlign=top;fillColor=#F8FAFC;strokeColor=#E2E8F0;strokeWidth=2;rounded=1;arcSize=6;shadow=0;startSize=30;fontSize=13;fontColor=#1E293B;fontFamily=Helvetica;spacingLeft=10;" value="BOM Hierarchy &amp; Execution Layer" vertex="1">
+          <mxGeometry height="190" width="750" x="38" y="270" as="geometry" />
+        </mxCell>
+
+        <!-- Process 4: BOM Tree Restoration -->
+        <mxCell id="p4" parent="container_bom" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#ECFDF5;strokeColor=#10B981;fontColor=#064E3B;shadow=1;" value="&lt;strong&gt;Process 4&lt;/strong&gt;&lt;hr/&gt;BOM Tree&lt;br/&gt;Restoration" vertex="1">
+          <mxGeometry height="75" width="130" x="580" y="60" as="geometry" />
+        </mxCell>
+
+        <!-- Process 5: Pinpoint Node Matching -->
+        <mxCell id="p5" parent="container_bom" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#ECFDF5;strokeColor=#10B981;fontColor=#064E3B;shadow=1;" value="&lt;strong&gt;Process 5&lt;/strong&gt;&lt;hr/&gt;Pinpoint Node&lt;br/&gt;Matching" vertex="1">
+          <mxGeometry height="75" width="130" x="400" y="60" as="geometry" />
+        </mxCell>
+
+        <!-- Process 6: Change Propagation -->
+        <mxCell id="p6" parent="container_bom" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#ECFDF5;strokeColor=#10B981;fontColor=#064E3B;shadow=1;" value="&lt;strong&gt;Process 6&lt;/strong&gt;&lt;hr/&gt;Change&lt;br/&gt;Propagation" vertex="1">
+          <mxGeometry height="75" width="130" x="220" y="60" as="geometry" />
+        </mxCell>
+
+        <!-- Process 7: Formatted Excel Write -->
+        <mxCell id="p7" parent="container_bom" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#ECFDF5;strokeColor=#10B981;fontColor=#064E3B;shadow=1;" value="&lt;strong&gt;Process 7&lt;/strong&gt;&lt;hr/&gt;Formatted&lt;br/&gt;Excel Write" vertex="1">
+          <mxGeometry height="75" width="130" x="40" y="60" as="geometry" />
+        </mxCell>
+
+        <!-- ========================================== -->
+        <!-- 연결선 (Edges) -->
+        <!-- ========================================== -->
+        
+        <!-- Process 1 -> Process 2 -->
+        <mxCell id="e_p1_p2" edge="1" parent="1" source="p1" target="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#475569;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Process 2 -> Process 3 -->
+        <mxCell id="e_p2_p3" edge="1" parent="1" source="p2" target="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#475569;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Process 3 -> Process 4 (U-Turn Edge) -->
+        <mxCell id="e_p3_p4" edge="1" parent="1" source="p3" target="p4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#475569;strokeWidth=2;exitX=1;exitY=0.5;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="148" />
+              <mxPoint x="600" y="270" />
+              <mxPoint x="683" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Process 4 -> Process 5 -->
+        <mxCell id="e_p4_p5" edge="1" parent="1" source="p4" target="p5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#475569;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Process 5 -> Process 6 -->
+        <mxCell id="e_p5_p6" edge="1" parent="1" source="p5" target="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#475569;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Process 6 -> Process 7 -->
+        <mxCell id="e_p6_p7" edge="1" parent="1" source="p6" target="p7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#475569;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ========================================== -->
+        <!-- LLM API 호출 점선 (Interactions) -->
+        <!-- ========================================== -->
+        <mxCell id="e_p2_llm" edge="1" parent="1" source="p2" target="actor_llm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#B45309;strokeWidth=1.5;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="363" y="80" />
+              <mxPoint x="618" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="e_p3_llm" edge="1" parent="1" source="p3" target="actor_llm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#B45309;strokeWidth=1.5;dashed=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e_p5_llm" edge="1" parent="1" source="p5" target="actor_llm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#B45309;strokeWidth=1.5;dashed=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="503" y="300" />
+              <mxPoint x="678" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
