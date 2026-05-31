@@ -1,0 +1,1632 @@
+partId,canonicalPartNo,canonicalName,partType,status,searchText
+part:c981cfbb49c3f4b643e5,MGJ67449001,"Plate,Base",PD Part,active,"MGJ67449001 | Plate,Base | PD Part"
+part:a818670b29ad1113d8a4,ACM76198407,"Controller Assembly,Tact Dial",Structure Assy,active,"ACM76198407 | Controller Assembly,Tact Dial | Structure Assy"
+part:8726e619b10ed9a1b63c,ACM76198411,"Controller Assembly,Tact Dial",Structure Assy,active,"ACM76198411 | Controller Assembly,Tact Dial | Structure Assy"
+part:e9f84726b4198cd9096b,ACM76203208,"Controller Assembly,Sub",Structure Assy,active,"ACM76203208 | Controller Assembly,Sub | Structure Assy"
+part:aa81a21889579b265010,ACM76203216,"Controller Assembly,Sub",Structure Assy,active,"ACM76203216 | Controller Assembly,Sub | Structure Assy"
+part:ef9b98ed9fa20dec6b77,MCR68450803,"Decor,Control Panel",PD Part,active,"MCR68450803 | Decor,Control Panel | PD Part"
+part:751afb90ed9b3d2ed82b,MCR68450804,"Decor,Control Panel",PD Part,active,"MCR68450804 | Decor,Control Panel | PD Part"
+part:1ab74db61bb6c617bd9b,RAA33959178,"Sheet,Steel(STS)",PD Part,active,"RAA33959178 | Sheet,Steel(STS) | PD Part"
+part:d9b7afd6449a87494ab3,RAA33959177,"Sheet,Steel(STS)",PD Part,active,"RAA33959177 | Sheet,Steel(STS) | PD Part"
+part:f92817eede4aadab5296,MKC67486206,"Window,Glass",etc.,active,"MKC67486206 | Window,Glass | etc."
+part:b66062c9ca969141916a,AKF75721706,Print Assembly,Printing Material,active,AKF75721706 | Print Assembly | Printing Material
+part:23a013243e951a1edade,MEZ68891911,"Label,Barcode",Printing Material,active,"MEZ68891911 | Label,Barcode | Printing Material"
+part:2808b87616c8a79cebd3,MEZ68891931,"Label,Barcode",Printing Material,active,"MEZ68891931 | Label,Barcode | Printing Material"
+part:23a8ac3d558398a731c9,AEZ75996301,Knob Assembly,Structure Assy,active,AEZ75996301 | Knob Assembly | Structure Assy
+part:1d61215be01b2b95a37d,AEZ75996302,Knob Assembly,Structure Assy,active,AEZ75996302 | Knob Assembly | Structure Assy
+part:d7f57dea58b457ea791a,ADC30054004,"Door Assembly,Full",Structure Assy,active,"ADC30054004 | Door Assembly,Full | Structure Assy"
+part:42b6ccfa85fef8d21934,ADC30054005,"Door Assembly,Full",Structure Assy,active,"ADC30054005 | Door Assembly,Full | Structure Assy"
+part:e095046f118f077b94e1,MEZ67849740,"Label,Rating",Printing Material,active,"MEZ67849740 | Label,Rating | Printing Material"
+part:763f4dc8a2f9051dfd9c,MEZ68739501,"Label,Rating",Printing Material,active,"MEZ68739501 | Label,Rating | Printing Material"
+part:65c343c0cfe739c18499,AAA30802433,"Accessory Assembly,Base",etc.,active,"AAA30802433 | Accessory Assembly,Base | etc."
+part:13416ceb1691e37eb9bb,AFN30095231,Manual Assembly,Printing Material,active,AFN30095231 | Manual Assembly | Printing Material
+part:3dd857f0c91e95f97007,MFL71927518,"Manual,Owners",Printing Material,active,"MFL71927518 | Manual,Owners | Printing Material"
+part:2e73f2ad60f8ece58a20,MFL71927702,"Manual,Installation",Printing Material,active,"MFL71927702 | Manual,Installation | Printing Material"
+part:cd1b7ef3e90c6a00c487,MEZ67849833,"Label,Carton",Printing Material,active,"MEZ67849833 | Label,Carton | Printing Material"
+part:b004f68d807b77eb30f7,MEZ67849870,"Label,Carton",Printing Material,active,"MEZ67849870 | Label,Carton | Printing Material"
+part:324d2f17413b6c4d31ca,MFL70959933,"Manual,Service",etc.,active,"MFL70959933 | Manual,Service | etc."
+part:daab36e851dbcf2c6539,ACM76198410,"Controller Assembly,Tact Dial",Structure Assy,active,"ACM76198410 | Controller Assembly,Tact Dial | Structure Assy"
+part:ca5047e03c253e02b244,ACM76203215,"Controller Assembly,Sub",Structure Assy,active,"ACM76203215 | Controller Assembly,Sub | Structure Assy"
+part:eb13c272eb9f43884507,MEZ68891930,"Label,Barcode",Printing Material,active,"MEZ68891930 | Label,Barcode | Printing Material"
+part:758ce59027c9d3612c72,MEZ67849871,"Label,Carton",Printing Material,active,"MEZ67849871 | Label,Carton | Printing Material"
+part:608bcbe830aba7c0c625,AAA30802401,"Accessory Assembly,Base",Structure Assy,active,"AAA30802401 | Accessory Assembly,Base | Structure Assy"
+part:aa0aa95f92f36535e1c9,AAA30802475,"Accessory Assembly,Base",Structure Assy,active,"AAA30802475 | Accessory Assembly,Base | Structure Assy"
+part:1e0619c7a82df7cb4fd9,3390W0N003N,"Tray,Metal",PD Part,active,"3390W0N003N | Tray,Metal | PD Part"
+part:a88d6f4adee530fca837,3390W0N003H,"Tray,Metal",PD Part,active,"3390W0N003H | Tray,Metal | PD Part"
+part:a10ce4a8a143fba2a85f,3390W0N004N,"Tray,Metal",PD Part,active,"3390W0N004N | Tray,Metal | PD Part"
+part:87ba322a52062277cc86,3390W0N004H,"Tray,Metal",PD Part,active,"3390W0N004H | Tray,Metal | PD Part"
+part:4670ac93026441060f23,AFN30095251,Manual Assembly,Printing Material,active,AFN30095251 | Manual Assembly | Printing Material
+part:46783cd8e0c2b7ddc02a,AFN30095290,Manual Assembly,Printing Material,active,AFN30095290 | Manual Assembly | Printing Material
+part:f05a228bae9e93fd237a,MFL71927501,"Manual,Owners",Printing Material,active,"MFL71927501 | Manual,Owners | Printing Material"
+part:59d2316808a15268b64f,MFL71927529,"Manual,Owners",Printing Material,active,"MFL71927529 | Manual,Owners | Printing Material"
+part:b5449ce872d233740665,MBM65176315,"Card,Warranty",Printing Material,active,"MBM65176315 | Card,Warranty | Printing Material"
+part:156ccb6b9a811cc99a52,MEZ67849802,"Label,Carton",Printing Material,active,"MEZ67849802 | Label,Carton | Printing Material"
+part:a48ae0515fb0d0424497,MEZ67849881,"Label,Carton",Printing Material,active,"MEZ67849881 | Label,Carton | Printing Material"
+part:000adbc6a452e8d3a2de,MFL70959909,"Manual,Service",Printing Material,active,"MFL70959909 | Manual,Service | Printing Material"
+part:568d92c44557177d89fe,AAA30802447,"Accessory Assembly,Base",Structure Assy,active,"AAA30802447 | Accessory Assembly,Base | Structure Assy"
+part:21a8acd6e1dbc933a4fe,AAA30802476,"Accessory Assembly,Base",Structure Assy,active,"AAA30802476 | Accessory Assembly,Base | Structure Assy"
+part:dc42eb0ec81804e77f8d,AFN30095268,Manual Assembly,Printing Material,active,AFN30095268 | Manual Assembly | Printing Material
+part:6c78e83d10eb4783b7f1,AFN30095291,Manual Assembly,Printing Material,active,AFN30095291 | Manual Assembly | Printing Material
+part:9fbbd6d5abaa836040f5,MFL71927516,"Manual,Owners",Printing Material,active,"MFL71927516 | Manual,Owners | Printing Material"
+part:d508221a03dd2f98c9d9,MFL71927530,"Manual,Owners",Printing Material,active,"MFL71927530 | Manual,Owners | Printing Material"
+part:ca74f00ff9e830443c16,MEZ67849854,"Label,Carton",Printing Material,active,"MEZ67849854 | Label,Carton | Printing Material"
+part:c421fbcada86b8ebaa5c,MEZ67849882,"Label,Carton",Printing Material,active,"MEZ67849882 | Label,Carton | Printing Material"
+part:40f1dffc7f524fdd82f4,MFL70959927,"Manual,Service",Printing Material,active,"MFL70959927 | Manual,Service | Printing Material"
+part:a511f0613df4d8ac79d9,AAA30802406,"Accessory Assembly,Base",Structure Assy,active,"AAA30802406 | Accessory Assembly,Base | Structure Assy"
+part:f159ea26a116e75d6c24,AAA30802477,"Accessory Assembly,Base",Structure Assy,active,"AAA30802477 | Accessory Assembly,Base | Structure Assy"
+part:6de874399ec03ce1e670,AFN30095256,Manual Assembly,Printing Material,active,AFN30095256 | Manual Assembly | Printing Material
+part:81255c9f1af98a2ba9ae,AFN30095292,Manual Assembly,Printing Material,active,AFN30095292 | Manual Assembly | Printing Material
+part:a024bc17ba1c22900f50,MFL71927502,"Manual,Owners",Printing Material,active,"MFL71927502 | Manual,Owners | Printing Material"
+part:a5bec359207e7182188e,MEZ67849807,"Label,Carton",Printing Material,active,"MEZ67849807 | Label,Carton | Printing Material"
+part:f6ab5f2205b8663e2169,MEZ67849883,"Label,Carton",Printing Material,active,"MEZ67849883 | Label,Carton | Printing Material"
+part:b9e56ee3c17eefc251a6,MFL70959918,"Manual,Service",Printing Material,active,"MFL70959918 | Manual,Service | Printing Material"
+part:604ca9b44e97f7eb30b6,ACM76198207,"Controller Assembly,Touch",,active,"ACM76198207 | Controller Assembly,Touch"
+part:1fa3d941b1fbf7f8d54e,ACM76198222,"Controller Assembly,Touch",,active,"ACM76198222 | Controller Assembly,Touch"
+part:7c36cc8c3ac8cdccb274,EBR37653202,"PCB Assembly,Sub",,active,"EBR37653202 | PCB Assembly,Sub"
+part:86a3be2f35082da79b53,EBR37653207,"PCB Assembly,Sub",,active,"EBR37653207 | PCB Assembly,Sub"
+part:d81a883cb49a7c9c0a0f,SAA44071102,"S/W,Micom(Main)",,active,"SAA44071102 | S/W,Micom(Main)"
+part:a3327196106ee8448ae5,SAA44986201,"S/W,Micom(Main)",,active,"SAA44986201 | S/W,Micom(Main)"
+part:2c14633d850964603a13,MEZ68891912,"Label,Barcode",,active,"MEZ68891912 | Label,Barcode"
+part:42e260b30e5599281074,MEZ68891925,"Label,Barcode",,active,"MEZ68891925 | Label,Barcode"
+part:aebd1421bd4df1d336cf,AAA30802459,"Accessory Assembly,Base",,active,"AAA30802459 | Accessory Assembly,Base"
+part:c159572c71eb71ba2685,AFN30095276,Manual Assembly,,active,AFN30095276 | Manual Assembly
+part:99c2eb86bc6b001a25ff,MEZ67849904,"Label,Energy",,active,"MEZ67849904 | Label,Energy"
+part:94fe86ceb9718930ed24,MFL71927521,"Manual,Owners",,active,"MFL71927521 | Manual,Owners"
+part:a455713b40c232d78da7,MFL72082001,"Manual,Installation",,active,"MFL72082001 | Manual,Installation"
+part:3b04dc85ac7b71a64640,MFL72082005,"Manual,Installation",,active,"MFL72082005 | Manual,Installation"
+part:19ecbd2b28c7b8837f11,MBM65176334,"Card,Warranty",,active,"MBM65176334 | Card,Warranty"
+part:68ff39615779e5469b94,3880W3ZA06J,"Bag,Envelope",,active,"3880W3ZA06J | Bag,Envelope"
+part:68796124a5c552429257,MEZ64432501,"Label,Barcode",,active,"MEZ64432501 | Label,Barcode"
+part:9e6026de981a54b92fb2,3858W3ZA03Z,"Bag,Sheet",,active,"3858W3ZA03Z | Bag,Sheet"
+part:1e206ca7e3ada67199f3,MEZ67849804,"Label,Carton",,active,"MEZ67849804 | Label,Carton"
+part:86a9c8e0124e3dffcdd3,MEZ67849859,"Label,Carton",,active,"MEZ67849859 | Label,Carton"
+part:045272b158a5d42d4bea,ACM76198208,"Controller Assembly,Touch",,active,"ACM76198208 | Controller Assembly,Touch"
+part:198c6570498c0e373087,ACM76198223,"Controller Assembly,Touch",,active,"ACM76198223 | Controller Assembly,Touch"
+part:2a9849d36a36b3b05a71,MEZ68891913,"Label,Barcode",,active,"MEZ68891913 | Label,Barcode"
+part:f2eb0fa543eaf5dfad0c,MEZ68891926,"Label,Barcode",,active,"MEZ68891926 | Label,Barcode"
+part:482bdd1a3c8598836c7e,AAA30802403,"Accessory Assembly,Base",,active,"AAA30802403 | Accessory Assembly,Base"
+part:961a6b7e63e1163ae160,AAA30802460,"Accessory Assembly,Base",,active,"AAA30802460 | Accessory Assembly,Base"
+part:e5a11ec77bdd6e63872e,AFN30095253,Manual Assembly,,active,AFN30095253 | Manual Assembly
+part:2bead9322a341387ff38,AFN30095277,Manual Assembly,,active,AFN30095277 | Manual Assembly
+part:f3bb22bb4a1a8f624c70,MEZ67849906,"Label,Energy",,active,"MEZ67849906 | Label,Energy"
+part:ba873b0a6f75b7270ea0,MFL71927522,"Manual,Owners",,active,"MFL71927522 | Manual,Owners"
+part:8408ce974d41832fd5ed,MEZ67849860,"Label,Carton",,active,"MEZ67849860 | Label,Carton"
+part:d7e753220a0356968f8f,MFL70959910,"Manual,Service",,active,"MFL70959910 | Manual,Service"
+part:45de2f51d8e6f0ac0383,MEZ00746902,"Label,guide",,active,"MEZ00746902 | Label,guide"
+part:72b55a2425b2d1dd89b7,AAA30802470,"Accessory Assembly,Base",,active,"AAA30802470 | Accessory Assembly,Base"
+part:79026acfa14d945a20a5,AFN30095285,Manual Assembly,,active,AFN30095285 | Manual Assembly
+part:7c71d968c14426d134f1,MEZ67849944,"Label,Energy",,active,"MEZ67849944 | Label,Energy"
+part:45a5a557a9f9a0ef6eb2,MFL71927528,"Manual,Owners",,active,"MFL71927528 | Manual,Owners"
+part:c3a07cd15528f92940fa,MFL72082002,"Manual,Installation",,active,"MFL72082002 | Manual,Installation"
+part:e1bd2e6ce395055334a7,MFL72082008,"Manual,Installation",,active,"MFL72082008 | Manual,Installation"
+part:df708fab8ab67c2f7d9c,MBM67538702,"Card,User Guide",,active,"MBM67538702 | Card,User Guide"
+part:12f876bcbe2d00a91bb4,MEZ67849876,"Label,Carton",,active,"MEZ67849876 | Label,Carton"
+part:0dd3dfa23b7e74d05fbc,MFL70959911,"Manual,Service",,active,"MFL70959911 | Manual,Service"
+part:52dd7fc355feba951adc,AAA30802448,"Accessory Assembly,Base",,active,"AAA30802448 | Accessory Assembly,Base"
+part:f7814ccf5aabb801e650,AAA30802471,"Accessory Assembly,Base",,active,"AAA30802471 | Accessory Assembly,Base"
+part:3484caa5c767be689e7a,AFN30095269,Manual Assembly,,active,AFN30095269 | Manual Assembly
+part:a4ae1c67c0e75be02ee5,AFN30095286,Manual Assembly,,active,AFN30095286 | Manual Assembly
+part:f16a8d7cc19fe9709062,MEZ67849855,"Label,Carton",,active,"MEZ67849855 | Label,Carton"
+part:9e43b3be4a323e4b4b7c,MEZ67849877,"Label,Carton",,active,"MEZ67849877 | Label,Carton"
+part:208b9e95b3f3feebdaf5,AAA30802472,"Accessory Assembly,Base",,active,"AAA30802472 | Accessory Assembly,Base"
+part:a52201b14e884db906d6,AFN30095287,Manual Assembly,,active,AFN30095287 | Manual Assembly
+part:0fa918c8ac1363b7be8c,MEZ67849878,"Label,Carton",,active,"MEZ67849878 | Label,Carton"
+part:4b0e7b034edcc6d1970e,AAA30802473,"Accessory Assembly,Base",,active,"AAA30802473 | Accessory Assembly,Base"
+part:89325fa3be94657bfcf9,AFN30095288,Manual Assembly,,active,AFN30095288 | Manual Assembly
+part:aa46e29fed0e1d718043,MEZ67849879,"Label,Carton",,active,"MEZ67849879 | Label,Carton"
+part:630bb8e12bbaf5f299d4,ACQ30521202,"Cover Assembly,Rear",,active,"ACQ30521202 | Cover Assembly,Rear"
+part:9cc86c768949274440be,ACQ30521201,"Cover Assembly,Rear",,active,"ACQ30521201 | Cover Assembly,Rear"
+part:d2d0cc0a407c8dfb989d,MCK71658101,"Cover,Rear",,active,"MCK71658101 | Cover,Rear"
+part:459e5e1552e54b39f899,EAD63668409,Power Cord Assembly,,active,EAD63668409 | Power Cord Assembly
+part:4fb5a7e2023a2e20c6f1,EAD63668408,Power Cord Assembly,,active,EAD63668408 | Power Cord Assembly
+part:46fad363ceac1fe967d2,4860W1A001A,"Clamp,Cord",,active,"4860W1A001A | Clamp,Cord"
+part:274b6cc3afb2aac690df,1TPL0403018,"Screw,Tapping",,active,"1TPL0403018 | Screw,Tapping"
+part:547985a1da8d699045ed,AAA30802411,"Accessory Assembly,Base",,active,"AAA30802411 | Accessory Assembly,Base"
+part:80c4953b972440b37d31,AAA30802430,"Accessory Assembly,Base",,active,"AAA30802430 | Accessory Assembly,Base"
+part:ddc489f18df94e6133bd,3911W3A001L,"Packing Assembly,Microwave Oven",,active,"3911W3A001L | Packing Assembly,Microwave Oven"
+part:2d0145d88e90727a2b3b,MEZ69046501,"Label,Guide",,active,"MEZ69046501 | Label,Guide"
+part:55947cd14cb199682aea,MHL64897201,Shelf,,active,MHL64897201 | Shelf
+part:5614458f2c9f1e1f6e14,MHS62322201,Slider,,active,MHS62322201 | Slider
+part:808704f98ce336e8f5c6,MEA66375405,"Guide,Rail",,active,"MEA66375405 | Guide,Rail"
+part:ca6bfa09dffada97523b,MHS62322202,Slider,,active,MHS62322202 | Slider
+part:a5d4c4014dc5cf35f548,MEA66375406,"Guide,Rail",,active,"MEA66375406 | Guide,Rail"
+part:9d92b41c33653d0aa869,4000W4A001E,"Screw,Customized",,active,"4000W4A001E | Screw,Customized"
+part:387f0cc4717df80a29ae,AFN30095214,Manual Assembly,,active,AFN30095214 | Manual Assembly
+part:dabd462ba6a3dc8d61db,AFN30095227,Manual Assembly,,active,AFN30095227 | Manual Assembly
+part:2a8817c0e965d863bf4c,MEZ67849908,"Label,Energy",,active,"MEZ67849908 | Label,Energy"
+part:694e198a79b74f48cb7b,MEZ67849932,"Label,Energy",,active,"MEZ67849932 | Label,Energy"
+part:60aaa92bcfc0a217e7b8,MFL71927506,"Manual,Owners",,active,"MFL71927506 | Manual,Owners"
+part:c49275e22963fe1bb4d7,MFL71927512,"Manual,Owners",,active,"MFL71927512 | Manual,Owners"
+part:2dee64f22429c3b90081,MBM67203701,"Card,Warranty",,active,"MBM67203701 | Card,Warranty"
+part:f235b07fcbe4ded522a8,MFL70959915,"Manual,Service",,active,"MFL70959915 | Manual,Service"
+part:fbff41791dabef30f286,AAA30802410,"Accessory Assembly,Base",,active,"AAA30802410 | Accessory Assembly,Base"
+part:76f39730ab9f888ec8f2,AAA30802426,"Accessory Assembly,Base",,active,"AAA30802426 | Accessory Assembly,Base"
+part:f98fc90adf1fd2150928,MHL64897202,Shelf,,active,MHL64897202 | Shelf
+part:90fe81c1dc8ca70fa967,AHX73269103,Slider Assembly,,active,AHX73269103 | Slider Assembly
+part:1c534380f25dd9d88c75,MEA66375403,"Guide,Rail",,active,"MEA66375403 | Guide,Rail"
+part:62baeca8e7526b11fecd,AHX73269104,Slider Assembly,,active,AHX73269104 | Slider Assembly
+part:7cf412609fdfde886e9b,MEA66375404,"Guide,Rail",,active,"MEA66375404 | Guide,Rail"
+part:e796aef228e2a315715c,AFN30095213,Manual Assembly,,active,AFN30095213 | Manual Assembly
+part:316d11be8e673b8e98bf,AFN30095233,Manual Assembly,,active,AFN30095233 | Manual Assembly
+part:10ce093621f7a1d125e4,MEZ67849931,"Label,Energy",,active,"MEZ67849931 | Label,Energy"
+part:4834d925ddd8e97f8c1f,MFL71927511,"Manual,Owners",,active,"MFL71927511 | Manual,Owners"
+part:291104f9e8e87a13652c,MBM65176371,"Card,Warranty",,active,"MBM65176371 | Card,Warranty"
+part:454af2d14228ab0889b7,MFL70959914,"Manual,Service",,active,"MFL70959914 | Manual,Service"
+part:ae4df2cbd16b19d81a3e,AAA30802409,"Accessory Assembly,Base",,active,"AAA30802409 | Accessory Assembly,Base"
+part:d22d5cf0bedbde8757d2,AAA30802425,"Accessory Assembly,Base",,active,"AAA30802425 | Accessory Assembly,Base"
+part:f821dde0484a3f270606,AHX73269101,Slider Assembly,,active,AHX73269101 | Slider Assembly
+part:fd3ef490ee988e5ecde7,MEA66375401,"Guide,Rail",,active,"MEA66375401 | Guide,Rail"
+part:7748f8afdd4148135e0a,AHX73269102,Slider Assembly,,active,AHX73269102 | Slider Assembly
+part:0eb37550236879bef3fd,MEA66375402,"Guide,Rail",,active,"MEA66375402 | Guide,Rail"
+part:6b1a2976919aba1bb90d,MJS64371802,"Tray,Metal",,active,"MJS64371802 | Tray,Metal"
+part:20fda7b6260b9f07c745,EBD51431001,"Sensor,Temperature",,active,"EBD51431001 | Sensor,Temperature"
+part:d2ddabf6dac0b58aba24,AFN30095232,Manual Assembly,,active,AFN30095232 | Manual Assembly
+part:4117695d391c027fa3f0,MEZ67849930,"Label,Energy",,active,"MEZ67849930 | Label,Energy"
+part:79aecf4ef07319e527c7,MFL71927505,"Manual,Owners",,active,"MFL71927505 | Manual,Owners"
+part:6735c7716c034d7a8ca5,MFL70959913,"Manual,Service",,active,"MFL70959913 | Manual,Service"
+part:3a24af20f2b325c2d6cd,AEG74796304,Heater Assembly,,active,AEG74796304 | Heater Assembly
+part:df74d54b107f43bd9e30,AEG74796311,Heater Assembly,,active,AEG74796311 | Heater Assembly
+part:d7d4084e5c1076cf0819,EBR37653102,"PCB Assembly,Main",,active,"EBR37653102 | PCB Assembly,Main"
+part:6a367e5733550fcf0d9a,EBR37653118,"PCB Assembly,Main",,active,"EBR37653118 | PCB Assembly,Main"
+part:c2750de96869d004c5cc,EAD61878008,"Harness,Single",,active,"EAD61878008 | Harness,Single"
+part:268272ff86cc09378ce8,EAD61878030,"Harness,Single",,active,"EAD61878030 | Harness,Single"
+part:d0324b0c5f6d97102df1,ACM76198218,"Controller Assembly,Touch",,active,"ACM76198218 | Controller Assembly,Touch"
+part:942c81ac85dd61936ef4,EBR37653205,"PCB Assembly,Sub",,active,"EBR37653205 | PCB Assembly,Sub"
+part:323d4f61d3137f72b4bf,SAA44837501,"S/W,Micom(Main)",,active,"SAA44837501 | S/W,Micom(Main)"
+part:2bf705ff803519ebc162,MEZ68891922,"Label,Barcode",,active,"MEZ68891922 | Label,Barcode"
+part:6064e27edc446ff9c770,AAA30802449,"Accessory Assembly,Base",,active,"AAA30802449 | Accessory Assembly,Base"
+part:c64294d9505617f93b95,AFN30095270,Manual Assembly,,active,AFN30095270 | Manual Assembly
+part:2ec48b2325407171f771,MFL71927503,"Manual,Owners",,active,"MFL71927503 | Manual,Owners"
+part:a1a08471bf205fafe0ef,MFL72082003,"Manual,Installation",,active,"MFL72082003 | Manual,Installation"
+part:acf352097c1a7ead4b3e,AAA30802450,"Accessory Assembly,Base",,active,"AAA30802450 | Accessory Assembly,Base"
+part:7891f88ac67e133c37fa,AFN30095271,Manual Assembly,,active,AFN30095271 | Manual Assembly
+part:cb91ce6f8e7fbbae25d6,MEZ67849909,"Label,Energy",,active,"MEZ67849909 | Label,Energy"
+part:89b4622dfa5f56b9f64c,MFL71927504,"Manual,Owners",,active,"MFL71927504 | Manual,Owners"
+part:0451e4019dc0aef0969d,MBM67538701,"Card,User Guide",,active,"MBM67538701 | Card,User Guide"
+part:e7da3f94895a7efa10cc,AAA30802451,"Accessory Assembly,Base",,active,"AAA30802451 | Accessory Assembly,Base"
+part:c950889bf38d8b745d40,AFN30095272,Manual Assembly,,active,AFN30095272 | Manual Assembly
+part:34b0cdb2729d168a9d0a,MFL70959930,"Manual,Service",,active,"MFL70959930 | Manual,Service"
+part:523049146ebbd0d7eb90,ACM76198405,"Controller Assembly,Tact Dial",,active,"ACM76198405 | Controller Assembly,Tact Dial"
+part:fb06e8c71070a0b516cd,ACM76198404,"Controller Assembly,Tact Dial",,active,"ACM76198404 | Controller Assembly,Tact Dial"
+part:b538a7dedc61f76bd68a,ACM76203205,"Controller Assembly,Sub",,active,"ACM76203205 | Controller Assembly,Sub"
+part:8e61fc808c2e550cb988,ACM76203204,"Controller Assembly,Sub",,active,"ACM76203204 | Controller Assembly,Sub"
+part:7f3969e873dcdc931f46,MEZ68891915,"Label,Barcode",,active,"MEZ68891915 | Label,Barcode"
+part:a417e5816c4607b5a483,MEZ68891916,"Label,Barcode",,active,"MEZ68891916 | Label,Barcode"
+part:c156fffed56315b52292,MEY65470702,Knob,,active,MEY65470702 | Knob
+part:70769c4630dbdedd7652,MEY65470701,Knob,,active,MEY65470701 | Knob
+part:53ec5c2bae2360960d68,AED75499001,Handle Assembly,,active,AED75499001 | Handle Assembly
+part:1d18ffa77e229d0fba98,AED75499002,Handle Assembly,,active,AED75499002 | Handle Assembly
+part:dfa31e89a4222fae758d,MEB65431601,"Handle,Door",,active,"MEB65431601 | Handle,Door"
+part:e47815548a01dad2f452,MEB65431602,"Handle,Door",,active,"MEB65431602 | Handle,Door"
+part:1a1079dc1943f8a62eba,MJH66356201,"Supporter,Handle",,active,"MJH66356201 | Supporter,Handle"
+part:0b853243ea91992299fa,MJH66356202,"Supporter,Handle",,active,"MJH66356202 | Supporter,Handle"
+part:d22365c39dd94db6c336,MEZ67849863,"Label,Carton",,active,"MEZ67849863 | Label,Carton"
+part:73136a8b5c5355fbacd4,MEZ67849864,"Label,Carton",,active,"MEZ67849864 | Label,Carton"
+part:d70b31854a49dd716ce9,ACM76198409,"Controller Assembly,Tact Dial",,active,"ACM76198409 | Controller Assembly,Tact Dial"
+part:7b8954811fb20cd62208,ACM76203213,"Controller Assembly,Sub",,active,"ACM76203213 | Controller Assembly,Sub"
+part:be76d7a8cbc2e53d7503,MKC67486203,"Window,Glass",,active,"MKC67486203 | Window,Glass"
+part:1f6029f1e59ad3ddfd19,MKC67486208,"Window,Glass",,active,"MKC67486208 | Window,Glass"
+part:d5a3421469f67df3d3a0,AKF75721703,Print Assembly,,active,AKF75721703 | Print Assembly
+part:a54018ec8d6e320174c1,AKF75721708,Print Assembly,,active,AKF75721708 | Print Assembly
+part:2b4ea90c39e97ceee36a,MEZ68891921,"Label,Barcode",,active,"MEZ68891921 | Label,Barcode"
+part:1a25c29fc2a2bfa94bdf,MEZ67849866,"Label,Carton",,active,"MEZ67849866 | Label,Carton"
+part:ff6ae92c6acea9b1fa5d,AAA30802428,"Accessory Assembly,Base",,active,"AAA30802428 | Accessory Assembly,Base"
+part:2b2f2c004a670c137534,AFN30095236,Manual Assembly,,active,AFN30095236 | Manual Assembly
+part:3fb31a8397c0f9c4760e,MFL71927519,"Manual,Owners",,active,"MFL71927519 | Manual,Owners"
+part:559f863744565ca2589b,MFL71927701,"Manual,Installation",,active,"MFL71927701 | Manual,Installation"
+part:234fbc5d20d4fdd4466e,MFL70959919,"Manual,Service",,active,"MFL70959919 | Manual,Service"
+part:eb09b42e3b198bba1844,MEZ67849835,"Label,Carton",,active,"MEZ67849835 | Label,Carton"
+part:101ed565b1fcf69d8f84,MEZ67849837,"Label,Carton",,active,"MEZ67849837 | Label,Carton"
+part:b5c65d344daf44047c92,AAA30802429,"Accessory Assembly,Base",,active,"AAA30802429 | Accessory Assembly,Base"
+part:c8f1983bbf8c9438518b,MFL70959921,"Manual,Service",,active,"MFL70959921 | Manual,Service"
+part:9c1f9c27ab35ea9a32bd,MEZ67849839,"Label,Carton",,active,"MEZ67849839 | Label,Carton"
+part:0d9f55beebcb8c7748bf,AAA30802405,"Accessory Assembly,Base",,active,"AAA30802405 | Accessory Assembly,Base"
+part:95bf161609ea09f95644,AFN30095255,Manual Assembly,,active,AFN30095255 | Manual Assembly
+part:e942099d96172a778991,AFN30095237,Manual Assembly,,active,AFN30095237 | Manual Assembly
+part:06ab6e9fbf0707af0799,MFL71927520,"Manual,Owners",,active,"MFL71927520 | Manual,Owners"
+part:3695ab8796b8a160ebf1,MFL70959923,"Manual,Service",,active,"MFL70959923 | Manual,Service"
+part:3fbffee3443aa414d0d7,MEZ67849836,"Label,Carton",,active,"MEZ67849836 | Label,Carton"
+part:0dc7cc52259c93e86d9e,MEZ67849841,"Label,Carton",,active,"MEZ67849841 | Label,Carton"
+part:a3e0c9fd3499600e226a,AGG74419320,"Packing Assembly,Electric Oven",,active,"AGG74419320 | Packing Assembly,Electric Oven"
+part:3b7dd8a28775cd076150,ABU74574501,"Cavity Assembly,Coating",,active,"ABU74574501 | Cavity Assembly,Coating"
+part:6b26b6442f88fa51d860,MJH66390901,"Supporter,Holder",,active,"MJH66390901 | Supporter,Holder"
+part:430c7efe1aaf89281259,AGR75975802,"Pipe Assembly,Metal",,active,"AGR75975802 | Pipe Assembly,Metal"
+part:d51a101805c108c7b8e2,AEG74792801,Heater Assembly,,active,AEG74792801 | Heater Assembly
+part:c63efe727639c25346ec,MEE64289301,"Heater,Sheath",,active,"MEE64289301 | Heater,Sheath"
+part:03f4467b9e79b7e7eccd,MEE61925406,"Heater,Sheath",,active,"MEE61925406 | Heater,Sheath"
+part:7902789fed81511c9c37,EAG60744702,"Jack,DC Power",,active,"EAG60744702 | Jack,DC Power"
+part:8cff798a3c56b614c6ee,ACQ91454001,"Cover Assembly,Inner",,active,"ACQ91454001 | Cover Assembly,Inner"
+part:f00641c7fbae2ecc72ae,EAD64866402,"Harness,Single",,active,"EAD64866402 | Harness,Single"
+part:9b4def7f0bc0ec61d75d,AEV73730201,Insulator Assembly,,active,AEV73730201 | Insulator Assembly
+part:b97e4c0f2c2db9fc3a35,MEV67768301,Insulator,,active,MEV67768301 | Insulator
+part:a97d550e91fc3188d96b,MAK61842903,Bar,,active,MAK61842903 | Bar
+part:4ba28de8d636d905f5ab,AGL30134101,Panel Assembly,,active,AGL30134101 | Panel Assembly
+part:e403e0d18692755c7709,EAU65078501,"Motor Assembly,AC,Fan",,active,"EAU65078501 | Motor Assembly,AC,Fan"
+part:9523ba338685ff74cc17,MEG65619602,"Holder,Fixing",,active,"MEG65619602 | Holder,Fixing"
+part:b87d166ec9b6ec5fe608,EBG61305805,"Thermistor,PTC",,active,"EBG61305805 | Thermistor,PTC"
+part:da98cc085e5ffbf7eb8d,MAZ67696801,"Bracket,Idle",,active,"MAZ67696801 | Bracket,Idle"
+part:c2ce11dc1a36a9f5c738,AEH76188601,Hinge Assembly,,active,AEH76188601 | Hinge Assembly
+part:3fdfe03b2e4275c7ad55,AEH76188602,Hinge Assembly,,active,AEH76188602 | Hinge Assembly
+part:c15b5bf777a471d9d67b,MCK71658301,"Cover,Base",,active,"MCK71658301 | Cover,Base"
+part:9aacd104f446d63c4f3a,1WZZ81N001A,"Washer,Customized",,active,"1WZZ81N001A | Washer,Customized"
+part:004ed41210fe9497f390,5900W1N004D,"Fan,Convection",,active,"5900W1N004D | Fan,Convection"
+part:afbb860d8c8372ef411e,1WSD0400032,"Washer,Common",,active,"1WSD0400032 | Washer,Common"
+part:08ebc49375c6f485ae7f,1NHB0500032,"Nut,Common",,active,"1NHB0500032 | Nut,Common"
+part:3312bf924ffce1f9bc03,MCK71660202,"Cover,Heater",,active,"MCK71660202 | Cover,Heater"
+part:e6509799ebc512b22cee,MEG66700501,"Holder,Accessory",,active,"MEG66700501 | Holder,Accessory"
+part:5e92d4886f23fd9fe78c,MGC66413903,"Panel,Side",,active,"MGC66413903 | Panel,Side"
+part:5aeed0be4b7094e350b6,MGC66413904,"Panel,Side",,active,"MGC66413904 | Panel,Side"
+part:3920ec92c79241fd0971,MJZ63082501,Vent,,active,MJZ63082501 | Vent
+part:76969b4a69e8a9a2ad0c,MCK71660801,"Cover,Light",,active,"MCK71660801 | Cover,Light"
+part:b70bc1f9d6ef0566e8a2,AJJ76604701,"Supporter Assembly,PCB",,active,"AJJ76604701 | Supporter Assembly,PCB"
+part:1be093a118e1ce0ec324,AEV73730301,Insulator Assembly,,active,AEV73730301 | Insulator Assembly
+part:153827ed2c294fd2e2bb,MCK71658001,"Cover,Lamp",,active,"MCK71658001 | Cover,Lamp"
+part:fad108123749af0a6f31,MFZ67394603,"Packing,Gasket",,active,"MFZ67394603 | Packing,Gasket"
+part:fa6f08793c1415c104dd,MBL68724201,"Cap,Protector",,active,"MBL68724201 | Cap,Protector"
+part:fd3754c69723c2d6902b,AJL75318601,"Tank Assembly,Water",,active,"AJL75318601 | Tank Assembly,Water"
+part:b8cd6b1528ce76ac5d54,MJB30230308,"Stopper,Door",,active,"MJB30230308 | Stopper,Door"
+part:7de2584b0da6305dac79,AEH76189401,Hinge Assembly,,active,AEH76189401 | Hinge Assembly
+part:2107f984c38702a20e82,AEH76189402,Hinge Assembly,,active,AEH76189402 | Hinge Assembly
+part:25a3a31f37f562053351,4B72510F,"Holder,Wire",,active,"4B72510F | Holder,Wire"
+part:943496445636cbb5e41f,MEG66700601,"Holder,Wire",,active,"MEG66700601 | Holder,Wire"
+part:8983c8587e4a13c050a0,ADC30026601,"Door Assembly,Full",,active,"ADC30026601 | Door Assembly,Full"
+part:d398c5d54a9fa430a593,MCK71658102,"Cover,Rear",,active,"MCK71658102 | Cover,Rear"
+part:b7804082b2cdbb7a2e33,ACQ30627901,"Cover Assembly,Top",,active,"ACQ30627901 | Cover Assembly,Top"
+part:a7a924fbb8ac1da63999,MEZ68963201,"Label,Barcode",,active,"MEZ68963201 | Label,Barcode"
+part:065a492074f33d2ead6a,MEZ67849702,"Label,Rating",,active,"MEZ67849702 | Label,Rating"
+part:5bcf52ddbe34a7c3d28b,1TTL0402622,"Screw,Tapping",,active,"1TTL0402622 | Screw,Tapping"
+part:667f2be64610ff1cd257,1SZZW1N006A,"Screw,Customized",,active,"1SZZW1N006A | Screw,Customized"
+part:16f82b9eaa495ad11ed1,4B70188C,"Screw,Customized",,active,"4B70188C | Screw,Customized"
+part:bfd19fb4aade2fa76ec9,1TTL0402816,"Screw,Tapping",,active,"1TTL0402816 | Screw,Tapping"
+part:da891c96ded0228a39e5,FAB30035001,"Screw,Customized",,active,"FAB30035001 | Screw,Customized"
+part:d550631c354852d672f2,1SZZW2E001A,"Screw,Customized",,active,"1SZZW2E001A | Screw,Customized"
+part:3bc7eab46d6f42ffcbae,MAY70002701,Box,,active,MAY70002701 | Box
+part:55abda73376924bebc6c,AAA75909510,"Accessory Assembly,Upper",,active,"AAA75909510 | Accessory Assembly,Upper"
+part:181fc1715dd6f02d6875,RAB36916003,"Tape,PETP",,active,"RAB36916003 | Tape,PETP"
+part:1fd1411ca21c48c3ea2a,RAB33679003,"Tape,Polyester",,active,"RAB33679003 | Tape,Polyester"
+part:dbf7379581c2ad47dad6,MFZ63953010,"Packing,Accessory",,active,"MFZ63953010 | Packing,Accessory"
+part:b6fa496d9f7c2895916c,3858W3ZA03G,"Bag,Sheet",,active,"3858W3ZA03G | Bag,Sheet"
+part:75443c40eae005b77ceb,RAB34370005,"Tape,OPP",,active,"RAB34370005 | Tape,OPP"
+part:e2b611542c2d74725c38,3Z90435C,Band,,active,3Z90435C | Band
+part:e6ad2b5201e04d6ef781,RAB34971901,"Film,Polyethylene(PE)",,active,"RAB34971901 | Film,Polyethylene(PE)"
+part:8c552eb70b7d9591ccef,AKF75234401,"Parts Assembly,Color",,active,"AKF75234401 | Parts Assembly,Color"
+part:3b9521a0d56a9800039e,3880W1A010A,,,active,3880W1A010A
+part:808d797055d5f3f359a2,1SZZW2Z001G,,,active,1SZZW2Z001G
+part:9c509720e45b2bb2645f,3390W0N003J,,,active,3390W0N003J
+part:d8c303a9179e1e4a9170,RAB33372902,,,active,RAB33372902
+part:b03bb2ff23cf14b1d633,RAB33416801,,,active,RAB33416801
+part:4a5413d46d8501a462a2,RAB35949602,,,active,RAB35949602
+part:1e388dc5e7fd93512ae1,RAB35329701,,,active,RAB35329701
+part:1ee9b5766c495ecf7a87,RAB33370901,,,active,RAB33370901
+part:4b3f9ea403219383a68a,RAB33371001,,,active,RAB33371001
+part:b2217106443f4abd7bf7,RAB33371102,,,active,RAB33371102
+part:d016d5c31f688ecea687,RAB33416901,,,active,RAB33416901
+part:f7aeb495158822ef4c08,RAB33370602,,,active,RAB33370602
+part:542856601a45b61e14a9,RAB33370701,,,active,RAB33370701
+part:c18fad392243b1b22577,RAB33490201,,,active,RAB33490201
+part:8755cb647646de92598a,RAB33371901,,,active,RAB33371901
+part:d8707cf870d7165d8e61,RAB33371401,,,active,RAB33371401
+part:96a582cf6da19c4376a1,RAB33372001,,,active,RAB33372001
+part:2e0c9890dd58ad21a239,RAB35329802,,,active,RAB35329802
+part:738322a013f5de46fabc,RAB33377701,,,active,RAB33377701
+part:f8d81bc78be4dcf63dc0,RAB33590401,,,active,RAB33590401
+part:d11d016e220fb6deb31f,RAB33373104,,,active,RAB33373104
+part:01135bc2818fea525520,RAB35949601,,,active,RAB35949601
+part:f13ab47a80140c769d9d,RAB33371101,,,active,RAB33371101
+part:98edb602f01300ab01be,RAB33370601,,,active,RAB33370601
+part:ec33b7158d9312a8c46c,MAF63587801,,,active,MAF63587801
+part:9e6ed173a6c060459ba8,3880W1A015B,,,active,3880W1A015B
+part:b2a7d82563bd18def8ab,3850W3B226A,,,active,3850W3B226A
+part:63908ca24886b7d2aa9a,MEZ69155203,,,active,MEZ69155203
+part:17d6ba339f09a2fb8d37,MEZ69155207,,,active,MEZ69155207
+part:fcd43d08c00a5f75b4f2,MEZ69155204,,,active,MEZ69155204
+part:4403a30c88a62792c750,MEZ69155208,,,active,MEZ69155208
+part:efca39f73cedcca8048f,MEZ69155201,,,active,MEZ69155201
+part:c304568dfa01bf6ce8ee,MEZ69155205,,,active,MEZ69155205
+part:ceedd785c150a0b75a21,MEZ69155202,,,active,MEZ69155202
+part:fd79a6aa84398fde5a70,MEZ69155206,,,active,MEZ69155206
+part:e6013ac979d9e0e59472,RAA35202804,,,active,RAA35202804
+part:2a435ee22c5e07a612d0,MAF62647901,,,active,MAF62647901
+part:ce7ce9ff32b083ead7c0,4Z50545C,,,active,4Z50545C
+part:999fce74a2000d91bcb6,MGJ67450301,"Plate,Upper",,active,"MGJ67450301 | Plate,Upper"
+part:e78e066e9f7bb55dc752,MGJ67450302,"Plate,Upper",,active,"MGJ67450302 | Plate,Upper"
+part:7c7154a68893bd89b7dc,MGJ67450401,"Plate,Rear",,active,"MGJ67450401 | Plate,Rear"
+part:d431c1fd9715abcc521e,MGJ67450402,"Plate,Rear",,active,"MGJ67450402 | Plate,Rear"
+part:a6303a49483c1564f02d,TBD,Bracket,,active,TBD | Bracket
+part:e9a4723e6344f87a39f7,AEV73730202,Insulator Assembly,,active,AEV73730202 | Insulator Assembly
+part:8e44018ec0995e56d37f,TBD_1,Hinge Assembly,,active,TBD_1 | Hinge Assembly
+part:59cec19099f3a5bc8db5,TBD_2,Hinge Assembly,,active,TBD_2 | Hinge Assembly
+part:9395379f091937040584,AEH76188603,Hinge Assembly,,active,AEH76188603 | Hinge Assembly
+part:b2e36b1900192d51c6ad,TBD_3,Hinge Assembly,,active,TBD_3 | Hinge Assembly
+part:6134c943c596d184ec87,AHA76486201,Pump Assembly,,active,AHA76486201 | Pump Assembly
+part:fd599dceb2fbb6eafac4,MJU65727804,Tube,,active,MJU65727804 | Tube
+part:941b15488bd00f225b1d,MBV62221701,Clip,,active,MBV62221701 | Clip
+part:f8f23721db062c767f86,MCD65158001,"Connector,Hose",,active,"MCD65158001 | Connector,Hose"
+part:aaa303f88580215ef9af,AEN75461001,"Housing Assembly,Water",,active,"AEN75461001 | Housing Assembly,Water"
+part:8c9188caf923a68459c1,MEK65181801,Housing,,active,MEK65181801 | Housing
+part:dba3b4380d58197c674b,MJM64048701,"Tank,Water",,active,"MJM64048701 | Tank,Water"
+part:609761a88a41219dd3e4,MCK71660301,"Cover,Top",,active,"MCK71660301 | Cover,Top"
+part:f3e3b9a4481ba9b43a79,EAU65077701,"Motor,AC Fan",,active,"EAU65077701 | Motor,AC Fan"
+part:e1351372bbc614583897,EAD61878006,"Harness,Single",,active,"EAD61878006 | Harness,Single"
+part:ea742fe96566fd42f1ca,EAD61878009,"Harness,Single",,active,"EAD61878009 | Harness,Single"
+part:323b42ae8f4c68350c01,ACM76198201,"Controller Assembly,Touch",,active,"ACM76198201 | Controller Assembly,Touch"
+part:39f476efdedaf4b5f1df,ACM76198401,"Controller Assembly,Touch",,active,"ACM76198401 | Controller Assembly,Touch"
+part:8e176e6446115d8f7477,ACM76203201,"Controller Assembly,Sub",,active,"ACM76203201 | Controller Assembly,Sub"
+part:a53d421af9270fe2edc4,AJX75334303,Window Assembly,,active,AJX75334303 | Window Assembly
+part:aeba975636927fafd151,MKC67486201,"Window,Glass",,active,"MKC67486201 | Window,Glass"
+part:0e9f0e98e0dd8e30ea5e,MCK70272202,"Cover,Display",,active,"MCK70272202 | Cover,Display"
+part:05aeeb0cae78bfe41725,MCK70272203,"Cover,Display",,active,"MCK70272203 | Cover,Display"
+part:e5055fc728a99cf6ff42,MGC66414601,"Panel,Control",,active,"MGC66414601 | Panel,Control"
+part:24c8fe60cf03988400f4,EAD61878011,"Harness,Single",,active,"EAD61878011 | Harness,Single"
+part:2288e3c020d12481a78a,EAD34822982,"Harness,Single",,active,"EAD34822982 | Harness,Single"
+part:7a598df5745b33ecaa1e,MCR68449701,"Decor,Control Panel",,active,"MCR68449701 | Decor,Control Panel"
+part:5964e1225d4eda60a742,MCR68449702,"Decor,Control Panel",,active,"MCR68449702 | Decor,Control Panel"
+part:afaea641c65e528f6cc9,EBR37653101,"PCB Assembly,Main",,active,"EBR37653101 | PCB Assembly,Main"
+part:7554f390080bad7742a4,EBR37653103,"PCB Assembly,Main",,active,"EBR37653103 | PCB Assembly,Main"
+part:108d6cc869c10a11a32c,MFM64499801,Membrane,,active,MFM64499801 | Membrane
+part:10aac249620b0e39f2e6,TBD_4,Membrane,,active,TBD_4 | Membrane
+part:ab959055c5b2edf71832,EAJ65699504,LCD Touch Panel,,active,EAJ65699504 | LCD Touch Panel
+part:89d0c10c906bb36bcfb0,EBR37437101,"PCB Assembly,Sub",,active,"EBR37437101 | PCB Assembly,Sub"
+part:5cd1b62445484f565e90,EBR37653201,"PCB Assembly,Sub",,active,"EBR37653201 | PCB Assembly,Sub"
+part:f73011d8057ddb809fa4,EAV65042101,"PCB Assembly,Sub",,active,"EAV65042101 | PCB Assembly,Sub"
+part:873fac23737934669a92,ADC30026604,"Door Assembly,Full",,active,"ADC30026604 | Door Assembly,Full"
+part:fa5195b1ad51ba108850,AJX75334201,Window Assembly,,active,AJX75334201 | Window Assembly
+part:8ef97a4d03f7f7acf623,AJX75334203,Window Assembly,,active,AJX75334203 | Window Assembly
+part:2914226f43eb9399a439,MKC67485701,"Window,Glass",,active,"MKC67485701 | Window,Glass"
+part:90b8c6ed0e0c39c79298,MKC67485703,"Window,Glass",,active,"MKC67485703 | Window,Glass"
+part:43d4076cb3f321c0a333,MDQ66765101,"Frame,Door",,active,"MDQ66765101 | Frame,Door"
+part:28fe27d844008adc6a84,MDQ66765102,"Frame,Door",,active,"MDQ66765102 | Frame,Door"
+part:9e51464074c2aa97b05b,AED75499003,Handle Assembly,,active,AED75499003 | Handle Assembly
+part:6eca2439105b65659952,AED75499004,Handle Assembly,,active,AED75499004 | Handle Assembly
+part:ff0e7025f876e56fcd47,MDQ66767101,"Frame,Decor",,active,"MDQ66767101 | Frame,Decor"
+part:0b4d4cfed4aab327d49c,AFN30095201,Manual Assembly,,active,AFN30095201 | Manual Assembly
+part:a7418f5e77e71649c6b7,AFN30095209,Manual Assembly,,active,AFN30095209 | Manual Assembly
+part:8c4d9f78b1d9757b310e,MEZ67849806,"Label,Carton",,active,"MEZ67849806 | Label,Carton"
+part:4efec71e07b00fe07f4d,AEV73730306,Insulator Assembly,,active,AEV73730306 | Insulator Assembly
+part:1d1d7e528099fac2139d,AEV73730303,Insulator Assembly,,active,AEV73730303 | Insulator Assembly
+part:4109fbd0dce7659a84d5,AEV73730307,Insulator Assembly,,active,AEV73730307 | Insulator Assembly
+part:3e7b2f26725018a7ffe3,AEV73730304,Insulator Assembly,,active,AEV73730304 | Insulator Assembly
+part:0c8be64fc6ccd07e633f,AEV73730308,Insulator Assembly,,active,AEV73730308 | Insulator Assembly
+part:df74203d03f504d7f32e,EBR37653112,"PCB Assembly,Main",,active,"EBR37653112 | PCB Assembly,Main"
+part:0c1a7d7dd5d02f9cf7ea,EBR37653113,"PCB Assembly,Main",,active,"EBR37653113 | PCB Assembly,Main"
+part:135a822181930503996e,EBR37653114,"PCB Assembly,Main",,active,"EBR37653114 | PCB Assembly,Main"
+part:1226f4d32b39badbc081,ACM76198205,"Controller Assembly,Touch",,active,"ACM76198205 | Controller Assembly,Touch"
+part:74f19c68e77378a7c512,ACM76198202,"Controller Assembly,Touch",,active,"ACM76198202 | Controller Assembly,Touch"
+part:9415f07a70cb1c8c9e10,ACM76198206,"Controller Assembly,Touch",,active,"ACM76198206 | Controller Assembly,Touch"
+part:bc3ee1f7bfb0e17baece,EBR37653204,"PCB Assembly,Sub",,active,"EBR37653204 | PCB Assembly,Sub"
+part:44f2b14401c3f5cf25b9,MAF65328118,"Bag,Vinyl",,active,"MAF65328118 | Bag,Vinyl"
+part:9fca2640f15b537ea109,AFN30095203,Manual Assembly,,active,AFN30095203 | Manual Assembly
+part:26cbaebc3cb9ef214fd7,MAF66428001,"Bag,Envelope",,active,"MAF66428001 | Bag,Envelope"
+part:871ccf9c62cbb98d6e78,3880W1A007E,"Bag,Envelope",,active,"3880W1A007E | Bag,Envelope"
+part:9256bb0ed16e537b9841,MAY67036303,Box,,active,MAY67036303 | Box
+part:259f899c5c9ecc3fe498,MEZ67849711,"Label,Rating",,active,"MEZ67849711 | Label,Rating"
+part:c3127cfabc8d991255db,MEZ67849704,"Label,Rating",,active,"MEZ67849704 | Label,Rating"
+part:43aa7f8365e44ee62072,MEZ67849712,"Label,Rating",,active,"MEZ67849712 | Label,Rating"
+part:9a2f70ea379a6dd84ccf,MEZ67849706,"Label,Rating",,active,"MEZ67849706 | Label,Rating"
+part:d3a472dcb53f15398a51,MEZ67849713,"Label,Rating",,active,"MEZ67849713 | Label,Rating"
+part:bba38c1a8b25f62a6346,MEZ64034803,"Label,Cartoon",,active,"MEZ64034803 | Label,Cartoon"
+part:d5fab89e2f8b9e7b7725,ADC30026606,"Door Assembly,Full",,active,"ADC30026606 | Door Assembly,Full"
+part:a800cc8686586ada7c57,ADC30026602,"Door Assembly,Full",,active,"ADC30026602 | Door Assembly,Full"
+part:2d42244771b4c447eb81,ADC30026607,"Door Assembly,Full",,active,"ADC30026607 | Door Assembly,Full"
+part:b762824b5d4a15093cf2,ADC30026608,"Door Assembly,Full",,active,"ADC30026608 | Door Assembly,Full"
+part:1ed0cbb3e7138cd70993,MEZ67773936,"Label,Sticker",,active,"MEZ67773936 | Label,Sticker"
+part:a8bcbf246d1bdf557bd9,AGG74419316,Base Packing Assy',,active,AGG74419316 | Base Packing Assy'
+part:a9a19e5df2ebd95f1d5a,AGG74419319,Base Packing Assy',,active,AGG74419319 | Base Packing Assy'
+part:1b2ee30a00bfae6e5451,MFZ67394801,Upper Packing Assy',,active,MFZ67394801 | Upper Packing Assy'
+part:45bd08113ac1b97ba8dd,AAA75909509,Upper Packing Assy',,active,AAA75909509 | Upper Packing Assy'
+part:e0df202fa2c7e6f731de,3920W1A039X,Side Packing,,active,3920W1A039X | Side Packing
+part:e9d257fafc22bf6e2aac,MAY70002702,Box,,active,MAY70002702 | Box
+part:6b65efe5faf6ee649a15,AAA30802466,"Accessory Assembly,Base",Structure Assy,active,"AAA30802466 | Accessory Assembly,Base | Structure Assy"
+part:5cddaad731385debe01e,AAA30802494,"Accessory Assembly,Base",Structure Assy,active,"AAA30802494 | Accessory Assembly,Base | Structure Assy"
+part:783895f379aa4b2aec11,AFN30095281,Manual Assembly,Structure Assy,active,AFN30095281 | Manual Assembly | Structure Assy
+part:c13a617a05454c09b91e,AFN30159901,Manual Assembly,Structure Assy,active,AFN30159901 | Manual Assembly | Structure Assy
+part:a80e9c83b2038d56b266,MFL71927538,"Manual,Owners",Printing Material,active,"MFL71927538 | Manual,Owners | Printing Material"
+part:31aa78af170a582cabc7,MFL72082017,"Manual,Installation",Printing Material,active,"MFL72082017 | Manual,Installation | Printing Material"
+part:642eca6e9884be139f84,MEZ67849872,"Label,Carton",Printing Material,active,"MEZ67849872 | Label,Carton | Printing Material"
+part:7f3b0010c1af9e1dce24,MEZ67849896,"Label,Carton",Printing Material,active,"MEZ67849896 | Label,Carton | Printing Material"
+part:915734069904bdd16da9,AAA30802467,"Accessory Assembly,Base",Structure Assy,active,"AAA30802467 | Accessory Assembly,Base | Structure Assy"
+part:7b2e2cb60cbcbe343f2c,AAA30802495,"Accessory Assembly,Base",Structure Assy,active,"AAA30802495 | Accessory Assembly,Base | Structure Assy"
+part:0fc3a51e55fd099356bf,AFN30095282,Manual Assembly,Structure Assy,active,AFN30095282 | Manual Assembly | Structure Assy
+part:0d2ba194711ae4cffd8c,AFN30159902,Manual Assembly,Structure Assy,active,AFN30159902 | Manual Assembly | Structure Assy
+part:8636d221afe56c80d800,MEZ67849873,"Label,Carton",Printing Material,active,"MEZ67849873 | Label,Carton | Printing Material"
+part:547ffcf55316954164e1,MEZ67849897,"Label,Carton",Printing Material,active,"MEZ67849897 | Label,Carton | Printing Material"
+part:ef9bb634696282ed9044,AAA30802468,"Accessory Assembly,Base",Structure Assy,active,"AAA30802468 | Accessory Assembly,Base | Structure Assy"
+part:05beba6fd952280caa54,AAA30802496,"Accessory Assembly,Base",Structure Assy,active,"AAA30802496 | Accessory Assembly,Base | Structure Assy"
+part:ee04178de652485ca086,AFN30095283,Manual Assembly,Structure Assy,active,AFN30095283 | Manual Assembly | Structure Assy
+part:60740cd5a246375c235c,AFN30159903,Manual Assembly,Structure Assy,active,AFN30159903 | Manual Assembly | Structure Assy
+part:ea7bdef94462d7544e05,MEZ67849874,"Label,Carton",Printing Material,active,"MEZ67849874 | Label,Carton | Printing Material"
+part:68b76de2257f0901c73c,MEZ67849898,"Label,Carton",Printing Material,active,"MEZ67849898 | Label,Carton | Printing Material"
+part:315a1ad358f683969d5a,AAA30802469,"Accessory Assembly,Base",Structure Assy,active,"AAA30802469 | Accessory Assembly,Base | Structure Assy"
+part:0373622db6d00fd5fda8,AAA30802497,"Accessory Assembly,Base",Structure Assy,active,"AAA30802497 | Accessory Assembly,Base | Structure Assy"
+part:e1ab5bdadcd47a47969d,AFN30095284,Manual Assembly,Structure Assy,active,AFN30095284 | Manual Assembly | Structure Assy
+part:900ec3610cebd943c63c,AFN30159904,Manual Assembly,Structure Assy,active,AFN30159904 | Manual Assembly | Structure Assy
+part:f58ba06671c3a7df20f6,MEZ67849875,"Label,Carton",Printing Material,active,"MEZ67849875 | Label,Carton | Printing Material"
+part:0e7d03636d76ea62dcbf,MEZ67849899,"Label,Carton",Printing Material,active,"MEZ67849899 | Label,Carton | Printing Material"
+part:416ce8a4cc0d6507e88b,ACQ30521204,"Cover Assembly,Rear",Structure Assy,active,"ACQ30521204 | Cover Assembly,Rear | Structure Assy"
+part:0aba237ced0dae21603f,EAD63668414,Power Cord Assembly,MD Part,active,EAD63668414 | Power Cord Assembly | MD Part
+part:41399dca13261175dfbc,AAA30802490,"Accessory Assembly,Base",Structure Assy,active,"AAA30802490 | Accessory Assembly,Base | Structure Assy"
+part:c9703394068958b207e9,AFN30095247,Manual Assembly,Printing Material,active,AFN30095247 | Manual Assembly | Printing Material
+part:06376c7e57adc1e1b42d,MFL71927534,"Manual,Owners",Printing Material,active,"MFL71927534 | Manual,Owners | Printing Material"
+part:39a76cb0cff7071a6f4c,MEZ67849892,"Label,Carton",Printing Material,active,"MEZ67849892 | Label,Carton | Printing Material"
+part:97d41444d1abfebb5611,AAA30802491,"Accessory Assembly,Base",Structure Assy,active,"AAA30802491 | Accessory Assembly,Base | Structure Assy"
+part:d97fc21bc15fdc70c6c5,MEZ67849893,"Label,Carton",Printing Material,active,"MEZ67849893 | Label,Carton | Printing Material"
+part:99315948e4a6ce64f94b,AAA30802408,"Accessory Assembly,Base",Structure Assy,active,"AAA30802408 | Accessory Assembly,Base | Structure Assy"
+part:38f63ab8e2e285fa31a7,AAA30802492,"Accessory Assembly,Base",Structure Assy,active,"AAA30802492 | Accessory Assembly,Base | Structure Assy"
+part:da5dcb9fc3f2ff3fbcd8,AFN30095258,Manual Assembly,Printing Material,active,AFN30095258 | Manual Assembly | Printing Material
+part:32b6256f0a02a307e5f0,AFN30095248,Manual Assembly,Printing Material,active,AFN30095248 | Manual Assembly | Printing Material
+part:6745279a32ca49d2c60f,MFL71927535,"Manual,Owners",Printing Material,active,"MFL71927535 | Manual,Owners | Printing Material"
+part:de47bc341cea00465762,MEZ67849809,"Label,Carton",Printing Material,active,"MEZ67849809 | Label,Carton | Printing Material"
+part:7999c9087afd46967aa2,MEZ67849894,"Label,Carton",Printing Material,active,"MEZ67849894 | Label,Carton | Printing Material"
+part:3c5bcfb971782c4bf173,MGJ67450201,"Plate,Flat(Lower)",,active,"MGJ67450201 | Plate,Flat(Lower)"
+part:16c884a94d0866c08a87,MGJ67450202,"Plate,Flat(Lower)",,active,"MGJ67450202 | Plate,Flat(Lower)"
+part:b427eb7af035e35bbda4,MGJ67450501,"Plate,Front",,active,"MGJ67450501 | Plate,Front"
+part:f2ad79ece3d593cdea0a,MGJ67450502,"Plate,Front",,active,"MGJ67450502 | Plate,Front"
+part:fc40cf1c0191c829aeb8,MGJ67450503,"Plate,Front",,active,"MGJ67450503 | Plate,Front"
+part:86c9cea4939f1605f9c4,4810W1N019A,"Bracket,Mount",,active,"4810W1N019A | Bracket,Mount"
+part:f9276b97be5f2c7b2445,MBR62501501,Chamber,,active,MBR62501501 | Chamber
+part:6df46c04f7dd763a44ff,MEE64289401,"Heater,Sheath",,active,"MEE64289401 | Heater,Sheath"
+part:34d3a8372d80d6c37023,MCK70170701,"Cover,Connector",,active,"MCK70170701 | Cover,Connector"
+part:ae7e18179697c4af1123,MGC66413801,"Panel,Rear",,active,"MGC66413801 | Panel,Rear"
+part:d4c3493dc506bc48bdcf,MEE63744901,"Heater,Sheath",,active,"MEE63744901 | Heater,Sheath"
+part:42986976270beec5f0b8,MJU65727802,Tube,,active,MJU65727802 | Tube
+part:d570ce759fecdd806daf,MJU66917101,Tube,,active,MJU66917101 | Tube
+part:e8c7d10caf730dbd1196,MJU65727601,Tube,,active,MJU65727601 | Tube
+part:98d48e294064883c5b17,4861FR3068X,Clamp,,active,4861FR3068X | Clamp
+part:8292315e5bfefb5d01ed,4861FR3068T,Clamp,,active,4861FR3068T | Clamp
+part:732cc49ae3089d73cbcf,AJL75172101,"Tank Assembly,Water",,active,"AJL75172101 | Tank Assembly,Water"
+part:1a8ee71911def4557f51,EAD65685001,"Harness,Single",,active,"EAD65685001 | Harness,Single"
+part:640bf53f573219bfed75,MAZ66226801,"Bracket,Mount",,active,"MAZ66226801 | Bracket,Mount"
+part:eb450a9673e649cc2b53,MJU65727801,Tube,,active,MJU65727801 | Tube
+part:bfb9c9f249ae349acf34,4861FR3068Q,Clamp,,active,4861FR3068Q | Clamp
+part:320e1b62a6ef98e3beae,6322W2A001R,"Thermistor,NTC",,active,"6322W2A001R | Thermistor,NTC"
+part:72cc453f9059213600b2,4810W3G135A,"Bracket,Idle",,active,"4810W3G135A | Bracket,Idle"
+part:e52d4a23fab22935e3c7,6930W1A007U,Thermostat,,active,6930W1A007U | Thermostat
+part:18e0ae2b51e121084c1f,6640000018F,"Connector,Terminal Block",,active,"6640000018F | Connector,Terminal Block"
+part:d9da26940f0c38b96582,MEG66672701,"Holder,Wire",,active,"MEG66672701 | Holder,Wire"
+part:dbc4267f16cb0e04af9e,1TPL0302018,"Screw,Tapping",,active,"1TPL0302018 | Screw,Tapping"
+part:b8c011b840da6ebceff3,4000W4A003A,"Screw,Customized",,active,"4000W4A003A | Screw,Customized"
+part:a2d70af271ab59e415cd,EAU62343003,"Motor,AC Fan",,active,"EAU62343003 | Motor,AC Fan"
+part:9f7ee59ef6ab7b3b1fc6,MAZ67650201,"Bracket,Motor",,active,"MAZ67650201 | Bracket,Motor"
+part:28de4892d3efda7e869b,1NHA0400018,"Nut,Common",,active,"1NHA0400018 | Nut,Common"
+part:7018e3b2729d4d4a74e1,MAK65401001,Bar,,active,MAK65401001 | Bar
+part:4aca70af02be94825b75,MAK65401002,Bar,,active,MAK65401002 | Bar
+part:bc1f4300abd8ebd9216f,MFG64680401,Locker,,active,MFG64680401 | Locker
+part:ab4eb4861202e0e32dfc,MEK65182701,"Housing,Case",,active,"MEK65182701 | Housing,Case"
+part:885def0a8c35d0e91f06,MFC64332801,Lever,,active,MFC64332801 | Lever
+part:cc5ec0772581b7ba3a1e,MFC64333001,Lever,,active,MFC64333001 | Lever
+part:537a071600cc6281ddf0,MFC64332901,Lever,,active,MFC64332901 | Lever
+part:f2179d247da8660f6c7d,MEK65182801,"Housing,Damper",,active,"MEK65182801 | Housing,Damper"
+part:8ec73e82828ca2c4411f,MEK65182901,"Housing,Case",,active,"MEK65182901 | Housing,Case"
+part:f287e6dcd93750ae8785,ACV74370002,Damper Assembly,,active,ACV74370002 | Damper Assembly
+part:a7240d77595e391ab88c,5900W1N004B,"Fan,Convection",,active,"5900W1N004B | Fan,Convection"
+part:9a5fe98def49a35f5354,MCK71660201,"Cover,Heater",,active,"MCK71660201 | Cover,Heater"
+part:03b4b08aa009b867f188,MJH66355901,"Supporter,PCB",,active,"MJH66355901 | Supporter,PCB"
+part:2eddb53b1361f0036b02,EAV65044601,LED Assembly,,active,EAV65044601 | LED Assembly
+part:c874303a2217db19e9d2,MCQ70867901,"Damper,Sealing",,active,"MCQ70867901 | Damper,Sealing"
+part:088c251c7192fb373fd8,MGW65415801,Reflector,,active,MGW65415801 | Reflector
+part:48db6943f4e1140f4469,EAQ62881203,"Lamp,Halogen",,active,"EAQ62881203 | Lamp,Halogen"
+part:27aaaca22475bbeb7115,MEV67767401,Insulator,,active,MEV67767401 | Insulator
+part:a0e4f4859836b8a748b3,MEV67767402,Insulator,,active,MEV67767402 | Insulator
+part:0005f04b9aac47244ed0,MCZ65392001,Duct,,active,MCZ65392001 | Duct
+part:8a5b9ffef7d7121d0122,MEA66381901,"Guide,Air",,active,"MEA66381901 | Guide,Air"
+part:6fd928454ab4dbf62de6,MJH66356001,"Supporter,Motor",,active,"MJH66356001 | Supporter,Motor"
+part:89f8cccb53d6340c386c,MDG63964401,"Fan,Propeller",,active,"MDG63964401 | Fan,Propeller"
+part:732fa859b7d12462d248,AFK74210601,Locker Assembly,,active,AFK74210601 | Locker Assembly
+part:43f1039bf4eba414e07c,AFK74210602,Locker Assembly,,active,AFK74210602 | Locker Assembly
+part:947a5332f4c7590fa5e3,MGQ62542301,Pump,,active,MGQ62542301 | Pump
+part:f15dacd506793662fdf0,MJH65294801,"Supporter,Motor",,active,"MJH65294801 | Supporter,Motor"
+part:6c5721bbe05df77b1fdc,MBV62221702,Clip,,active,MBV62221702 | Clip
+part:dea97c8c99aeed8cede7,MAZ66374701,"Bracket,Mount",,active,"MAZ66374701 | Bracket,Mount"
+part:8c26ef6eb385db3a5e95,MJH66356101,"Supporter,PCB",,active,"MJH66356101 | Supporter,PCB"
+part:ec46bab4ac8f1395ac1e,EBR37653104,"PCB Assembly,Main",,active,"EBR37653104 | PCB Assembly,Main"
+part:a0bef08d904b7e98d08e,MAZ67709301,"Bracket,Mount",,active,"MAZ67709301 | Bracket,Mount"
+part:eccb59e6582340e58fd1,AJJ76418405,"Supporter Assembly,PCB",,active,"AJJ76418405 | Supporter Assembly,PCB"
+part:6d1a85e291b83065e017,EAD61878007,"Harness,Single",,active,"EAD61878007 | Harness,Single"
+part:1b8a530768f32ceaa543,EBG51439304,Thermostat,,active,EBG51439304 | Thermostat
+part:cff8cde14aa71c1b3507,6877W1N024F,"Harness,Single",,active,"6877W1N024F | Harness,Single"
+part:6c5c643f088f3caec04e,1NZZW1A004F,"Nut,Customized",,active,"1NZZW1A004F | Nut,Customized"
+part:60abbad2cd3e79055696,MBJ63162701,Cam,,active,MBJ63162701 | Cam
+part:a21fc3fd04a8dc57e09e,MJH66358701,"Supporter,Motor",,active,"MJH66358701 | Supporter,Motor"
+part:e2ad395303b959e86b06,EAU65077801,"Motor, AC Synchronous",,active,"EAU65077801 | Motor, AC Synchronous"
+part:9551024e2f62ce280df1,6600W1K001D,"Switch,Micro",,active,"6600W1K001D | Switch,Micro"
+part:2471671d3710c888b5dc,MGC66414101,"Panel,Front",,active,"MGC66414101 | Panel,Front"
+part:b5c26c4d89d8c1d5b6c4,MJM61093202,"Tank,Water",,active,"MJM61093202 | Tank,Water"
+part:ff4f2b4a3c1226e9a1c2,MFZ61098701,"Packing,Gasket",,active,"MFZ61098701 | Packing,Gasket"
+part:8937ff3d4eb21b7150af,1TPL0302418,"Screw,Tapping",,active,"1TPL0302418 | Screw,Tapping"
+part:05f769877e425258e16c,1TPL0303118,"Screw,Tapping",,active,"1TPL0303118 | Screw,Tapping"
+part:96c7c0749f096db2efea,1TTL0403418,"Screw,Tapping",,active,"1TTL0403418 | Screw,Tapping"
+part:89d8dd50eb9dca361947,1TTL0403818,"Screw,Tapping",,active,"1TTL0403818 | Screw,Tapping"
+part:aecd9b4e739aa6cdeac7,1TPL0402018,"Screw,Tapping",,active,"1TPL0402018 | Screw,Tapping"
+part:a599d9971a2db25da58d,MFZ67394601,"Packing,Gasket",,active,"MFZ67394601 | Packing,Gasket"
+part:208d4e644e52fbc61670,MFZ67394501,"Packing,Gasket",,active,"MFZ67394501 | Packing,Gasket"
+part:a116026878a94a60e4af,MDS62009502,Gasket,,active,MDS62009502 | Gasket
+part:5f59e916bbf5ec50c43e,MFZ61091101,"Packing,Gasket",,active,"MFZ61091101 | Packing,Gasket"
+part:6110a6190c0b4f107289,AEH76189403,Hinge Assembly,,active,AEH76189403 | Hinge Assembly
+part:11e16f686967470f746e,AEH76189404,Hinge Assembly,,active,AEH76189404 | Hinge Assembly
+part:47aa82315085bc2a1e07,MEK65182501,"Housing,Case",,active,"MEK65182501 | Housing,Case"
+part:f1a6b1e8026579f15662,MAK65400901,"Bar,Connector",,active,"MAK65400901 | Bar,Connector"
+part:ec0c102413676dff2217,MAK65400601,Bar,,active,MAK65400601 | Bar
+part:ea5e752fc0056f0ccf91,MAK65400701,Bar,,active,MAK65400701 | Bar
+part:64e64b663d4934deba3e,MAK65400801,"Bar,Main",,active,"MAK65400801 | Bar,Main"
+part:261e2d41c151325cc9cc,MAK65400802,"Bar,Main",,active,"MAK65400802 | Bar,Main"
+part:9553f706aaabdf57473b,MEK65182601,Housing,,active,MEK65182601 | Housing
+part:f96e2570be5b9d0e153f,MAK65400501,"Bar,Connector",,active,"MAK65400501 | Bar,Connector"
+part:fa6338c864fef4024b9f,MAK65400502,"Bar,Connector",,active,"MAK65400502 | Bar,Connector"
+part:f900dbf2a2da278a1171,MJH66358901,Supporter,,active,MJH66358901 | Supporter
+part:d0902514dd9e2c944681,MJH66359101,Supporter,,active,MJH66359101 | Supporter
+part:52bed1e3d3572b0d86cd,MJH66359301,Supporter,,active,MJH66359301 | Supporter
+part:795a154132e1778dfe6f,MJH66359401,Supporter,,active,MJH66359401 | Supporter
+part:290b9d81e67f5bf4502e,MJH66360201,"Supporter,Holder",,active,"MJH66360201 | Supporter,Holder"
+part:30b4fa17435b0bd7794c,MJH66360101,"Supporter,Lever",,active,"MJH66360101 | Supporter,Lever"
+part:ee64f4277538481ed69a,ACV73910001,Damper Assembly,,active,ACV73910001 | Damper Assembly
+part:88587a09eb36dd9342ea,ACM76198203,"Controller Assembly,Touch",,active,"ACM76198203 | Controller Assembly,Touch"
+part:bc516679fe853f3476b0,ACM76198402,"Controller Assembly,Tact Dial",,active,"ACM76198402 | Controller Assembly,Tact Dial"
+part:3fd0e42401b4370546a6,MCR68450801,"Decor,Control Panel",,active,"MCR68450801 | Decor,Control Panel"
+part:99bdf400146b1d10c419,MCR68450802,"Decor,Control Panel",,active,"MCR68450802 | Decor,Control Panel"
+part:92ef808a5db7d5738ec2,AJX75334301,Window Assembly,,active,AJX75334301 | Window Assembly
+part:8391f9dfaf490f4dc434,AJX75334302,Window Assembly,,active,AJX75334302 | Window Assembly
+part:64acf89c54b5eff09cef,MKC67486202,"Window,Glass",,active,"MKC67486202 | Window,Glass"
+part:3f98f8c94e692d58784d,MGC66414501,"Panel,Control",,active,"MGC66414501 | Panel,Control"
+part:4ab66673e55bb21811a1,EBR37437201,"PCB Assembly,Sub",,active,"EBR37437201 | PCB Assembly,Sub"
+part:b3176e598e1c7e062509,EBR37437301,"PCB Assembly,Sub",,active,"EBR37437301 | PCB Assembly,Sub"
+part:f3103fb774781496a939,EAJ65719201,LCD Module,,active,EAJ65719201 | LCD Module
+part:2a47ba7bbc22d409153e,MJH66356501,"Supporter,PCB",,active,"MJH66356501 | Supporter,PCB"
+part:d5a0c9c05daad3d248cb,ADX74990505,Gasket Assembly,,active,ADX74990505 | Gasket Assembly
+part:273cd5dabe7cda8a97e8,EBR37653301,"PCB Assembly,Sub",,active,"EBR37653301 | PCB Assembly,Sub"
+part:180adac40b8a3f551f15,EBR38023401,"PCB Assembly,Sub",,active,"EBR38023401 | PCB Assembly,Sub"
+part:3dfda476870226d961be,EBR32418503,"PCB Assembly,WiFi",,active,"EBR32418503 | PCB Assembly,WiFi"
+part:afb30505d037646da1d3,EAD61878012,"Harness,Single",,active,"EAD61878012 | Harness,Single"
+part:c8e66a87b58adb4263b7,EAD61878013,"Harness,Single",,active,"EAD61878013 | Harness,Single"
+part:e12426c45451521399ca,MAZ67715801,"Bracket,Control Panel",,active,"MAZ67715801 | Bracket,Control Panel"
+part:760d6f62587b1e21a88a,MAZ67715901,"Bracket,Control Panel",,active,"MAZ67715901 | Bracket,Control Panel"
+part:ac5f0824570aeca7c7a0,MAZ67715902,"Bracket,Control Panel",,active,"MAZ67715902 | Bracket,Control Panel"
+part:e3e9e9cbbbd5e89689de,MCK71660901,"Cover,Control",,active,"MCK71660901 | Cover,Control"
+part:489c7866820b03322780,MEZ68891902,"Label,Barcode",,active,"MEZ68891902 | Label,Barcode"
+part:22b3f8a07a3ace4e67ce,MKC67485702,"Window,Glass",,active,"MKC67485702 | Window,Glass"
+part:b6d7a30f8a72d8ee46b0,MJS65348701,"Tray,Plastic",,active,"MJS65348701 | Tray,Plastic"
+part:f4243c2ed4a76c32a9b3,MKC67485801,"Window,Glass",,active,"MKC67485801 | Window,Glass"
+part:757e90a7ff60227d1247,MKC67485901,"Window,Glass",,active,"MKC67485901 | Window,Glass"
+part:20325a613da28c9656aa,MFZ67449901,"Packing,Door",,active,"MFZ67449901 | Packing,Door"
+part:c99304fcf43b936d2871,MFZ67395101,"Packing,Door",,active,"MFZ67395101 | Packing,Door"
+part:e20eafc4c585e8b8ebd2,1SZZW5N001D,"Screw,Customized",,active,"1SZZW5N001D | Screw,Customized"
+part:edcef921b96eea768b11,MCK71658201,"Cover,Top",,active,"MCK71658201 | Cover,Top"
+part:9119b86772174194bbd3,3390W0N004J,"Tray,Metal",,active,"3390W0N004J | Tray,Metal"
+part:420321576501f9c7894e,MEZ68455001,"Label,Guide",,active,"MEZ68455001 | Label,Guide"
+part:b378fce3272520349304,MJS64371801,"Tray,Metal",,active,"MJS64371801 | Tray,Metal"
+part:a51a963ef4f6c47d8289,AFN30095202,Manual Assembly,,active,AFN30095202 | Manual Assembly
+part:77cfde370dc20e509075,AFN30095204,Manual Assembly,,active,AFN30095204 | Manual Assembly
+part:46959c642f0144337514,AFN30095205,Manual Assembly,,active,AFN30095205 | Manual Assembly
+part:90ca30ec15ecfc72fb43,AFN30095206,Manual Assembly,,active,AFN30095206 | Manual Assembly
+part:bfa32d98ed71d22ac090,AFN30095207,Manual Assembly,,active,AFN30095207 | Manual Assembly
+part:e45e7d40116ff49a6e26,AFN30095208,Manual Assembly,,active,AFN30095208 | Manual Assembly
+part:f69043d221a18ab6d8e9,MEZ67849905,"Label,Energy",,active,"MEZ67849905 | Label,Energy"
+part:567c3f107d15f29178ec,MEZ67849907,"Label,Energy",,active,"MEZ67849907 | Label,Energy"
+part:4e558f7a8b0d50907242,MEZ67849910,"Label,Energy",,active,"MEZ67849910 | Label,Energy"
+part:7b1fcf5b56402137b447,MEZ67849911,"Label,Energy",,active,"MEZ67849911 | Label,Energy"
+part:efa419896ca11b3876b3,3858W3ZA03H,"Bag,Sheet",,active,"3858W3ZA03H | Bag,Sheet"
+part:adea6a685ebe63bcc9a9,MAB62761301,Angle,,active,MAB62761301 | Angle
+part:92c26d360754d6b2ccb1,AJX75334202,Window Assembly,,active,AJX75334202 | Window Assembly
+part:87357e1ae85e6f52555c,ABU74573216,"Cavity Assembly,Full",Structure Assy,active,"ABU74573216 | Cavity Assembly,Full | Structure Assy"
+part:547d3ed30f01d5245adf,ABU74573228,"Cavity Assembly,Full",Structure Assy,active,"ABU74573228 | Cavity Assembly,Full | Structure Assy"
+part:4bc2b67ad04b2779e73a,ABU74573702,"Cavity Assembly,Coating",Structure Assy,active,"ABU74573702 | Cavity Assembly,Coating | Structure Assy"
+part:c8bf2249e950c7dc8a35,ABU73873231,"Cavity Assembly,welding",Structure Assy,active,"ABU73873231 | Cavity Assembly,welding | Structure Assy"
+part:8dec422651331bfde592,MGJ64584002,"Plate,Flat(Lower)",PD Part,active,"MGJ64584002 | Plate,Flat(Lower) | PD Part"
+part:64b3fb53628d451c898c,MGJ64366602,"Plate,Flat(Lower)",PD Part,active,"MGJ64366602 | Plate,Flat(Lower) | PD Part"
+part:127083ffeaba1c04b5e4,RAA33996726,"Sheet,Steel(CR)",Raw Material,active,"RAA33996726 | Sheet,Steel(CR) | Raw Material"
+part:d81fae962e555749a177,MGJ64429304,"Plate,Upper",PD Part,active,"MGJ64429304 | Plate,Upper | PD Part"
+part:6dea4a6f95cd020b6658,RAA33996707,"Sheet,Steel(CR)",Raw Material,active,"RAA33996707 | Sheet,Steel(CR) | Raw Material"
+part:ea2687ca9d0482c4b7d6,MGJ64429701,"Plate,Front",PD Part,active,"MGJ64429701 | Plate,Front | PD Part"
+part:497ad9599556c7b62f6f,RAA33996715,"Sheet,Steel(CR)",Raw Material,active,"RAA33996715 | Sheet,Steel(CR) | Raw Material"
+part:3dd67deff525d33b7bcc,AGU75008904,"Plate Assembly,Rear",Structure Assy,active,"AGU75008904 | Plate Assembly,Rear | Structure Assy"
+part:b1e3f329e7c0d7aa8c0a,MGJ64429603,"Plate,Rear",PD Part,active,"MGJ64429603 | Plate,Rear | PD Part"
+part:03f0451675b038ef3ae2,RAA33996711,"Sheet,Steel(CR)",Raw Material,active,"RAA33996711 | Sheet,Steel(CR) | Raw Material"
+part:91f6e24fd4e6e2ef5683,4810W1A282D,"Bracket,Motor",PD Part,active,"4810W1A282D | Bracket,Motor | PD Part"
+part:2f8549da94d3be4f9333,RAA31749611,"Coil,Steel(CR)",Raw Material,active,"RAA31749611 | Coil,Steel(CR) | Raw Material"
+part:3298fe7a04502fe22182,RAA31749603,"Coil,Steel(CR)",Raw Material,active,"RAA31749603 | Coil,Steel(CR) | Raw Material"
+part:e930398f5d953328da22,RAB33372905,"Paint,Powder",etc.,active,"RAB33372905 | Paint,Powder | etc."
+part:8c39b3148788ac46d92c,RAB37010601,"POWDER,ENAMEL",etc.,active,"RAB37010601 | POWDER,ENAMEL | etc."
+part:757ace320bebe5d743af,MFZ64539501,"Packing,Gasket",etc.,active,"MFZ64539501 | Packing,Gasket | etc."
+part:f158edd0493a460ccdc4,MFZ00520401,"Packing,Gasket",etc.,active,"MFZ00520401 | Packing,Gasket | etc."
+part:81cc29b66f6d7c8dad86,EAQ62881201,"Lamp,Halogen",Electronic Part,active,"EAQ62881201 | Lamp,Halogen | Electronic Part"
+part:c3160c03a43c462f3c50,3920W1N013A,"Packing,Gasket",MD Part,active,"3920W1N013A | Packing,Gasket | MD Part"
+part:7d477caa1f9baddff93e,MJH63776501,Supporter,MD Part,active,MJH63776501 | Supporter | MD Part
+part:259a0efb8f6b20fdeb36,8PBT0110001,"Resin,PBT",Raw Material,active,"8PBT0110001 | Resin,PBT | Raw Material"
+part:68612b79caf2fadef2c6,MCZ63532001,Duct,PD Part,active,MCZ63532001 | Duct | PD Part
+part:9b4c7813bad2f11b4808,RAA34017101,"Coil,Steel(etc)",Raw Material,active,"RAA34017101 | Coil,Steel(etc) | Raw Material"
+part:f2201a4487a2410e7d31,5230W1N001G,"Filter,Charcoal",etc.,active,"5230W1N001G | Filter,Charcoal | etc."
+part:523b97c3d94b62c400be,MAZ64764301,"Bracket,Mount",PD Part,active,"MAZ64764301 | Bracket,Mount | PD Part"
+part:83c18cdd752c86a9ca21,RAA34077401,"Coil,Steel(etc)",Raw Material,active,"RAA34077401 | Coil,Steel(etc) | Raw Material"
+part:26ca0b052eff97bbaa3c,MEE62865003,"Heater,Sheath",Electronic Part,active,"MEE62865003 | Heater,Sheath | Electronic Part"
+part:26211bc2ff134df73cdf,AEG74792102,Heater Assembly,Structure Assy,active,AEG74792102 | Heater Assembly | Structure Assy
+part:9bd6e51b625f1cdbedc7,MEE62306506,"Heater,Sheath",Electronic Part,active,"MEE62306506 | Heater,Sheath | Electronic Part"
+part:4de540c6727ca014a505,MAZ64548501,"Bracket,Heater",PD Part,active,"MAZ64548501 | Bracket,Heater | PD Part"
+part:a2c2cf7047cdf0f337b0,RAA31629918,"Coil,Steel(Alcot)",Raw Material,active,"RAA31629918 | Coil,Steel(Alcot) | Raw Material"
+part:b539b6bbe650502847b3,1SZZW2A004E,"Screw,Customized",Fastener,active,"1SZZW2A004E | Screw,Customized | Fastener"
+part:22c25f83c4e00746634b,EAG43128002,"Jack,DC Power",Electronic Part,active,"EAG43128002 | Jack,DC Power | Electronic Part"
+part:a86f9c947cd11c1a4007,AEV73249605,Insulator Assembly,etc.,active,AEV73249605 | Insulator Assembly | etc.
+part:43d939150e0d65aa749e,MEV65114903,Insulator,etc.,active,MEV65114903 | Insulator | etc.
+part:cd8f2cdb1194e79c26b7,AGL30243708,"Panel Assembly,Rear",Structure Assy,active,"AGL30243708 | Panel Assembly,Rear | Structure Assy"
+part:e951c84aff1dc724aa8f,AGL30243744,"Panel Assembly,Rear",Structure Assy,active,"AGL30243744 | Panel Assembly,Rear | Structure Assy"
+part:f6202674da521dc6e94c,MGC63819804,"Panel,Rear",PD Part,active,"MGC63819804 | Panel,Rear | PD Part"
+part:90df4a154990a79e6c7a,RAA33956510,"Sheet,Steel(GI)",Raw Material,active,"RAA33956510 | Sheet,Steel(GI) | Raw Material"
+part:a2f9b9c3decf36a8d213,ABA76689301,Bracket Assembly,PD Part,active,ABA76689301 | Bracket Assembly | PD Part
+part:61b0653e26be9e6003a7,MAZ64569801,"Bracket,Idle",PD Part,active,"MAZ64569801 | Bracket,Idle | PD Part"
+part:c2963c44586d613f6695,MAZ64569802,"Bracket,Idle",PD Part,active,"MAZ64569802 | Bracket,Idle | PD Part"
+part:c4363915d6bda1678cf7,RAA33999001,"Coil,Steel(GI)",Raw Material,active,"RAA33999001 | Coil,Steel(GI) | Raw Material"
+part:a472ede349eb97ca1fbe,MAZ66148201,"Bracket,Idle",PD Part,active,"MAZ66148201 | Bracket,Idle | PD Part"
+part:52920310935cf80b5d57,RAA35202604,"Sheet,Steel(GI)",Raw Material,active,"RAA35202604 | Sheet,Steel(GI) | Raw Material"
+part:6d462d3bf766e138cfea,MJH66314301,"Supporter,Holder",PD Part,active,"MJH66314301 | Supporter,Holder | PD Part"
+part:0b751e163075172fe131,RCL30780501,"Coil,Steel(GI)",Raw Material,active,"RCL30780501 | Coil,Steel(GI) | Raw Material"
+part:6a72bb00151664bae771,EAG32629305,"Connector,Terminal Block",Electronic Part,active,"EAG32629305 | Connector,Terminal Block | Electronic Part"
+part:fe94dd590658fe47914d,EBG51439305,Thermostat,Electronic Part,active,EBG51439305 | Thermostat | Electronic Part
+part:ff2bc36a9cadad61d079,EAU62862907,"Motor Assembly,AC,Synchronous",Electronic Assy,active,"EAU62862907 | Motor Assembly,AC,Synchronous | Electronic Assy"
+part:fad99b2aabe8a8409a83,EAU64063802,"Motor, AC Synchronous",Electronic Part,active,"EAU64063802 | Motor, AC Synchronous | Electronic Part"
+part:a14fa9d55a8eee93d497,MAZ64444602,"Bracket,Motor",PD Part,active,"MAZ64444602 | Bracket,Motor | PD Part"
+part:11c2073d6116b3e656a4,MBJ62582002,Cam,MD Part,active,MBJ62582002 | Cam | MD Part
+part:1f0db9c3a65d94c7eccd,EBF64567702,"Switch,Micro",Electronic Part,active,"EBF64567702 | Switch,Micro | Electronic Part"
+part:3addf014a21206f4c69f,EBR31737813,"PCB Assembly,Power",Electronic Part,active,"EBR31737813 | PCB Assembly,Power | Electronic Part"
+part:a9d3ea4b0f265ede3874,EBR25785402,"PCB Assembly,Power",Electronic Part,active,"EBR25785402 | PCB Assembly,Power | Electronic Part"
+part:cfc220c572ee2b4f5c23,EAM32674401,"Filter,Line Noise",etc.,active,"EAM32674401 | Filter,Line Noise | etc."
+part:b14d6913a3459f5ae86e,EBJ60850901,"Transformer,Switching",etc.,active,"EBJ60850901 | Transformer,Switching | etc."
+part:0a201b2620dabae6e8b6,EAH63473601,"Diode,Rectifier",etc.,active,"EAH63473601 | Diode,Rectifier | etc."
+part:3b07eb2f305476f0a217,0CE108XH618,"Capacitor,AL,Radial",etc.,active,"0CE108XH618 | Capacitor,AL,Radial | etc."
+part:67020a9ee5209151819a,EAD39990305,"Harness,Single",etc.,active,"EAD39990305 | Harness,Single | etc."
+part:71c40528ae603a69bf4d,EAG64172601,"Connector,Terminal",etc.,active,"EAG64172601 | Connector,Terminal | etc."
+part:4fb23245b239e4fe4709,EBB61801501,"Relay,Contact",etc.,active,"EBB61801501 | Relay,Contact | etc."
+part:a5a86f155f2378b26137,EAN61001601,"IC,DC,DC Converter",etc.,active,"EAN61001601 | IC,DC,DC Converter | etc."
+part:e4a70876d0e3c026cf16,EBC65741401,"Resistor,Chip",etc.,active,"EBC65741401 | Resistor,Chip | etc."
+part:9dbe703db395028c4001,0RJ0151J691,"Resistor,Chip",etc.,active,"0RJ0151J691 | Resistor,Chip | etc."
+part:41969dcbd8941e034116,0CK10101515,"Capacitor,Ceramic,Radial",etc.,active,"0CK10101515 | Capacitor,Ceramic,Radial | etc."
+part:a5b313db902e82d934d4,0RH1002C622,"Resistor,Chip",etc.,active,"0RH1002C622 | Resistor,Chip | etc."
+part:2a03e3218efa753b5514,6920JB2003L,"Relay,Contact",etc.,active,"6920JB2003L | Relay,Contact | etc."
+part:9a0f726e2b9825c1aafe,6630VK09815,"Connector,Wafer",etc.,active,"6630VK09815 | Connector,Wafer | etc."
+part:c5055e6a14e2e6730b8d,0DRSD00308A,"Diode,Rectifier",etc.,active,"0DRSD00308A | Diode,Rectifier | etc."
+part:3264644c45ddbced6baa,EAE64001601,"Capacitor,Ceramic,Chip",etc.,active,"EAE64001601 | Capacitor,Ceramic,Chip | etc."
+part:1ce5d4351449811ac2d7,EAE60777101,"Capacitor,Ceramic,Radial",etc.,active,"EAE60777101 | Capacitor,Ceramic,Radial | etc."
+part:acffd4e696f7e1f81f0c,0CF2221Y47A,"Capacitor,Film,Box",etc.,active,"0CF2221Y47A | Capacitor,Film,Box | etc."
+part:a30c5f4c8738038ecd19,EAH61515501,"Diode,Switching",etc.,active,"EAH61515501 | Diode,Switching | etc."
+part:52e63649b6f5211bea5c,0ILNRKE010A,"IC,Voltage Regulator",etc.,active,"0ILNRKE010A | IC,Voltage Regulator | etc."
+part:3df6512bf64b1c4cfaf2,6102FC1158D,Varistor,etc.,active,6102FC1158D | Varistor | etc.
+part:93f8690e5e14f477960a,0RJ2001D477,"Resistor,Chip",etc.,active,"0RJ2001D477 | Resistor,Chip | etc."
+part:3f948a092eced88501fd,0RJ2202D677,"Resistor,Chip",etc.,active,"0RJ2202D677 | Resistor,Chip | etc."
+part:9751dfe94e15b0e25b7a,EBB62981601,"Relay,Contact",etc.,active,"EBB62981601 | Relay,Contact | etc."
+part:d6fa350a854d67c6f124,EAH64252901,"Diode,Bridge",etc.,active,"EAH64252901 | Diode,Bridge | etc."
+part:d5b79a400a459ae0b30a,0CE476EK638,"Capacitor,AL,Radial",etc.,active,"0CE476EK638 | Capacitor,AL,Radial | etc."
+part:cccb3b4e94c000284c3e,0ILI817000H,"Photo,Coupler",etc.,active,"0ILI817000H | Photo,Coupler | etc."
+part:2fe8863d3dd52e16caf1,0RH8200C422,"Resistor,Chip",etc.,active,"0RH8200C422 | Resistor,Chip | etc."
+part:0ed048225c83c690e897,EAG64310007,"Connector,Wafer",etc.,active,"EAG64310007 | Connector,Wafer | etc."
+part:9753f0fac01996c44c2d,0CZZQE2022B,"Capacitor,AL,Radial",etc.,active,"0CZZQE2022B | Capacitor,AL,Radial | etc."
+part:f7f90e2f92a7046525da,EAE63065701,"Capacitor,Ceramic,Chip",etc.,active,"EAE63065701 | Capacitor,Ceramic,Chip | etc."
+part:7eb04f6ae4de9792d00d,6630VM01111,"Connector,Wafer",etc.,active,"6630VM01111 | Connector,Wafer | etc."
+part:6b3a3c1b4d9e809e5bca,0RJ0102G676,"Resistor,Chip",etc.,active,"0RJ0102G676 | Resistor,Chip | etc."
+part:2c5fde35d11245230f72,0RH3301C422,"Resistor,Chip",etc.,active,"0RH3301C422 | Resistor,Chip | etc."
+part:b20d5a0d5ee1fdc95338,0RH0102C622,"Resistor,Chip",etc.,active,"0RH0102C622 | Resistor,Chip | etc."
+part:810295a8bda3acf0b7ff,0FS3151B9AD,"Fuse,Time Delay",etc.,active,"0FS3151B9AD | Fuse,Time Delay | etc."
+part:a629b41e92c0cb6592ab,EAE65942801,"Capacitor,Film,Box",etc.,active,"EAE65942801 | Capacitor,Film,Box | etc."
+part:98b1e14b79b585f0d6aa,EAX69471803,PCB,etc.,active,EAX69471803 | PCB | etc.
+part:262cc8907b407a62822f,MJH66322901,"Supporter,PCB",MD Part,active,"MJH66322901 | Supporter,PCB | MD Part"
+part:b8fc543cd2665962064f,MEG64478801,"Holder,Wire",etc.,active,"MEG64478801 | Holder,Wire | etc."
+part:ecd7c5449af533c767f8,FAB30162501,"Screw,Customized",Fastener,active,"FAB30162501 | Screw,Customized | Fastener"
+part:9dcc8617be77d6b2a6dd,1TTL0403118,"Screw,Tapping",Fastener,active,"1TTL0403118 | Screw,Tapping | Fastener"
+part:1aa709ea09f38fdeec9e,1TTL0402418,"Screw,Tapping",Fastener,active,"1TTL0402418 | Screw,Tapping | Fastener"
+part:c8adc054eda7cc48a1df,1SZZJJ3007A,"Screw,Customized",Fastener,active,"1SZZJJ3007A | Screw,Customized | Fastener"
+part:5fc5f2d29ae59af1f943,1WZZJJ3003A,"Washer,Common",Fastener,active,"1WZZJJ3003A | Washer,Common | Fastener"
+part:a1e000560c7921c662f2,MJH66251901,"Supporter,Holder",PD Part,active,"MJH66251901 | Supporter,Holder | PD Part"
+part:abb2e873e9c241cf199d,RAA31737261,"Coil,Steel(GI)",Raw Material,active,"RAA31737261 | Coil,Steel(GI) | Raw Material"
+part:31fff9add4052293eaa3,EAD63827906,"Harness,Single",Electronic Part,active,"EAD63827906 | Harness,Single | Electronic Part"
+part:eb4261ecee5ccde97ada,EAD63827914,"Harness,Single",Electronic Part,active,"EAD63827914 | Harness,Single | Electronic Part"
+part:d6d05b97d56b14e04a98,MAZ67677301,"Bracket,Idle",PD Part,active,"MAZ67677301 | Bracket,Idle | PD Part"
+part:1d2151d6fa472d30861f,RSH30984601,"Sheet,Steel(GI)",Raw Material,active,"RSH30984601 | Sheet,Steel(GI) | Raw Material"
+part:f0e2d7969183164b1b30,3B72244C,Damper,etc.,active,3B72244C | Damper | etc.
+part:210dbcbdcc9730ec0706,AJV73149901,Vent Assembly,PD Part,active,AJV73149901 | Vent Assembly | PD Part
+part:e9a1ac9f6e093de2e0e4,AJV73149903,Vent Assembly,PD Part,active,AJV73149903 | Vent Assembly | PD Part
+part:3e22b453de1989b28a8d,MJZ62162901,Vent,PD Part,active,MJZ62162901 | Vent | PD Part
+part:61912ee7e48e95b9fe38,MJZ62162902,Vent,PD Part,active,MJZ62162902 | Vent | PD Part
+part:05d33875f538ae64ec7c,RAA33760007,"Coil,Steel(etc)",Raw Material,active,"RAA33760007 | Coil,Steel(etc) | Raw Material"
+part:79ee5d5b3592eedea0c5,MJZ62163001,Vent,PD Part,active,MJZ62163001 | Vent | PD Part
+part:0d828f7e2c9dbbbb6da0,MJZ62163003,Vent,PD Part,active,MJZ62163003 | Vent | PD Part
+part:cb3abbe48c0df1fdbc49,RAA33760008,"Coil,Steel(etc)",Raw Material,active,"RAA33760008 | Coil,Steel(etc) | Raw Material"
+part:b300f41c5a361e24745e,EAU63303803,"Motor Assembly,DC,Fan",Electronic Part,active,"EAU63303803 | Motor Assembly,DC,Fan | Electronic Part"
+part:dbb4e33f4cb6991b3643,EAU65090301,"Motor Assembly,DC,Fan",Electronic Part,active,"EAU65090301 | Motor Assembly,DC,Fan | Electronic Part"
+part:14fa74544927895d2a98,4810W1N060B,"Bracket,Motor",PD Part,active,"4810W1N060B | Bracket,Motor | PD Part"
+part:49c60357e29795f2fa3f,EAU62343004,"Motor,DC",Electronic Part,active,"EAU62343004 | Motor,DC | Electronic Part"
+part:77b4e456ebf3523b02a5,EAU65087501,"Motor,DC",Electronic Part,active,"EAU65087501 | Motor,DC | Electronic Part"
+part:fd1a78b8beda18225630,MEG66724501,"Holder,Magnet",Electronic Part,active,"MEG66724501 | Holder,Magnet | Electronic Part"
+part:83483d0426850c170e79,MCK71846101,"Cover,Motor",MD Part,active,"MCK71846101 | Cover,Motor | MD Part"
+part:b2bc740a476c131d28e3,MCK71846201,"Cover,Motor",MD Part,active,"MCK71846201 | Cover,Motor | MD Part"
+part:fdde3671b69abb21c4b6,MAW62722201,"Bobbin,Plastic",MD Part,active,"MAW62722201 | Bobbin,Plastic | MD Part"
+part:b2465ded2f76d0df1750,MAW62722301,"Bobbin,Plastic",MD Part,active,"MAW62722301 | Bobbin,Plastic | MD Part"
+part:a3e380c6c6de5fe37e5e,EAG66824801,"Connector,Terminal",PD Part,active,"EAG66824801 | Connector,Terminal | PD Part"
+part:445f49a48e0b70440552,3B72559A,"Fan,Convection",,active,"3B72559A | Fan,Convection"
+part:3e598edc8cd4a3db9526,9BAP0021D00,"Sheet,Steel(GI)",,active,"9BAP0021D00 | Sheet,Steel(GI)"
+part:8a06c5e47076282d7ad1,MGZ63607002,Ring,,active,MGZ63607002 | Ring
+part:19424e102262c194fe03,FAD33778401,"Nut,Common",,active,"FAD33778401 | Nut,Common"
+part:af807691e06742c64ca8,MAZ64568803,Bracket,PD Part,active,MAZ64568803 | Bracket | PD Part
+part:957d9231267293d6278c,RAA34017601,"Coil,Steel(GI)",Raw Material,active,"RAA34017601 | Coil,Steel(GI) | Raw Material"
+part:07c7ab1ff2575f500d5a,MAZ64568804,Bracket,PD Part,active,MAZ64568804 | Bracket | PD Part
+part:d542f88b3aae8425ae9b,MAL64330703,Barrier,PD Part,active,MAL64330703 | Barrier | PD Part
+part:721214e19764e358214f,RCL30814901,"Coil,Steel(GI)",Raw Material,active,"RCL30814901 | Coil,Steel(GI) | Raw Material"
+part:390a8efaa9bf204d6775,MAL64330704,Barrier,PD Part,active,MAL64330704 | Barrier | PD Part
+part:bc7495d9fb142fedcafc,MAK61907202,Bar,PD Part,active,MAK61907202 | Bar | PD Part
+part:572c5d63624faf7fffda,ABA75389604,Bracket Assembly,Structure Assy,active,ABA75389604 | Bracket Assembly | Structure Assy
+part:ecd4d61792fc23ef674e,MAZ62365203,"Bracket,Idle",PD Part,active,"MAZ62365203 | Bracket,Idle | PD Part"
+part:12b8721503525f284777,MAZ64726003,"Bracket,Idle",PD Part,active,"MAZ64726003 | Bracket,Idle | PD Part"
+part:ec6cccd3f6e495a46590,FAC30139502,"Pin,Common",PD Part,active,"FAC30139502 | Pin,Common | PD Part"
+part:84b769f6c69583c6789c,EBF60663403,"Switch,Tact",Electronic Part,active,"EBF60663403 | Switch,Tact | Electronic Part"
+part:ba21881631587a42a3c4,ABQ30097006,"Case Assembly,Sub",Structure Assy,active,"ABQ30097006 | Case Assembly,Sub | Structure Assy"
+part:6333282294668fed9604,ABQ30466615,"Case Assembly,Sub",Structure Assy,active,"ABQ30466615 | Case Assembly,Sub | Structure Assy"
+part:f702e84f7c0c145b8eef,ADJ74172315,Duct Assembly,Structure Assy,active,ADJ74172315 | Duct Assembly | Structure Assy
+part:981384ba789fe3595048,MBN63845017,"Case,Upper",PD Part,active,"MBN63845017 | Case,Upper | PD Part"
+part:6253394b0cf4ce4968a1,RAA33956557,"Sheet,Steel(GI)",Raw Material,active,"RAA33956557 | Sheet,Steel(GI) | Raw Material"
+part:7f4cf37a484e380f88fb,MBN63845104,"Case,Lower",PD Part,active,"MBN63845104 | Case,Lower | PD Part"
+part:86c3bc37f6c62cc3727d,RAA31737297,"Coil,Steel(GI)",Raw Material,active,"RAA31737297 | Coil,Steel(GI) | Raw Material"
+part:f797bb001de76a10b0db,6322W2A001S,"Thermistor,NTC",,active,"6322W2A001S | Thermistor,NTC"
+part:81332bfd0b0a50c2e7a0,1WZZ81N001F,Washer 2t,Fastener,active,1WZZ81N001F | Washer 2t | Fastener
+part:037b31a30f1f23db0864,MDG62882901,"Fan,Convection",PD Part,active,"MDG62882901 | Fan,Convection | PD Part"
+part:aec22280c2957c204bfc,MDG63965901,"Fan,Convection",PD Part,active,"MDG63965901 | Fan,Convection | PD Part"
+part:6c3a5fc1aaaa0e68cb0b,RAA33959301,"Fan,Convection",PD Part,active,"RAA33959301 | Fan,Convection | PD Part"
+part:06fcb5d40b6ac5c4c3ac,MDG63965601,"Fan,Convection",PD Part,active,"MDG63965601 | Fan,Convection | PD Part"
+part:2991f3098c2b9751c4ff,MDG63965801,"Fan,Convection",PD Part,active,"MDG63965801 | Fan,Convection | PD Part"
+part:08089f32bf2968819add,FAD33778501,"Nut,Common",Fastener,active,"FAD33778501 | Nut,Common | Fastener"
+part:0c6f986acc1404e0ef7f,FAD33793001,"Nut,Common",Fastener,active,"FAD33793001 | Nut,Common | Fastener"
+part:9657f359f8fcdc75f435,MEA66346502,"Guide,Air",PD Part,active,"MEA66346502 | Guide,Air | PD Part"
+part:a3f94d5e4c08b6010c05,RAA31737260,"Coil,Steel(GI)",Raw Material,active,"RAA31737260 | Coil,Steel(GI) | Raw Material"
+part:a7cfd85cf312255357c4,ADG73691101,Drawer Assembly,Structure Assy,active,ADG73691101 | Drawer Assembly | Structure Assy
+part:70057f6b04866e502de9,ADG73691112,Drawer Assembly,Structure Assy,active,ADG73691112 | Drawer Assembly | Structure Assy
+part:7e0969088169d7752e26,AGU30022603,"Plate Assembly,Base",Structure Assy,active,"AGU30022603 | Plate Assembly,Base | Structure Assy"
+part:30a351aad2f040a7b311,AGU30022611,"Plate Assembly,Base",Structure Assy,active,"AGU30022611 | Plate Assembly,Base | Structure Assy"
+part:8113b9e873fc1e76dd66,MGJ64431102,"Plate,Base",PD Part,active,"MGJ64431102 | Plate,Base | PD Part"
+part:1fc403a3ba86a60a21df,MGJ67004807,"Plate,Base",PD Part,active,"MGJ67004807 | Plate,Base | PD Part"
+part:7e2796a0f55f94fe6efd,RAA31737259,"Coil,Steel(etc)",Raw Material,active,"RAA31737259 | Coil,Steel(etc) | Raw Material"
+part:75bb1c5317400f479fba,RAA31737281,"Coil,Steel(etc)",Raw Material,active,"RAA31737281 | Coil,Steel(etc) | Raw Material"
+part:96628fb93ee65b2880b0,4778W1N001A,Foot,MD Part,active,4778W1N001A | Foot | MD Part
+part:dd849c2d8e476a987589,RAA35457601,"Resin,POM(Polyacetal)",Raw Material,active,"RAA35457601 | Resin,POM(Polyacetal) | Raw Material"
+part:9737b81db5ca0eabf283,AGU30022604,"Plate Assembly,Base",Structure Assy,active,"AGU30022604 | Plate Assembly,Base | Structure Assy"
+part:f93d832a35d3ff15572e,AGU30022612,"Plate Assembly,Base",Structure Assy,active,"AGU30022612 | Plate Assembly,Base | Structure Assy"
+part:ecf1e5b890cc2c3ec39e,MDP62447004,Foot,PD Part,active,MDP62447004 | Foot | PD Part
+part:4c835d006aca3af150ab,MGJ63105907,"Plate,Front",PD Part,active,"MGJ63105907 | Plate,Front | PD Part"
+part:9e64eda21252fa49c101,MGJ67541202,"Plate,Front",PD Part,active,"MGJ67541202 | Plate,Front | PD Part"
+part:cc6a1200de98c986db67,RAA33155704,"Sheet,Steel(etc)",Raw Material,active,"RAA33155704 | Sheet,Steel(etc) | Raw Material"
+part:b62216b70639517bbb4b,MFZ00542501,"Packing,Gasket",MD Part,active,"MFZ00542501 | Packing,Gasket | MD Part"
+part:5e1800e1ca83c8d2cc30,MAZ63250903,"Bracket,Mount",PD Part,active,"MAZ63250903 | Bracket,Mount | PD Part"
+part:c57304d68d49e11f8f09,RAA31737213,"Coil,Steel(GI)",Raw Material,active,"RAA31737213 | Coil,Steel(GI) | Raw Material"
+part:e5feb8606bb3a9908791,MAZ63250603,"Bracket,Mount",PD Part,active,"MAZ63250603 | Bracket,Mount | PD Part"
+part:ef3aba5bea28a1e26c54,MEV67765801,Insulator,PD Part,active,MEV67765801 | Insulator | PD Part
+part:e46fb222fb70d32e6660,RAA33959179,"Sheet,Steel(STS)",Raw Material,active,"RAA33959179 | Sheet,Steel(STS) | Raw Material"
+part:38e6c2d0f6e53fea203d,MHS62022301,Slider,PD Part,active,MHS62022301 | Slider | PD Part
+part:3bfb4b409df8a870a22a,MGC63820335,"Panel,Front",Structure Assy,active,"MGC63820335 | Panel,Front | Structure Assy"
+part:4d4dcffb68b4c6079a8b,MGC66180318,"Panel,Front",Structure Assy,active,"MGC66180318 | Panel,Front | Structure Assy"
+part:3dbb5913cd47219a9fe5,MGC63820334,"Panel,Front",PD Part,active,"MGC63820334 | Panel,Front | PD Part"
+part:64d467a1af60b40f38c2,MGC66180317,"Panel,Front",PD Part,active,"MGC66180317 | Panel,Front | PD Part"
+part:1057541139c9a4f37d09,RAA33959171,"Sheet,Steel(STS)",Raw Material,active,"RAA33959171 | Sheet,Steel(STS) | Raw Material"
+part:c39ef964b45a138668b8,RAA33956313,"Sheet,Steel(STS)",Raw Material,active,"RAA33956313 | Sheet,Steel(STS) | Raw Material"
+part:adec4ca2910559717aa9,1VZZA90001A,"Rivet,Common",Fastener,active,"1VZZA90001A | Rivet,Common | Fastener"
+part:b14885623d45c80752f7,MFZ63953008,"Packing,Accessory",Packing,active,"MFZ63953008 | Packing,Accessory | Packing"
+part:fdde241a8bbf5a8fe003,MCX61961512,Drawer,PD Part,active,MCX61961512 | Drawer | PD Part
+part:8aad89b550d5047cf8c0,MCX62743102,Drawer,PD Part,active,MCX62743102 | Drawer | PD Part
+part:cf1897f1da839329ade4,RAA33155706,"Sheet,Steel(GI)",Raw Material,active,"RAA33155706 | Sheet,Steel(GI) | Raw Material"
+part:f3915174083330e1199d,MHS62022201,Slider,PD Part,active,MHS62022201 | Slider | PD Part
+part:9633b8f48c53b82eb273,MDQ64177401,"Frame,Door",PD Part,active,"MDQ64177401 | Frame,Door | PD Part"
+part:388cc7600e946197639c,MDQ66517504,"Frame,Door",PD Part,active,"MDQ66517504 | Frame,Door | PD Part"
+part:a320c561fe814ce60942,RAA33998501,"Coil,Steel(GI)",Raw Material,active,"RAA33998501 | Coil,Steel(GI) | Raw Material"
+part:ff29ef62a10b24fb1de8,RAA31737280,"Coil,Steel(GI)",Raw Material,active,"RAA31737280 | Coil,Steel(GI) | Raw Material"
+part:934617f429a274879e0e,4980W1N013A,Supporter,MD Part,active,4980W1N013A | Supporter | MD Part
+part:44095077c981cedaacbe,1TTL0402416,"Screw,Tapping",Fastener,active,"1TTL0402416 | Screw,Tapping | Fastener"
+part:6fd445895678975a37a8,1TTL0402818,"Screw,Tapping",Fastener,active,"1TTL0402818 | Screw,Tapping | Fastener"
+part:ea52e7750342e5985e14,FAB31821702,"Screw,Customized",Fastener,active,"FAB31821702 | Screw,Customized | Fastener"
+part:6b90ba0f011b27e5c9d1,MAZ64788501,"Bracket,Hinge",PD Part,active,"MAZ64788501 | Bracket,Hinge | PD Part"
+part:68143289feeaa9a379b2,RAA34077101,"Coil,Steel(HGI)",Raw Material,active,"RAA34077101 | Coil,Steel(HGI) | Raw Material"
+part:8438e5f6c8327becb8dc,MCK68473117,"Cover,Heater",PD Part,active,"MCK68473117 | Cover,Heater | PD Part"
+part:7e3a3c37ad930ca22085,MCK68473120,"Cover,Heater",PD Part,active,"MCK68473120 | Cover,Heater | PD Part"
+part:437b92f893508e014ca6,AGF79478703,"Paint,Powder,Package Assembly,C/SKD",etc.,active,"AGF79478703 | Paint,Powder,Package Assembly,C/SKD | etc."
+part:e73b98d235c67204b679,MGA62780301,Pallet,etc.,active,MGA62780301 | Pallet | etc.
+part:2a41256d135d82cf8a41,AGG74145701,Packing Assembly,etc.,active,AGG74145701 | Packing Assembly | etc.
+part:66b23f23817d250a3c1b,MFZ63595101,"Packing,Accessory",etc.,active,"MFZ63595101 | Packing,Accessory | etc."
+part:ce48035066bf43e0d90f,MFZ63595201,"Packing,Accessory",etc.,active,"MFZ63595201 | Packing,Accessory | etc."
+part:a457a4a1c786a5bcab2f,MFZ63595301,"Packing,Accessory",etc.,active,"MFZ63595301 | Packing,Accessory | etc."
+part:459d15b1e29541d5a899,MEZ64822904,"Label,Shipping Mark",etc.,active,"MEZ64822904 | Label,Shipping Mark | etc."
+part:00db4d3f8a9f6fb8a206,MEZ64822905,"Label,Shipping Mark",etc.,active,"MEZ64822905 | Label,Shipping Mark | etc."
+part:701e73c8a158f7f5b4ed,MCK68473109,"Cover,Heater",PD Part,active,"MCK68473109 | Cover,Heater | PD Part"
+part:90d450a7194ba4f13806,MCK68473113,"Cover,Heater",PD Part,active,"MCK68473113 | Cover,Heater | PD Part"
+part:e803c3918879e6ddd19d,AEC75957201,"Guide Assembly,Suction",Structure Assy,active,"AEC75957201 | Guide Assembly,Suction | Structure Assy"
+part:9cd01e91213469d183bd,MEA66377001,"Guide,Suction",PD Part,active,"MEA66377001 | Guide,Suction | PD Part"
+part:562608d094b3cc9b33dd,RCL30815101,"Coil,Steel(GI)",Raw Material,active,"RCL30815101 | Coil,Steel(GI) | Raw Material"
+part:010c9bc74521f1a3d16a,MFZ65235701,"Packing,Gasket",MD Part,active,"MFZ65235701 | Packing,Gasket | MD Part"
+part:880e7e923d301ceb7a7f,MEA66377101,"Guide,Suction",PD Part,active,"MEA66377101 | Guide,Suction | PD Part"
+part:e65b8894a78e8d52f092,RSH30984701,"Sheet,Steel(GI)",Raw Material,active,"RSH30984701 | Sheet,Steel(GI) | Raw Material"
+part:8ace0577a62ec3571a41,MCQ67466702,Damper,etc.,active,MCQ67466702 | Damper | etc.
+part:389ee591dc6ed7523190,EAD66035714,"Harness,Single",,active,"EAD66035714 | Harness,Single"
+part:2c972cf78155327b27f2,EAD61076101,"Harness,Single",,active,"EAD61076101 | Harness,Single"
+part:3f9e7080bb9beb7e20d6,AGL30062508,"Panel Assembly,Side",Structure Assy,active,"AGL30062508 | Panel Assembly,Side | Structure Assy"
+part:83ed4728e93c66086ff8,MGC62644032,"Panel,Side",PD Part,active,"MGC62644032 | Panel,Side | PD Part"
+part:f1feb87a72258c23d0a1,RAA33154906,"Sheet,Steel(PCM)",Raw Material,active,"RAA33154906 | Sheet,Steel(PCM) | Raw Material"
+part:56aee49b41b8d5dc9a8f,MFZ67262501,"Packing,Gasket",MD Part,active,"MFZ67262501 | Packing,Gasket | MD Part"
+part:f3c3110e34e14a807e5f,7250PT0066D,"Tape,PETP",etc.,active,"7250PT0066D | Tape,PETP | etc."
+part:634000eb7857a47b7f8b,7250PT0066A,"Tape,PETP",etc.,active,"7250PT0066A | Tape,PETP | etc."
+part:0fb4230363dec67748ee,RAA35205103,"Sheet,Aluminium",Raw Material,active,"RAA35205103 | Sheet,Aluminium | Raw Material"
+part:9f2d14a1ead84a3e1348,7250AL0033A,"Tape,Aluminum",etc.,active,"7250AL0033A | Tape,Aluminum | etc."
+part:ab093d51670432d8fd14,AGL30062502,"Panel Assembly,Side",Structure Assy,active,"AGL30062502 | Panel Assembly,Side | Structure Assy"
+part:d8833f0a4bf324f58aaa,MGC62644033,"Panel,Side",PD Part,active,"MGC62644033 | Panel,Side | PD Part"
+part:791e7192a3db8e1390ae,ADP30238101,"Fan Assembly,Blower",Electronic Assy,active,"ADP30238101 | Fan Assembly,Blower | Electronic Assy"
+part:c6808808bdb94900d471,ADP30238104,"Fan Assembly,Blower",Electronic Assy,active,"ADP30238104 | Fan Assembly,Blower | Electronic Assy"
+part:293212ad89c52681cf5e,ADP74013401,Fan Assembly,Electronic Part,active,ADP74013401 | Fan Assembly | Electronic Part
+part:72bc905ec4acc98b7cd4,ADP74013404,Fan Assembly,Electronic Part,active,ADP74013404 | Fan Assembly | Electronic Part
+part:16111c2241fa3c6493d6,MJH66445301,"Supporter,PCB",MD Part,active,"MJH66445301 | Supporter,PCB | MD Part"
+part:44e9d09365b8758c7c64,MEG66732301,"Holder,Magnet",Electronic Part,active,"MEG66732301 | Holder,Magnet | Electronic Part"
+part:f9bfde5af3e4f268a85e,AJV73149801,Vent Assembly,Structure Assy,active,AJV73149801 | Vent Assembly | Structure Assy
+part:bf9e9d7b00f96141d7bb,MJZ62163101,Vent,PD Part,active,MJZ62163101 | Vent | PD Part
+part:8326e85fe1914ad8ee39,RAA34016901,"Coil,Steel(GI)",Raw Material,active,"RAA34016901 | Coil,Steel(GI) | Raw Material"
+part:fca1156f3a470c8729db,MJZ62163201,Vent,PD Part,active,MJZ62163201 | Vent | PD Part
+part:9fc8623d78b4accf497f,RAA34017001,"Coil,Steel(GI)",Raw Material,active,"RAA34017001 | Coil,Steel(GI) | Raw Material"
+part:6715b820f4ac321b7aea,MCQ67084416,Damper,etc.,active,MCQ67084416 | Damper | etc.
+part:4397d9ec8654dd0b097e,MCK71526101,"Cover,Motor",etc.,active,"MCK71526101 | Cover,Motor | etc."
+part:0d9ba4577d002b53cf5f,3920W1N014A,"Packing,Idle",MD Part,active,"3920W1N014A | Packing,Idle | MD Part"
+part:27c99bc2b17773115605,MJH66325501,"Supporter,Holder",PD Part,active,"MJH66325501 | Supporter,Holder | PD Part"
+part:ad74109279e833b81ea2,RAA33958302,"Coil,Steel(GI)",Raw Material,active,"RAA33958302 | Coil,Steel(GI) | Raw Material"
+part:f4e031f894e03474a358,ADC30055706,"Door Assembly,Full",Structure Assy,active,"ADC30055706 | Door Assembly,Full | Structure Assy"
+part:6f8e98b51b8cf8d9810f,ADC30055744,"Door Assembly,Full",Structure Assy,active,"ADC30055744 | Door Assembly,Full | Structure Assy"
+part:0da769cf5b05316e899f,AEH75637219,Hinge Assembly,Structure Assy,active,AEH75637219 | Hinge Assembly | Structure Assy
+part:f8114333c1d4bcd76c0b,AEH75637239,Hinge Assembly,Structure Assy,active,AEH75637239 | Hinge Assembly | Structure Assy
+part:0160133474c8d16f9aa5,MEK64466601,Housing,PD Part,active,MEK64466601 | Housing | PD Part
+part:4d09ec5ba20c60f69b26,MEK64466701,Housing,PD Part,active,MEK64466701 | Housing | PD Part
+part:ae083fbce766b64ac829,MEK64466801,Housing,PD Part,active,MEK64466801 | Housing | PD Part
+part:9fcee85af263460a2e6b,MFC64029501,Lever,PD Part,active,MFC64029501 | Lever | PD Part
+part:1184fbbe32a1163bbf79,MFG64398601,Locker,PD Part,active,MFG64398601 | Locker | PD Part
+part:dc080caa83e9ddbc64ec,MAK65207502,"Bar,Connector",PD Part,active,"MAK65207502 | Bar,Connector | PD Part"
+part:7b21980591f1d5857403,ACV74370001,Damper Assembly,Structure Assy,active,ACV74370001 | Damper Assembly | Structure Assy
+part:78d84b9e55a7c76192fe,ACV74370006,Damper Assembly,Structure Assy,active,ACV74370006 | Damper Assembly | Structure Assy
+part:3d98c4a19a85ba0853dd,AEH75637220,Hinge Assembly,Structure Assy,active,AEH75637220 | Hinge Assembly | Structure Assy
+part:c02a7e010410522e46d3,AEH75637240,Hinge Assembly,Structure Assy,active,AEH75637240 | Hinge Assembly | Structure Assy
+part:46b857ebfdcdfcc36429,MCK68473201,"Cover,Inner",PD Part,active,"MCK68473201 | Cover,Inner | PD Part"
+part:e8178b67f4001e785d85,MCK68473203,"Cover,Inner",PD Part,active,"MCK68473203 | Cover,Inner | PD Part"
+part:7938b9fdde553dd1337f,RAA33956505,"Sheet,Steel(GI)",Raw Material,active,"RAA33956505 | Sheet,Steel(GI) | Raw Material"
+part:efa31f488d01fec27fbb,4890W1N009G,"Window,Glass",etc.,active,"4890W1N009G | Window,Glass | etc."
+part:d91e02841b383ddab878,4890W1N009H,"Window,Glass",etc.,active,"4890W1N009H | Window,Glass | etc."
+part:cdc8a1d548eff26dfe41,MAZ64569401,"Bracket,Mount",PD Part,active,"MAZ64569401 | Bracket,Mount | PD Part"
+part:0535abd77107f3d827e4,MAZ55266201,"Bracket,Mount",PD Part,active,"MAZ55266201 | Bracket,Mount | PD Part"
+part:c2bc05ace60451b6ad80,RAA33958301,"Coil,Steel(GI)",Raw Material,active,"RAA33958301 | Coil,Steel(GI) | Raw Material"
+part:b3e7f75747b5af21187d,MEV65115508,Insulator,etc.,active,MEV65115508 | Insulator | etc.
+part:3982174d11579da663d2,MEV65115509,Insulator,etc.,active,MEV65115509 | Insulator | etc.
+part:605477dec91ddf3edbbb,MEV65115510,Insulator,etc.,active,MEV65115510 | Insulator | etc.
+part:773f84fce80796c9b61e,3300W1N003N,"Plate,Shield",etc.,active,"3300W1N003N | Plate,Shield | etc."
+part:93e7a6bfe13444d7db64,MDQ64176908,"Frame,Door",PD Part,active,"MDQ64176908 | Frame,Door | PD Part"
+part:294f2540a115e0161e03,MDQ64176907,"Frame,Door",PD Part,active,"MDQ64176907 | Frame,Door | PD Part"
+part:086284e53c82eadf0b26,RAA33996702,"Sheet,Steel(CR)",Raw Material,active,"RAA33996702 | Sheet,Steel(CR) | Raw Material"
+part:eff5360fa50103054c62,ADC30051603,"Door Assembly,Sub",Structure Assy,active,"ADC30051603 | Door Assembly,Sub | Structure Assy"
+part:d41782fe9e24cada293c,ADC30051612,"Door Assembly,Sub",Structure Assy,active,"ADC30051612 | Door Assembly,Sub | Structure Assy"
+part:f1050dfc69d16c8884d6,MCR68407013,"Decor,Front",PD Part,active,"MCR68407013 | Decor,Front | PD Part"
+part:0402e0e20c933902d14c,MCR68407018,"Decor,Front",PD Part,active,"MCR68407018 | Decor,Front | PD Part"
+part:2a84b5978adcaab1ac31,RSH31009918,"Sheet,Steel(STS)",Raw Material,active,"RSH31009918 | Sheet,Steel(STS) | Raw Material"
+part:dbfa8ca78c46fdae0bd4,RSH31009919,"Sheet,Steel(STS)",Raw Material,active,"RSH31009919 | Sheet,Steel(STS) | Raw Material"
+part:89b4b46d79c9f8dc823b,RSH31009915,"Sheet,Steel(STS)",Raw Material,active,"RSH31009915 | Sheet,Steel(STS) | Raw Material"
+part:0a14aa90bffd1f729cbf,MKC65299621,"Window,Glass",etc.,active,"MKC65299621 | Window,Glass | etc."
+part:e62a08b331dec9e4c152,MKC65299631,"Window,Glass",etc.,active,"MKC65299631 | Window,Glass | etc."
+part:580faffda8763f8384c8,AKF74134905,Print Assembly,Printing Material,active,AKF74134905 | Print Assembly | Printing Material
+part:87188420301c3f404b27,AKF74134906,Print Assembly,Printing Material,active,AKF74134906 | Print Assembly | Printing Material
+part:c59f14c383813a79cd24,RAC32697304,Sealant,etc.,active,RAC32697304 | Sealant | etc.
+part:13fd11780a37d0657c7b,7250AL0033E,"Tape,Aluminum",etc.,active,"7250AL0033E | Tape,Aluminum | etc."
+part:b60da43ab62f40d4b584,ABL73661004,Camera Assembly,Structure Assy,active,ABL73661004 | Camera Assembly | Structure Assy
+part:73ba39ec408ac2da5d77,MJH66428101,"Supporter,Camera",MD Part,active,"MJH66428101 | Supporter,Camera | MD Part"
+part:7a3d680d25ac6b6b19f2,RAA36455302,"Resin,PET",Raw Material,active,"RAA36455302 | Resin,PET | Raw Material"
+part:40956fd9823e10ae87fe,EAV65044602,LED Assembly,Electronic Part,active,EAV65044602 | LED Assembly | Electronic Part
+part:bdf42b2404f53cb3ae5f,EAD66035713,"Harness,Single",Electronic Part,active,"EAD66035713 | Harness,Single | Electronic Part"
+part:30014f499c349ea761bb,EBR37926901,"PCB Assembly,Module",Electronic Part,active,"EBR37926901 | PCB Assembly,Module | Electronic Part"
+part:66c32846422a4eef4456,MCK71864801,"Cover,Camera",MD Part,active,"MCK71864801 | Cover,Camera | MD Part"
+part:22a056144dceb513480d,MKC55508802,"Window,Glass",etc.,active,"MKC55508802 | Window,Glass | etc."
+part:098968628dd1bf0046ae,RAB34872601,"Tape,Polyester",Raw Material,active,"RAB34872601 | Tape,Polyester | Raw Material"
+part:2128e4cdf6f547b24a50,4930JA3087B,"Holder,Pipe",MD Part,active,"4930JA3087B | Holder,Pipe | MD Part"
+part:a612129ac7b804021cbf,AED75497001,Handle Assembly,Structure Assy,active,AED75497001 | Handle Assembly | Structure Assy
+part:59c36cb8fc758c1cdf36,AED30154501,Handle Assembly,Structure Assy,active,AED30154501 | Handle Assembly | Structure Assy
+part:998c340e2de804b9704b,MEB65425201,"Handle,Door",MD Part,active,"MEB65425201 | Handle,Door | MD Part"
+part:81a7f7b02e743607650f,MEB30148401,"Handle,Door",MD Part,active,"MEB30148401 | Handle,Door | MD Part"
+part:69beafa70653bad537c1,MJH66311901,"Supporter,Handle (L)",MD Part,active,"MJH66311901 | Supporter,Handle (L) | MD Part"
+part:6737b1f6c36e76a55b51,MJH30064401,"Supporter,Handle (L)",MD Part,active,"MJH30064401 | Supporter,Handle (L) | MD Part"
+part:dbed4c7ee3e8b8873488,MJH30064402,"Supporter,Handle (R)",MD Part,active,"MJH30064402 | Supporter,Handle (R) | MD Part"
+part:1c5e310d04914eea25f5,MCR30088401,"Décor, Handle",MD Part,active,"MCR30088401 | Décor, Handle | MD Part"
+part:b8f00de0c9b8b4758a75,1SZZW2E001D,"Screw,Tapping",Fastener,active,"1SZZW2E001D | Screw,Tapping | Fastener"
+part:27eec2ab2f353c95f5ed,FAB30138105,"Screw,Set",,active,"FAB30138105 | Screw,Set"
+part:585245a5d741eff12dcc,MJH64673101,"Supporter,Handle",MD Part,active,"MJH64673101 | Supporter,Handle | MD Part"
+part:c413377d5e2f8e96eaad,MJH66410202,"Supporter,Handle",MD Part,active,"MJH66410202 | Supporter,Handle | MD Part"
+part:7c3c40d50c064c30e9d8,RAA00720004,"Resin,PBT",Raw Material,active,"RAA00720004 | Resin,PBT | Raw Material"
+part:353caf8b1440adccc5c8,1NZZW1N001B,"Nut,Customized",Fastener,active,"1NZZW1N001B | Nut,Customized | Fastener"
+part:3d898e189cb06bbd3883,MCK71457102,"Cover,Safety",PD Part,active,"MCK71457102 | Cover,Safety | PD Part"
+part:f000f3219715ebd76578,MCK71457101,"Cover,Safety",PD Part,active,"MCK71457101 | Cover,Safety | PD Part"
+part:463a960f1c0fb1995070,RAA31737262,"Coil,Steel(GI)",Raw Material,active,"RAA31737262 | Coil,Steel(GI) | Raw Material"
+part:1989049a121e27a0931c,1WZZW3Z003B,"Washer,Customized",Fastener,active,"1WZZW3Z003B | Washer,Customized | Fastener"
+part:e0072aeec152c03cd919,1SZZW5N001C,"Screw,Customized",Fastener,active,"1SZZW5N001C | Screw,Customized | Fastener"
+part:22d0f77c16925960fb93,MJB63190002,"Stopper,Handle",Fastener,active,"MJB63190002 | Stopper,Handle | Fastener"
+part:5b7e7fb59a6159ace352,1SBF0402418,"Screw,Taptite",Fastener,active,"1SBF0402418 | Screw,Taptite | Fastener"
+part:af832dde1d9165def7c6,MAB62761315,Angle,etc.,active,MAB62761315 | Angle | etc.
+part:9736de94e168ed56e5b3,RAB33679005,"Tape,Polyester",etc.,active,"RAB33679005 | Tape,Polyester | etc."
+part:2c729b176ea747064c12,4890W1N005A,"Window,Glass",,active,"4890W1N005A | Window,Glass"
+part:92b61d25fa919a736d24,MAZ64569701,"Bracket,Mount",PD Part,active,"MAZ64569701 | Bracket,Mount | PD Part"
+part:aac28c622e0700b27b45,RAA34017201,"Coil,Steel(GI)",Raw Material,active,"RAA34017201 | Coil,Steel(GI) | Raw Material"
+part:f7e53a75e96602933a9f,ACQ88365218,"Cover Assembly,Rear",Structure Assy,active,"ACQ88365218 | Cover Assembly,Rear | Structure Assy"
+part:a3549b37ad16c0f29e13,ACQ88365236,"Cover Assembly,Rear",Structure Assy,active,"ACQ88365236 | Cover Assembly,Rear | Structure Assy"
+part:ecac99285acbe1e133b2,MCK68473911,"Cover,Rear",PD Part,active,"MCK68473911 | Cover,Rear | PD Part"
+part:1c51614afd4991dd9161,MCK68473910,"Cover,Rear",PD Part,active,"MCK68473910 | Cover,Rear | PD Part"
+part:79bb1b5a095d0c118f86,RAA33956555,"Sheet,Steel(GI)",Raw Material,active,"RAA33956555 | Sheet,Steel(GI) | Raw Material"
+part:0f138a0a2cbb3871e738,MCK66822403,"Cover,Power Cord",PD Part,active,"MCK66822403 | Cover,Power Cord | PD Part"
+part:2f8bd60b0e9a9545d3f4,RAA31629024,"Coil,Steel(GI)",Raw Material,active,"RAA31629024 | Coil,Steel(GI) | Raw Material"
+part:a660f2436b821d078c55,MCQ67084407,Damper,etc.,active,MCQ67084407 | Damper | etc.
+part:bf6c976579a860ddd679,AGU74969430,"Plate Assembly,Upper",Structure Assy,active,"AGU74969430 | Plate Assembly,Upper | Structure Assy"
+part:ee1eb2514ff9da3d326b,AGU74969454,"Plate Assembly,Upper",Structure Assy,active,"AGU74969454 | Plate Assembly,Upper | Structure Assy"
+part:346cc850f318bd849a58,AGU75049029,"Plate Assembly,Upper",Structure Assy,active,"AGU75049029 | Plate Assembly,Upper | Structure Assy"
+part:2db39ec69a1fed6555f6,AGU75049048,"Plate Assembly,Upper",Structure Assy,active,"AGU75049048 | Plate Assembly,Upper | Structure Assy"
+part:7d6358a34b95de1ee0cb,AGU75630903,"Plate,Top",PD Part,active,"AGU75630903 | Plate,Top | PD Part"
+part:2f9de02046609db6786e,MGJ67703004,"Plate,Top",PD Part,active,"MGJ67703004 | Plate,Top | PD Part"
+part:74bed44fbcb1a1911f35,MGJ64431607,"Plate,Top",PD Part,active,"MGJ64431607 | Plate,Top | PD Part"
+part:1db3e80f230534441e7d,MGJ67703003,"Plate,Top",PD Part,active,"MGJ67703003 | Plate,Top | PD Part"
+part:f03f67f487be37656dd8,RAA33959106,"Sheet,Steel(GI)",Raw Material,active,"RAA33959106 | Sheet,Steel(GI) | Raw Material"
+part:893b01029b6bf8ca6f11,RSH31058001,"Sheet,Steel(GI)",Raw Material,active,"RSH31058001 | Sheet,Steel(GI) | Raw Material"
+part:ce9d9b9deda4cbca2608,MFZ67585201,"Packing,Gasket",etc.,active,"MFZ67585201 | Packing,Gasket | etc."
+part:a5cb5604a06817a9a6eb,MKC65339663,"Window,Glass",etc.,active,"MKC65339663 | Window,Glass | etc."
+part:11d8ccc79cc0d4efc50c,MKC65339687,"Window,Glass",etc.,active,"MKC65339687 | Window,Glass | etc."
+part:01880f3b777809be602d,AKF74335532,Print Assembly,etc.,active,AKF74335532 | Print Assembly | etc.
+part:410d45bcc9017d2f5221,AKF74335554,Print Assembly,etc.,active,AKF74335554 | Print Assembly | etc.
+part:ffd57eb43502eea8878f,ABQ75783326,"Case Assembly,Sub",Structure Assy,active,"ABQ75783326 | Case Assembly,Sub | Structure Assy"
+part:b920904fc6f16b114df4,ABQ75783334,"Case Assembly,Sub",Structure Assy,active,"ABQ75783334 | Case Assembly,Sub | Structure Assy"
+part:077f6d378a099c601a58,MGJ65186709,"Plate,Base",PD Part,active,"MGJ65186709 | Plate,Base | PD Part"
+part:c31b4d8f835c11b89b82,RAA31629763,"Sheet,Steel(GI)",Raw Material,active,"RAA31629763 | Sheet,Steel(GI) | Raw Material"
+part:5fcb4b0b9101301a872b,MJH66354602,"Supporter,PCB",MD Part,active,"MJH66354602 | Supporter,PCB | MD Part"
+part:04b745d8396e5879e494,8PPP0559001,"Resin,PP",Raw Material,active,"8PPP0559001 | Resin,PP | Raw Material"
+part:c5ab01964321ae3be8a4,MJH66354703,"Supporter,PCB",MD Part,active,"MJH66354703 | Supporter,PCB | MD Part"
+part:b2c80045b8fea49db829,MJH66354704,"Supporter,PCB",MD Part,active,"MJH66354704 | Supporter,PCB | MD Part"
+part:bff87539dd3322887c83,EAL62721101,Fan Module,Electronic Part,active,EAL62721101 | Fan Module | Electronic Part
+part:ef89ec3b1ad414d5000a,EAL62721104,Fan Module,Electronic Part,active,EAL62721104 | Fan Module | Electronic Part
+part:623336666c9482f8a66c,EBR32635105,"PCB Assembly,Inverter",Electronic Part,active,"EBR32635105 | PCB Assembly,Inverter | Electronic Part"
+part:700e8477769714d4e961,EBR43691801,"PCB Assembly,Inverter",Electronic Part,active,"EBR43691801 | PCB Assembly,Inverter | Electronic Part"
+part:2d56f2eea2570bda9f85,0RJ3901E472,"Resistor,Chip",etc.,active,"0RJ3901E472 | Resistor,Chip | etc."
+part:1ce109270c8df0515914,EAN65090201,"Resistor,Chip",etc.,active,"EAN65090201 | Resistor,Chip | etc."
+part:58d69bf352e18860e362,0RH2202L622,"Resistor,Chip",etc.,active,"0RH2202L622 | Resistor,Chip | etc."
+part:2dbfc7180f5f82f80a7b,0RH1502C422,"Resistor,Chip",etc.,active,"0RH1502C422 | Resistor,Chip | etc."
+part:2788b85134405e153653,0RH0202L622,"Resistor,Chip",etc.,active,"0RH0202L622 | Resistor,Chip | etc."
+part:a5dd686c7baffcb19cd8,EAE59211001,"Resistor,Chip",etc.,active,"EAE59211001 | Resistor,Chip | etc."
+part:fea136a5f67c66536a93,0RJ1202E472,"Resistor,Chip",etc.,active,"0RJ1202E472 | Resistor,Chip | etc."
+part:e4856729e0abc7a9e4ff,EBJ63370201,"Resistor,Chip",etc.,active,"EBJ63370201 | Resistor,Chip | etc."
+part:fa1e18b3535aabaf71e5,0RJ4303C477,"Resistor,Chip",etc.,active,"0RJ4303C477 | Resistor,Chip | etc."
+part:61a767925a448a1302cd,0CH1102K570,"Diode,Zener",etc.,active,"0CH1102K570 | Diode,Zener | etc."
+part:3bd5e9a333caa47a1ff6,EAH36664401,"Diode,Zener",etc.,active,"EAH36664401 | Diode,Zener | etc."
+part:15a74d4ff3f6f1e4ccd3,0RH3001C422,"Resistor,Chip",etc.,active,"0RH3001C422 | Resistor,Chip | etc."
+part:96ea383967d045f9ff94,0RH1001C422,"Resistor,Chip",etc.,active,"0RH1001C422 | Resistor,Chip | etc."
+part:dfd380b4c1fe4745b03a,0RH6800C422,"Resistor,Chip",etc.,active,"0RH6800C422 | Resistor,Chip | etc."
+part:a9bd97796a02b0526494,EBC00794102,"Resistor,Chip",etc.,active,"EBC00794102 | Resistor,Chip | etc."
+part:d4d96b812dcd4423f016,0RH2200L622,"Resistor,Chip",etc.,active,"0RH2200L622 | Resistor,Chip | etc."
+part:7de21d9e22a50c39b50d,EAE62771201,"Capacitor,AL,Radial",etc.,active,"EAE62771201 | Capacitor,AL,Radial | etc."
+part:59abeaee96feb3cec3fa,0CE226EK638,"Capacitor,AL,Radial",etc.,active,"0CE226EK638 | Capacitor,AL,Radial | etc."
+part:3a4cb5e19e9a4b94d10f,EAG63514501,"Diode,Schottky",etc.,active,"EAG63514501 | Diode,Schottky | etc."
+part:e1c72d1dbe3d3ceefa9a,EAH34081601,"Diode,Schottky",etc.,active,"EAH34081601 | Diode,Schottky | etc."
+part:314df1b8636210097453,EAE63746601,"Resistor,Chip",etc.,active,"EAE63746601 | Resistor,Chip | etc."
+part:4840b957b27ed5470e77,0RJ0222G676,"Resistor,Chip",etc.,active,"0RJ0222G676 | Resistor,Chip | etc."
+part:350401aa2946eaae00e8,0RJ0472D677,"Resistor,Chip",etc.,active,"0RJ0472D677 | Resistor,Chip | etc."
+part:f7cf6e0960925244e1e6,EBC34654803,"Resistor,Chip",etc.,active,"EBC34654803 | Resistor,Chip | etc."
+part:67a9ff2952634d685618,0RH8200C622,"Capacitor,Ceramic,Chip",etc.,active,"0RH8200C622 | Capacitor,Ceramic,Chip | etc."
+part:0a9092badd9cc4f71907,EAE66061601,"Resistor,Chip",etc.,active,"EAE66061601 | Resistor,Chip | etc."
+part:f5a18b209d0c097067a5,0RH1000C622,"Resistor,Chip",etc.,active,"0RH1000C622 | Resistor,Chip | etc."
+part:9c60792f39768e0e50a1,0RJ2002D477,"IC,Analog Switch",etc.,active,"0RJ2002D477 | IC,Analog Switch | etc."
+part:b4bd076666b836c31e18,0RH3302C422,"Resistor,Chip",etc.,active,"0RH3302C422 | Resistor,Chip | etc."
+part:1705d3d18376658bb070,EBC61056801,"Resistor,Chip",etc.,active,"EBC61056801 | Resistor,Chip | etc."
+part:4d3f83c21a0a1c075375,EAE36515701,"Capacitor,Ceramic,Chip",etc.,active,"EAE36515701 | Capacitor,Ceramic,Chip | etc."
+part:ae657ab161bb810c9e48,EAE62887008,"Capacitor,Ceramic,Chip",etc.,active,"EAE62887008 | Capacitor,Ceramic,Chip | etc."
+part:7234b225359329122541,0RJ0102E672,"Resistor,Chip",etc.,active,"0RJ0102E672 | Resistor,Chip | etc."
+part:0f63e296769055997542,EBC33709001,"Resistor,Chip",etc.,active,"EBC33709001 | Resistor,Chip | etc."
+part:648091f1bf6c641c6db7,0RH8202C422,"Resistor,Chip",etc.,active,"0RH8202C422 | Resistor,Chip | etc."
+part:1992bfe09bd13f342e46,0RH3302L422,"Resistor,Chip",etc.,active,"0RH3302L422 | Resistor,Chip | etc."
+part:7d662860a43ebd3fca7f,0RJ5103C677,"Resistor,Chip",etc.,active,"0RJ5103C677 | Resistor,Chip | etc."
+part:94b05654159edd03268b,0RH4702C422,"Resistor,Chip",etc.,active,"0RH4702C422 | Resistor,Chip | etc."
+part:6880bb16d4582aaefe3a,6322A00028A,"Thermistor,NTC",etc.,active,"6322A00028A | Thermistor,NTC | etc."
+part:0fbb935ebef06c9045ab,EAE64708301,"Capacitor,AL,Radial",etc.,active,"EAE64708301 | Capacitor,AL,Radial | etc."
+part:dfde55d25a2f36577d00,0RH1004E622,"Resistor,Chip",etc.,active,"0RH1004E622 | Resistor,Chip | etc."
+part:23f0ef8289f551e741e3,0RJ1101D477,"IC,OP Amplifier",etc.,active,"0RJ1101D477 | IC,OP Amplifier | etc."
+part:7ed0b024bb1083cd7674,EAN65826701,"IC,OP Amplifier",etc.,active,"EAN65826701 | IC,OP Amplifier | etc."
+part:df771dca3a5da9950bfa,EBC65115801,"Resistor,Chip",etc.,active,"EBC65115801 | Resistor,Chip | etc."
+part:348eec73c09a205410f6,0RH4701C622,"Resistor,Chip",etc.,active,"0RH4701C622 | Resistor,Chip | etc."
+part:5efabab2938319a77479,0RJ6801C477,"Resistor,Chip",etc.,active,"0RJ6801C477 | Resistor,Chip | etc."
+part:3439c87ac3a2d82997f1,EBC65699202,"Transformer,Switching",etc.,active,"EBC65699202 | Transformer,Switching | etc."
+part:01c073af6f85246b1063,EAE38956701,"Capacitor,Ceramic,Radial",etc.,active,"EAE38956701 | Capacitor,Ceramic,Radial | etc."
+part:8f498fc82cc089524974,0TR387509AB,"Resistor,Chip",etc.,active,"0TR387509AB | Resistor,Chip | etc."
+part:c9411cc43ed9012d9b42,0RJ2700E622,"Resistor,Chip",etc.,active,"0RJ2700E622 | Resistor,Chip | etc."
+part:43a355a3f963d76b7e05,EAE63688401,"TR,Bipolar",etc.,active,"EAE63688401 | TR,Bipolar | etc."
+part:eedc3488772fe48c8d43,0TR387609BA,"TR,Bipolar",etc.,active,"0TR387609BA | TR,Bipolar | etc."
+part:853cfad7e4b2d61ea630,0RH0472G622,"Capacitor,Ceramic,Chip",etc.,active,"0RH0472G622 | Capacitor,Ceramic,Chip | etc."
+part:f32a5d514f456549c632,0RJ1503G676,"Resistor,Chip",etc.,active,"0RJ1503G676 | Resistor,Chip | etc."
+part:865ab651e0c2fc1c95bc,EAE64484301,"Connector,Terminal Block",etc.,active,"EAE64484301 | Connector,Terminal Block | etc."
+part:256bd21ec6b5b126e16b,EAG66715803,"Connector,Terminal Block",etc.,active,"EAG66715803 | Connector,Terminal Block | etc."
+part:189e54c25b4a8e8ad9d1,0RH2003L422,"Resistor,Chip",etc.,active,"0RH2003L422 | Resistor,Chip | etc."
+part:d94d009aef61c62f7421,EAN66353601,"Connector,Wafer",etc.,active,"EAN66353601 | Connector,Wafer | etc."
+part:f231dba9ced0fdfb934f,0ILNRTO003A,"Capacitor,Ceramic,Chip",etc.,active,"0ILNRTO003A | Capacitor,Ceramic,Chip | etc."
+part:f611c13b62c573ac81fe,EAE63642501,"Capacitor,Ceramic,Chip",etc.,active,"EAE63642501 | Capacitor,Ceramic,Chip | etc."
+part:9b54fd6da026d1ae2a61,EAG62831901,"Resistor,Chip",etc.,active,"EAG62831901 | Resistor,Chip | etc."
+part:bfb2f0cab89930c26d26,0RJ1500D677,"Resistor,Chip",etc.,active,"0RJ1500D677 | Resistor,Chip | etc."
+part:186e64a45f00c46ee231,EAE64502601,"Capacitor,Ceramic,Chip",etc.,active,"EAE64502601 | Capacitor,Ceramic,Chip | etc."
+part:1e8f4f1d4738b2cc89ab,EAN66358101,"Resistor,Chip",etc.,active,"EAN66358101 | Resistor,Chip | etc."
+part:5f29e2ae2ed77971c3b6,0RH5101C422,"Resistor,Chip",etc.,active,"0RH5101C422 | Resistor,Chip | etc."
+part:79019584fe84ea005027,EBC65115701,"Capacitor,Film,Box",etc.,active,"EBC65115701 | Capacitor,Film,Box | etc."
+part:6e63d8546364418d3e00,EAE66272902,"Capacitor,Ceramic,Chip",etc.,active,"EAE66272902 | Capacitor,Ceramic,Chip | etc."
+part:3f198decbdd1f1ba9e9f,0RH1004C622,"Resistor,Chip",etc.,active,"0RH1004C622 | Resistor,Chip | etc."
+part:85a856d42e6261289e1f,0ILNRKE003A,"Capacitor,Ceramic,Chip",etc.,active,"0ILNRKE003A | Capacitor,Ceramic,Chip | etc."
+part:694ba0a5ad0c163cdebb,EAE63746701,"Capacitor,Ceramic,Chip",etc.,active,"EAE63746701 | Capacitor,Ceramic,Chip | etc."
+part:8b42cfde7b6eaf242da0,0RJ0472E672,"Resistor,Chip",etc.,active,"0RJ0472E672 | Resistor,Chip | etc."
+part:776e5054a685491bb9c7,0CG2220U630,"Capacitor,Ceramic,Radial,Y-Cap",etc.,active,"0CG2220U630 | Capacitor,Ceramic,Radial,Y-Cap | etc."
+part:f58dc36f6adbba9b276e,0CE687EHK18,IGBT,etc.,active,0CE687EHK18 | IGBT | etc.
+part:239c809526021d2038c5,EBK63692701,IGBT,etc.,active,EBK63692701 | IGBT | etc.
+part:17af17e13b5334408c35,EAE63687101,"Resistor,Chip",etc.,active,"EAE63687101 | Resistor,Chip | etc."
+part:e1fd3040864dff973a74,EBC40096901,"Resistor,Chip",etc.,active,"EBC40096901 | Resistor,Chip | etc."
+part:bb8e12888a2065243f5f,EAH64794401,"Thermistor,NTC",etc.,active,"EAH64794401 | Thermistor,NTC | etc."
+part:5e743c443b40ea48e79b,EBG61365801,"Thermistor,NTC",etc.,active,"EBG61365801 | Thermistor,NTC | etc."
+part:56d791b811153a561f13,0RJ1001C677,"Resistor,Chip",etc.,active,"0RJ1001C677 | Resistor,Chip | etc."
+part:4be857ad077106c61d64,0RH6201C422,"Resistor,Chip",etc.,active,"0RH6201C422 | Resistor,Chip | etc."
+part:b4bd6d8bd66d6a884018,0CE477EH618,"Capacitor,AL,Radial",etc.,active,"0CE477EH618 | Capacitor,AL,Radial | etc."
+part:e0f24b8881ee02dbfc39,0RJ1002G676,"Connector,Wafer",etc.,active,"0RJ1002G676 | Connector,Wafer | etc."
+part:f9d9084f348bc4dcd8a2,6630AQ9113C,"Connector,Wafer",etc.,active,"6630AQ9113C | Connector,Wafer | etc."
+part:0ad82090349284f2a1af,EAG41647505,"Resistor,Chip",etc.,active,"EAG41647505 | Resistor,Chip | etc."
+part:31fc3e989ba22fbc0b81,EBC65035601,"Capacitor,Film,Box",etc.,active,"EBC65035601 | Capacitor,Film,Box | etc."
+part:1d3c032c74befc1c760c,EAE65253801,"Capacitor,Film,Box",etc.,active,"EAE65253801 | Capacitor,Film,Box | etc."
+part:168880df750519504e02,EAE33984601,"Resistor,Chip",etc.,active,"EAE33984601 | Resistor,Chip | etc."
+part:d19c0a63bc56c94a69e8,EAW63184101,"Resonator,Ceramic",etc.,active,"EAW63184101 | Resonator,Ceramic | etc."
+part:23b671fe061460429799,EAG62569901,"Connector,Wafer",etc.,active,"EAG62569901 | Connector,Wafer | etc."
+part:dad28bdf82ad3fb853c2,0RH4700C622,"Resistor,Chip",etc.,active,"0RH4700C622 | Resistor,Chip | etc."
+part:5db28776b8ab528abb49,0RJ5601D477,"Resistor,Chip",etc.,active,"0RJ5601D477 | Resistor,Chip | etc."
+part:0069189b44c4418a7e4e,0RJ0102D477,"Resistor,Chip",etc.,active,"0RJ0102D477 | Resistor,Chip | etc."
+part:012ca5f85626ab66fbdb,EAE64202901,"Capacitor,Ceramic,Chip",etc.,active,"EAE64202901 | Capacitor,Ceramic,Chip | etc."
+part:e2be0a39775dc837b103,EAE66255805,"Diode,Rectifier",etc.,active,"EAE66255805 | Diode,Rectifier | etc."
+part:a0a97d1bb64d6341500c,EAN66074801,"Capacitor,AL,Radial",etc.,active,"EAN66074801 | Capacitor,AL,Radial | etc."
+part:ef92c3d1b1935b9ac821,0RH1203C422,"Resistor,Chip",etc.,active,"0RH1203C422 | Resistor,Chip | etc."
+part:15e8b8190f810e134b92,0RJ1200G676,"Resistor,Chip",etc.,active,"0RJ1200G676 | Resistor,Chip | etc."
+part:894573a7043817839597,0RH5102C422,"IC,D/A Converter",etc.,active,"0RH5102C422 | IC,D/A Converter | etc."
+part:52c97391d5ef82b60da3,EAN63488601,"IC,D/A Converter",etc.,active,"EAN63488601 | IC,D/A Converter | etc."
+part:4bb30b9a14282072cb50,EBC63777001,"Diode,Rectifier",etc.,active,"EBC63777001 | Diode,Rectifier | etc."
+part:72670e2e3924474b5f34,EAH32035301,"Diode,Rectifier",etc.,active,"EAH32035301 | Diode,Rectifier | etc."
+part:f76b0caad66f7dd3a076,0DRVH00088A,"TR,Bipolar",etc.,active,"0DRVH00088A | TR,Bipolar | etc."
+part:065abecd8771132c76c7,EBK64012901,"Resistor,Chip",etc.,active,"EBK64012901 | Resistor,Chip | etc."
+part:61d5b0db08dee4d80643,0RH2202C422,"Capacitor,Ceramic,Chip",etc.,active,"0RH2202C422 | Capacitor,Ceramic,Chip | etc."
+part:ed20683e2b33e323469d,EAE63202901,"Capacitor,Ceramic,Chip",etc.,active,"EAE63202901 | Capacitor,Ceramic,Chip | etc."
+part:a3a800f806a42f2b23ca,0RH1002C422,"Resistor,Chip",etc.,active,"0RH1002C422 | Resistor,Chip | etc."
+part:a4ac5f3618e1feffc7c9,EAX69564501,"Diode,Rectifier",etc.,active,"EAX69564501 | Diode,Rectifier | etc."
+part:e8f2bb7be8818afcbdfc,EBJ64462301,"Transformer,Switching",etc.,active,"EBJ64462301 | Transformer,Switching | etc."
+part:c24a8f6fbcb73716c752,EAG34656001,"Capacitor,AL,Radial",etc.,active,"EAG34656001 | Capacitor,AL,Radial | etc."
+part:ce9c9b6212c02de7ed25,EAE63688001,"Fuse,Time Delay",etc.,active,"EAE63688001 | Fuse,Time Delay | etc."
+part:cf94bc7458cb5d0a5af8,0RH8201C422,"Diode,Switching",etc.,active,"0RH8201C422 | Diode,Switching | etc."
+part:17cb3ff21fa2b3ab443f,0DRVH00238A,"IC,Power Driver",etc.,active,"0DRVH00238A | IC,Power Driver | etc."
+part:333164c9783b9438564c,EAH65082502,"Diode,Bridge",etc.,active,"EAH65082502 | Diode,Bridge | etc."
+part:2b6ae16f0d71868ccb02,4B75687A,"Connector,Wafer",etc.,active,"4B75687A | Connector,Wafer | etc."
+part:52e50a908cf6647876b2,EAE65253701,"Capacitor,Ceramic,Chip",etc.,active,"EAE65253701 | Capacitor,Ceramic,Chip | etc."
+part:4e314a4465b6d071c0d6,MED65484602,PCB,etc.,active,MED65484602 | PCB | etc.
+part:c390a5d6542746a6fe44,EAX70079201,PCB,etc.,active,EAX70079201 | PCB | etc.
+part:64c3b16bfc7749fafc1e,RAB34529703,"Photo,Coupler",etc.,active,"RAB34529703 | Photo,Coupler | etc."
+part:33ccaad44e6c40c53d35,EAV65022601,"Photo,Coupler",etc.,active,"EAV65022601 | Photo,Coupler | etc."
+part:1045ff1bf5cd9662d114,0RH0000C622,"Resistor,Chip",etc.,active,"0RH0000C622 | Resistor,Chip | etc."
+part:66958002958e1ff35173,FAB34973901,"Capacitor,Film,Box",etc.,active,"FAB34973901 | Capacitor,Film,Box | etc."
+part:4ccedec26cea1bda1793,SS0000008AA,"Capacitor,Film,Box",etc.,active,"SS0000008AA | Capacitor,Film,Box | etc."
+part:9c06f0f433e08a21c461,RAC31704501,"Connector,Terminal",etc.,active,"RAC31704501 | Connector,Terminal | etc."
+part:ea781ce7b435bef9eec7,7245TZZ009A,Heat Sink,etc.,active,7245TZZ009A | Heat Sink | etc.
+part:fefd082699963724f7d9,SAA44657301,"Film,Polyimide",etc.,active,"SAA44657301 | Film,Polyimide | etc."
+part:379b62dfe59c74f937f3,0TR222209AB,Flux,etc.,active,0TR222209AB | Flux | etc.
+part:a7c7a0748940058b3bd2,SAA44943201,"S/W,Micom(Inv)",etc.,active,"SAA44943201 | S/W,Micom(Inv) | etc."
+part:24f945d25820f3bf2a96,EAV65093201,"Coil,Chip",etc.,active,"EAV65093201 | Coil,Chip | etc."
+part:e69cd19a3b351f6b179e,EAP63106004,"Coil,Chip",etc.,active,"EAP63106004 | Coil,Chip | etc."
+part:a7b47d85b4c295f78c5e,EBB61801402,"Relay,Contact",etc.,active,"EBB61801402 | Relay,Contact | etc."
+part:5c772023cf34fc816f14,EBR32635106,"PCB Assembly,Inverter",Electronic Part,active,"EBR32635106 | PCB Assembly,Inverter | Electronic Part"
+part:29dfb9e70cd68af00fb5,EBR39201102,"PCB Assembly,Filter",Electronic Part,active,"EBR39201102 | PCB Assembly,Filter | Electronic Part"
+part:a1fb6c7f85e5ffb9a01d,EAX70034801,PCB,etc.,active,EAX70034801 | PCB | etc.
+part:bc3a2eacafc1d28c798b,EAM65010211,"Filter,Line Noise",etc.,active,"EAM65010211 | Filter,Line Noise | etc."
+part:d0d64ac7ed6d7ac02419,EAE65001501,"Capacitor,Film,Box",etc.,active,"EAE65001501 | Capacitor,Film,Box | etc."
+part:c7ddcb69641540893f0a,EAM65010203,"Filter,Line Noise",etc.,active,"EAM65010203 | Filter,Line Noise | etc."
+part:2d8a62637820792776e6,EAF63190501,Varistor,etc.,active,EAF63190501 | Varistor | etc.
+part:0fc71d2243d548f5502d,6102W5V005A,Varistor,etc.,active,6102W5V005A | Varistor | etc.
+part:1e693b763281dcea0b55,EAM65010212,"Filter,Line Noise",etc.,active,"EAM65010212 | Filter,Line Noise | etc."
+part:e9ea35cdd31f68a3d669,EAF62710001,"Spark Gap,Radial",etc.,active,"EAF62710001 | Spark Gap,Radial | etc."
+part:f8b8c5b112a21b94e585,EAF64311702,"Fuse,Time Delay",etc.,active,"EAF64311702 | Fuse,Time Delay | etc."
+part:4083333e142afecdfab1,EAG66715802,"Connector,Terminal Block",etc.,active,"EAG66715802 | Connector,Terminal Block | etc."
+part:84ec0c15c1981e0dd6fd,6102JB8001A,Varistor,etc.,active,6102JB8001A | Varistor | etc.
+part:2f15f8c60ea1a0ef86c2,EAE64482501,"Capacitor,Film,Box",etc.,active,"EAE64482501 | Capacitor,Film,Box | etc."
+part:e17eec2fde4fd95292e3,MJU42114601,"Tube,Vinyl",etc.,active,"MJU42114601 | Tube,Vinyl | etc."
+part:76926ec1786029b25260,EBC31763104,"Resistor,Surge",etc.,active,"EBC31763104 | Resistor,Surge | etc."
+part:c409da6745dca748314b,EBR42385401,"PCB Assembly,Filter",Electronic Part,active,"EBR42385401 | PCB Assembly,Filter | Electronic Part"
+part:037bf4d0cc1bc7d5fe7c,EAX70202501,PCB,etc.,active,EAX70202501 | PCB | etc.
+part:0d41ab0544f6754b5019,EAH62315901,"Diode,Rectifier",etc.,active,"EAH62315901 | Diode,Rectifier | etc."
+part:89d83a0f2550acf85620,6630A90002A,"Connector,Wafer",etc.,active,"6630A90002A | Connector,Wafer | etc."
+part:2eb392a8a278abfc26cb,EAM65010210,"Filter,Line Noise",etc.,active,"EAM65010210 | Filter,Line Noise | etc."
+part:1bf025cbec0b802ba1d0,EAM65010205,"Filter,Line Noise",etc.,active,"EAM65010205 | Filter,Line Noise | etc."
+part:ccf52aa1579384fb9282,SS0000019AA,Solder Soldering,etc.,active,SS0000019AA | Solder Soldering | etc.
+part:abd1a8bc45029d91c5e3,MJU42114602,"Tube,Vinyl",etc.,active,"MJU42114602 | Tube,Vinyl | etc."
+part:d0e3ad99db935b783816,EBR42643503,"PCB Assembly,Main",Electronic Part,active,"EBR42643503 | PCB Assembly,Main | Electronic Part"
+part:35f64a75990eedafa291,EBR42643510,"PCB Assembly,Main",Electronic Part,active,"EBR42643510 | PCB Assembly,Main | Electronic Part"
+part:2d74d40174d93a314df1,0CC103BK5BA,"IC,Voltage Detector",etc.,active,"0CC103BK5BA | IC,Voltage Detector | etc."
+part:999ebd1cadc2454666b6,0ISTLKE003A,"IC,Voltage Detector",etc.,active,"0ISTLKE003A | IC,Voltage Detector | etc."
+part:28be00d6c94e73c733bd,0CE1056K638,"Capacitor,Ceramic,Chip",etc.,active,"0CE1056K638 | Capacitor,Ceramic,Chip | etc."
+part:aff4deb3b148c55b119e,0CE1071D638,"Capacitor,Ceramic,Chip",etc.,active,"0CE1071D638 | Capacitor,Ceramic,Chip | etc."
+part:4f4e24c2836b4abfaea6,0CE227EH638,"Resistor,Chip",etc.,active,"0CE227EH638 | Resistor,Chip | etc."
+part:6cf94470c0022f441cc2,0CE4761K638,"Resistor,Chip",etc.,active,"0CE4761K638 | Resistor,Chip | etc."
+part:bf804fe4e826c9f1a146,EAG64310005,"Connector,Wafer",etc.,active,"EAG64310005 | Connector,Wafer | etc."
+part:556c4cf49cef4230aec9,0TFON80006A,FET,etc.,active,0TFON80006A | FET | etc.
+part:faba1bfef9d43fb6157e,0RH1001G622,"Resistor,Chip",etc.,active,"0RH1001G622 | Resistor,Chip | etc."
+part:02381951b306f6467719,EAG62831915,"Connector,Wafer",etc.,active,"EAG62831915 | Connector,Wafer | etc."
+part:1212be425f5271964e9e,0RH1004L622,"Relay,Contact",etc.,active,"0RH1004L622 | Relay,Contact | etc."
+part:01d2abcef05cb9410947,0RH2000L622,"Connector,Wafer",etc.,active,"0RH2000L622 | Connector,Wafer | etc."
+part:30e550b99328ff7f266a,EAG41647509,"Connector,Wafer",etc.,active,"EAG41647509 | Connector,Wafer | etc."
+part:2048821d36ece7d7731d,EAN62123801,"IC,Microcontrollers",etc.,active,"EAN62123801 | IC,Microcontrollers | etc."
+part:4f6ede5170b56f44e1db,0RH3300L622,"Connector,Wafer",etc.,active,"0RH3300L622 | Connector,Wafer | etc."
+part:341bfd07de2149263fdd,0RH4702C622,"Connector,Wafer",etc.,active,"0RH4702C622 | Connector,Wafer | etc."
+part:45416130bb9cc7f62bd9,EAG41647503,"Connector,Wafer",etc.,active,"EAG41647503 | Connector,Wafer | etc."
+part:fed562a9aea9666ac39f,0RH5101L622,"Capacitor,Ceramic,Chip",etc.,active,"0RH5101L622 | Capacitor,Ceramic,Chip | etc."
+part:4703fa12d7d9bc923d32,EAB62848203,"Buzzer,Piezo",etc.,active,"EAB62848203 | Buzzer,Piezo | etc."
+part:f533f27cdc5afd783084,0TR150509AC,"Connector,Wafer",etc.,active,"0TR150509AC | Connector,Wafer | etc."
+part:f92d36e9cd937bdf1fad,6630A90002S,"Connector,Wafer",etc.,active,"6630A90002S | Connector,Wafer | etc."
+part:79296c26479158f9dd7c,0TR166608AA,"Resistor,Chip",etc.,active,"0TR166608AA | Resistor,Chip | etc."
+part:af1bb383198a986a7353,6212W5A0001,"Resistor,Chip",etc.,active,"6212W5A0001 | Resistor,Chip | etc."
+part:0c3ccf3a861fef66211f,EAG62831905,"Capacitor,AL,Radial",etc.,active,"EAG62831905 | Capacitor,AL,Radial | etc."
+part:9274474505ae3e932101,EAG63270203,"TR,Bipolar",etc.,active,"EAG63270203 | TR,Bipolar | etc."
+part:8b19e72d719de5584b7b,EAP63106001,"Coil,Chip",etc.,active,"EAP63106001 | Coil,Chip | etc."
+part:1aaa35b5c4a9e7a0f9cd,EBC62156601,"Resistor,Chip",etc.,active,"EBC62156601 | Resistor,Chip | etc."
+part:4acae7d1bc913d1f4a69,EAX69877202,"PCB,Main",etc.,active,"EAX69877202 | PCB,Main | etc."
+part:e3f6c6d50c0d240c2b8d,EAX70237401,"PCB,Main",etc.,active,"EAX70237401 | PCB,Main | etc."
+part:101f39d548a8b351f307,SAA44914401,"S/W,Micom(Main)",etc.,active,"SAA44914401 | S/W,Micom(Main) | etc."
+part:a2b748006028f334ae09,SAA44886301,"S/W,Micom(Main)",etc.,active,"SAA44886301 | S/W,Micom(Main) | etc."
+part:5636de3196942c08e582,EAD63828206,"Harness,Single",Electronic Part,active,"EAD63828206 | Harness,Single | Electronic Part"
+part:9af7f179b10fdf3b55ec,EAD63891804,"Harness,Single",Electronic Part,active,"EAD63891804 | Harness,Single | Electronic Part"
+part:79322cc994fb1109b49a,EAD63891809,"Harness,Single",Electronic Part,active,"EAD63891809 | Harness,Single | Electronic Part"
+part:e9e88697ecaef29caced,EAD63828208,"Harness,Single",Electronic Part,active,"EAD63828208 | Harness,Single | Electronic Part"
+part:3adf2a647f7e1b509b41,EAD63828211,"Harness,Single",Electronic Part,active,"EAD63828211 | Harness,Single | Electronic Part"
+part:8a4bc4f721eade65fb24,EAD63828209,"Harness,Single",Electronic Part,active,"EAD63828209 | Harness,Single | Electronic Part"
+part:3827a949a50baa7eb905,EAD63828212,"Harness,Single",Electronic Part,active,"EAD63828212 | Harness,Single | Electronic Part"
+part:6333daaf49d8ed204fed,MCK71655903,"Cover,Guide",MD Part,active,"MCK71655903 | Cover,Guide | MD Part"
+part:e05b87b5ecc62d9db239,MCK71655904,"Cover,Guide",MD Part,active,"MCK71655904 | Cover,Guide | MD Part"
+part:99e2bc8d0d0890d5489c,MEV67766102,Insulator,PD Part,active,MEV67766102 | Insulator | PD Part
+part:7d90c616609d5f45584c,MEV67812801,Insulator,PD Part,active,MEV67812801 | Insulator | PD Part
+part:94acbc61885c8f4640af,MEV65915404,Insulator,PD Part,active,MEV65915404 | Insulator | PD Part
+part:e8d54ab8f19c48a8b7de,MCK69254301,"Cover,LED",MD Part,active,"MCK69254301 | Cover,LED | MD Part"
+part:2381f0c51789d9d1ca66,MCK69628901,"Cover,LED",MD Part,active,"MCK69628901 | Cover,LED | MD Part"
+part:9cbfddcfd9ac13059bb4,EBR30825303,"PCB Assembly,Display",Electronic Part,active,"EBR30825303 | PCB Assembly,Display | Electronic Part"
+part:d788468e19aac553b80b,EAD64867303,"Harness,Single",Electronic Part,active,"EAD64867303 | Harness,Single | Electronic Part"
+part:45bb77dcc4b9b8305d5f,EBR30825210,"PCB Assembly,Display",Electronic Part,active,"EBR30825210 | PCB Assembly,Display | Electronic Part"
+part:94112278a63fad88de87,EAD64867302,"Harness,Single",Electronic Part,active,"EAD64867302 | Harness,Single | Electronic Part"
+part:8926adcd669a06fac77a,EBR30825207,"PCB Assembly,Display",Electronic Part,active,"EBR30825207 | PCB Assembly,Display | Electronic Part"
+part:b3831084c03307cf02bd,EAD64867305,"Harness,Single",Electronic Part,active,"EAD64867305 | Harness,Single | Electronic Part"
+part:82d33f297cef4df4742d,MCK69628801,"Cover,Display",etc.,active,"MCK69628801 | Cover,Display | etc."
+part:fdb980a66c7e6cfc6a5a,MFZ65234604,"Packing,Gasket",MD Part,active,"MFZ65234604 | Packing,Gasket | MD Part"
+part:cb07734e282283a4f5b0,MCK69262801,"Cover,Display",etc.,active,"MCK69262801 | Cover,Display | etc."
+part:e0dd982b47b4a67888f2,MFZ65234602,"Packing,Gasket",MD Part,active,"MFZ65234602 | Packing,Gasket | MD Part"
+part:e76b32325f7128a72c7d,MEE63565005,"Heater,Working Coil",Electronic Part,active,"MEE63565005 | Heater,Working Coil | Electronic Part"
+part:ff347358bca5eb02f0ec,MAM64663902,"Base,Heater",MD Part,active,"MAM64663902 | Base,Heater | MD Part"
+part:31cf6dc4c4253a41dbea,MEE64289102,"Heater,Working Coil",Electronic Part,active,"MEE64289102 | Heater,Working Coil | Electronic Part"
+part:41207f77c4d9768f231b,MAM66008601,"Base,Heater",MD Part,active,"MAM66008601 | Base,Heater | MD Part"
+part:aa091b75c3de352bcf0b,MEE64286702,"Heater,Working Coil",Electronic Part,active,"MEE64286702 | Heater,Working Coil | Electronic Part"
+part:58625afd952a36b5342c,MAM65994801,"Base,Heater",MD Part,active,"MAM65994801 | Base,Heater | MD Part"
+part:6f41326e084a3ce1cb71,RAB36941502,"Magnet,Ferrite",etc.,active,"RAB36941502 | Magnet,Ferrite | etc."
+part:0aaf9c1852e8a78cad92,AEG33897014,Heater Assembly,Electronic Part,active,AEG33897014 | Heater Assembly | Electronic Part
+part:19802a0c1aa8c91af237,EAD63892018,"Cable,Assembly",Electronic Part,active,"EAD63892018 | Cable,Assembly | Electronic Part"
+part:789abb7c31549d75bca3,EAD63892019,"Cable,Assembly",MD Part,active,"EAD63892019 | Cable,Assembly | MD Part"
+part:239a58f9956fdd6de947,MFZ66982501,"Packing,Gasket",MD Part,active,"MFZ66982501 | Packing,Gasket | MD Part"
+part:f0580cbd9975c4660a0e,MFZ67172502,"Packing,Gasket",MD Part,active,"MFZ67172502 | Packing,Gasket | MD Part"
+part:97f101c3ac0bb758936f,RAB34974901,"Tape,Polyester",etc.,active,"RAB34974901 | Tape,Polyester | etc."
+part:aacc6173eb11e24f7921,FAB34981401,"Screw,Tapping",Fastener,active,"FAB34981401 | Screw,Tapping | Fastener"
+part:0ff605f257515088ee65,MDP63567001,Foot,etc.,active,MDP63567001 | Foot | etc.
+part:093eedc4937aae29586e,MEG64578801,"Holder,Wire",etc.,active,"MEG64578801 | Holder,Wire | etc."
+part:b12f7035362427a5627f,FAB30035003,"Screw,Customized",etc.,active,"FAB30035003 | Screw,Customized | etc."
+part:e1e1f5ae5f6e3def9aae,EAD63894301,"Harness,Single",Electronic Part,active,"EAD63894301 | Harness,Single | Electronic Part"
+part:66fd76a00201033408b2,MEV65897612,Insulator,etc.,active,MEV65897612 | Insulator | etc.
+part:b79fc8c41acbb7f592f3,MEV65897610,Insulator,etc.,active,MEV65897610 | Insulator | etc.
+part:19261d1bbb5e102157f9,MEV65897617,Insulator,etc.,active,MEV65897617 | Insulator | etc.
+part:c853e35938d1a611d530,MEV65897619,Insulator,etc.,active,MEV65897619 | Insulator | etc.
+part:758797105f64be5bf5fb,MAZ67664001,"Bracket,Mount",PD Part,active,"MAZ67664001 | Bracket,Mount | PD Part"
+part:76d909d88be18fc28e46,RCL30815201,"Coil,Steel(GI)",Raw Material,active,"RCL30815201 | Coil,Steel(GI) | Raw Material"
+part:6d23eebfac78770ebd02,MCK69124405,"Cover,Insulator",etc.,active,"MCK69124405 | Cover,Insulator | etc."
+part:f3f5f8764f838d25be9e,MCK69124403,"Cover,Insulator",etc.,active,"MCK69124403 | Cover,Insulator | etc."
+part:4ad4e8d105fd82cd572e,MBM67524701,"Card,User Guide",Printing Material,active,"MBM67524701 | Card,User Guide | Printing Material"
+part:f574ea7e92a2b38e9bf8,MBM67524706,"Card,User Guide",Printing Material,active,"MBM67524706 | Card,User Guide | Printing Material"
+part:0413840ac5cb31792a9d,RAB36916002,"Tape,PETP",etc.,active,"RAB36916002 | Tape,PETP | etc."
+part:cbb607b4b066f8045d20,MEZ68739402,"Label,Energy",Printing Material,active,"MEZ68739402 | Label,Energy | Printing Material"
+part:13fd6940a1007d63f55e,MFZ61951604,"Packing,Gasket",MD Part,active,"MFZ61951604 | Packing,Gasket | MD Part"
+part:8a6815962e7bb4cc34a1,MFZ67585101,"Packing,Gasket",MD Part,active,"MFZ67585101 | Packing,Gasket | MD Part"
+part:7298ebc6daa56b5e577f,ACM76191717,"Controller Assembly,Mechanical",Structure Assy,active,"ACM76191717 | Controller Assembly,Mechanical | Structure Assy"
+part:39a7b83702618d64959c,ACM76191722,"Controller Assembly,Mechanical",Structure Assy,active,"ACM76191722 | Controller Assembly,Mechanical | Structure Assy"
+part:b78a102637fa7d06ed1d,ACM76199001,"Controller Assembly,Sub",Structure Assy,active,"ACM76199001 | Controller Assembly,Sub | Structure Assy"
+part:57231381e0ddb000d6c9,ACM76218901,"Controller Assembly,Sub",Structure Assy,active,"ACM76218901 | Controller Assembly,Sub | Structure Assy"
+part:b02be880ff9ed74a3574,AJX75331109,"Window Assembly,Glass",Structure Assy,active,"AJX75331109 | Window Assembly,Glass | Structure Assy"
+part:711caaf037b513a56025,AJX75342701,"Window Assembly,Glass",Structure Assy,active,"AJX75342701 | Window Assembly,Glass | Structure Assy"
+part:b759a84129a5c56d3e00,MFM64499201,LCD Touch Panel,Electronic Part,active,MFM64499201 | LCD Touch Panel | Electronic Part
+part:6d042dca176384b83eaa,EAJ30079201,LCD Touch Panel,Electronic Part,active,EAJ30079201 | LCD Touch Panel | Electronic Part
+part:8455b74d84fa7e7ba512,MKC65459126,"Window,Glass",etc.,active,"MKC65459126 | Window,Glass | etc."
+part:35d15e4b94513fe0af02,MKC65459134,"Window,Glass",etc.,active,"MKC65459134 | Window,Glass | etc."
+part:03695ef7f50fe3afc5b3,AKF74335226,Print Assembly,Printing Material,active,AKF74335226 | Print Assembly | Printing Material
+part:e8fe63ff11f83967d0a2,AKF75732101,Print Assembly,Printing Material,active,AKF75732101 | Print Assembly | Printing Material
+part:691051f923bf127a150d,MJH66350801,"Supporter,PCB",MD Part,active,"MJH66350801 | Supporter,PCB | MD Part"
+part:7aae10de81c834c4e003,MJH66465801,"Supporter,PCB",MD Part,active,"MJH66465801 | Supporter,PCB | MD Part"
+part:13c9cdcbe770205f1e8d,RAA35359701,"Resin,PC",Raw Material,active,"RAA35359701 | Resin,PC | Raw Material"
+part:7c0ed06b260b0741ef17,7525000010A,Sealant,etc.,active,7525000010A | Sealant | etc.
+part:8e69df5504a4387d2796,0.0025,Sealant,etc.,active,0.0025 | Sealant | etc.
+part:ccd41b991c626e8d7310,EBR43884102,"PCB Assembly,Sub (Power 터치 키)",Electronic Part,active,"EBR43884102 | PCB Assembly,Sub (Power 터치 키) | Electronic Part"
+part:be8f2e72763a8223c680,EAV65008505,"Supporter Assembly,PCB",Electronic Assy,active,"EAV65008505 | Supporter Assembly,PCB | Electronic Assy"
+part:ff4c1ddb9130c0fed7b1,AJJ30042702,"Supporter Assembly,PCB",Electronic Assy,active,"AJJ30042702 | Supporter Assembly,PCB | Electronic Assy"
+part:176aa1db30edcd29f7b8,MJH66299501,"Supporter,PCB",MD Part,active,"MJH66299501 | Supporter,PCB | MD Part"
+part:0253a8db2ca59eaf5830,MJH66356502,"Supporter,PCB",MD Part,active,"MJH66356502 | Supporter,PCB | MD Part"
+part:584ebbbf684f1b97262f,EAV64012007,"PCB Assembly,Display",Electronic Part,active,"EAV64012007 | PCB Assembly,Display | Electronic Part"
+part:ed06e81b708ff2eab9d3,EBR25786002,"PCB Assembly,Display",Electronic Part,active,"EBR25786002 | PCB Assembly,Display | Electronic Part"
+part:97812737981f22d81735,MEZ67714710,"Label,Warning",,active,"MEZ67714710 | Label,Warning"
+part:93d174ae305f9e988fed,MJH66465901,"Supporter,PCB (Main)",MD Part,active,"MJH66465901 | Supporter,PCB (Main) | MD Part"
+part:b2a6178d3bb5ca66b802,EAD62349855,"Harness,Single (LCD / Main / Power Key)",Electronic Part,active,"EAD62349855 | Harness,Single (LCD / Main / Power Key) | Electronic Part"
+part:2a10e67fb8255c1aa9a8,EAD62349837,"Harness,Single (DQ1 ~ Main)",Electronic Part,active,"EAD62349837 | Harness,Single (DQ1 ~ Main) | Electronic Part"
+part:41e96a766d1134b444ae,EAD62349856,"Harness,Single (DQ1 ~ Main)",Electronic Part,active,"EAD62349856 | Harness,Single (DQ1 ~ Main) | Electronic Part"
+part:d0dbc9dd9ab2bb166006,EAD66035708,"Harness,Single (컨트롤러(DQ1/Main PCB) 카메라 하네스
+)",Electronic Part,active,"EAD66035708 | Harness,Single (컨트롤러(DQ1/Main PCB) 카메라 하네스
+) | Electronic Part"
+part:bdc8614d1832dda7b8ee,EBR42389101,"PCB Assembly,Main",Electronic Part,active,"EBR42389101 | PCB Assembly,Main | Electronic Part"
+part:d86776f3a33261636a59,EBR25867902,"PCB Assembly,Main",Electronic Part,active,"EBR25867902 | PCB Assembly,Main | Electronic Part"
+part:719208b641b5ac617c6a,EBC65441803,"Resistor,Chip",etc.,active,"EBC65441803 | Resistor,Chip | etc."
+part:f588847abd479fd489c0,0RJ2200D677,"Resistor,Chip",etc.,active,"0RJ2200D677 | Resistor,Chip | etc."
+part:ff3ccf8f46c7fa54fcb8,EAG64310004,"Connector,Wafer",etc.,active,"EAG64310004 | Connector,Wafer | etc."
+part:d20a25ac1875ca42aa79,0IKE358000C,"IC,OP Amplifier",etc.,active,"0IKE358000C | IC,OP Amplifier | etc."
+part:2e833f739ccdc1acf47e,0RH3901C422,"Resistor,Chip",etc.,active,"0RH3901C422 | Resistor,Chip | etc."
+part:98672db547eca165ef16,6630A90002C,"Connector,Wafer",etc.,active,"6630A90002C | Connector,Wafer | etc."
+part:a7578e28608a640f240e,6630W5V012F,"Connector,Wafer",etc.,active,"6630W5V012F | Connector,Wafer | etc."
+part:3a10f061500b85f7b5b5,0RJ1000H680,"Resistor,Chip",etc.,active,"0RJ1000H680 | Resistor,Chip | etc."
+part:94839b8b853550686570,0TR150409BF,"TR,Bipolar",etc.,active,"0TR150409BF | TR,Bipolar | etc."
+part:8d215a1a6cce16f67f94,0RH5600C622,"Resistor,Chip",etc.,active,"0RH5600C622 | Resistor,Chip | etc."
+part:4b90a76ac93aaca7d22f,6630A90002K,"Connector,Wafer",etc.,active,"6630A90002K | Connector,Wafer | etc."
+part:fc7575aef1407ffd01fb,0RH4701C422,"Resistor,Chip",etc.,active,"0RH4701C422 | Resistor,Chip | etc."
+part:89a0416d7932c3a0c104,EAN64028802,"IC,Microcontrollers",etc.,active,"EAN64028802 | IC,Microcontrollers | etc."
+part:b45823e05cfcce9d8f12,0CE475EKK10,"Capacitor,AL,Radial",etc.,active,"0CE475EKK10 | Capacitor,AL,Radial | etc."
+part:a9d58fcbaec771f919ac,EAG64230201,"Connector,Wafer",etc.,active,"EAG64230201 | Connector,Wafer | etc."
+part:370eff586b59fff2d041,EAE63688101,"Capacitor,Ceramic,Chip",etc.,active,"EAE63688101 | Capacitor,Ceramic,Chip | etc."
+part:8a4317e02274ab444919,0CE106EK638,"Capacitor,AL,Radial",etc.,active,"0CE106EK638 | Capacitor,AL,Radial | etc."
+part:8243637b5c30a62bf247,0RJ5601D677,"Resistor,Chip",etc.,active,"0RJ5601D677 | Resistor,Chip | etc."
+part:1206fabbf9bce4bb3ee7,EAE63662201,"Capacitor,Ceramic,Chip",etc.,active,"EAE63662201 | Capacitor,Ceramic,Chip | etc."
+part:2b1bf52e363c0268a07d,EAE33831901,"Capacitor,Ceramic,Chip",etc.,active,"EAE33831901 | Capacitor,Ceramic,Chip | etc."
+part:1e9677e4e724746c9f50,EAE62685601,"Capacitor,Ceramic,Chip",etc.,active,"EAE62685601 | Capacitor,Ceramic,Chip | etc."
+part:21212dbc80c87714c4d0,EBC62298201,"Resistor,Chip",etc.,active,"EBC62298201 | Resistor,Chip | etc."
+part:1108348b5cb71f8b2970,EAG64310003,"Connector,Wafer",etc.,active,"EAG64310003 | Connector,Wafer | etc."
+part:08a7ed8a5f7ac2e4567f,EAH61438102,"Diode,Zener",etc.,active,"EAH61438102 | Diode,Zener | etc."
+part:799f50b2c31dee3f92cb,6630A90002J,"Connector,Wafer",etc.,active,"6630A90002J | Connector,Wafer | etc."
+part:19d3f986b90580aef7ea,EAG64310006,"Connector,Wafer",etc.,active,"EAG64310006 | Connector,Wafer | etc."
+part:e9916c1e841c05e12600,EBC65441801,"Resistor,Chip",etc.,active,"EBC65441801 | Resistor,Chip | etc."
+part:4cf1a5cf19ec54ee4724,EAX70204501,"PCB,Main",etc.,active,"EAX70204501 | PCB,Main | etc."
+part:c714ee6ce3962ef70bdd,6212A90001L,"Resonator,Ceramic",etc.,active,"6212A90001L | Resonator,Ceramic | etc."
+part:0ae851a9c30dd5475021,EAE63071109,"Capacitor,Ceramic,Chip",etc.,active,"EAE63071109 | Capacitor,Ceramic,Chip | etc."
+part:e4658c4a1f0291a5541b,6630A90002B,"Connector,Wafer",etc.,active,"6630A90002B | Connector,Wafer | etc."
+part:155103774618626c0af5,EAN63688101,"IC,EEPROM",etc.,active,"EAN63688101 | IC,EEPROM | etc."
+part:f44fc7d4669b0c1d80a0,EAN66309901,"IC,Capacitive Touch Sensor",etc.,active,"EAN66309901 | IC,Capacitive Touch Sensor | etc."
+part:905aa4e834d8c9008161,0RH3300C622,"Resistor,Chip",etc.,active,"0RH3300C622 | Resistor,Chip | etc."
+part:77a5525b374d755280ca,EBC65441802,"Resistor,Chip",etc.,active,"EBC65441802 | Resistor,Chip | etc."
+part:0ce5d0297670dbab4345,0CE105EKK38,"Capacitor,AL,Radial",etc.,active,"0CE105EKK38 | Capacitor,AL,Radial | etc."
+part:9d28f3a37def52b497de,0CE477EK618,"Capacitor,AL,Radial",etc.,active,"0CE477EK618 | Capacitor,AL,Radial | etc."
+part:a077fe3ec9b4df9ac433,SAA43753401,"S/W,Micom(Main)",etc.,active,"SAA43753401 | S/W,Micom(Main) | etc."
+part:f6aae12297f93ecbfa78,7245ZB0004A,Flux,etc.,active,7245ZB0004A | Flux | etc.
+part:a8386e0dceb5fb764b19,AJJ76599404,"PCB Assembly,WiFi (DQ1)",Electronic Part,active,"AJJ76599404 | PCB Assembly,WiFi (DQ1) | Electronic Part"
+part:eba96f98dcb8c6c9d7b6,EBR41789502,"PCB Assembly,WiFi (DQ1)",Electronic Part,active,"EBR41789502 | PCB Assembly,WiFi (DQ1) | Electronic Part"
+part:b189136a1f2bd6ab044c,SAA42322103,,etc.,active,SAA42322103 | etc.
+part:eb32088a5848e02902a2,EBR76332902,"PCB Assembly,Option (Buzzer)",Electronic Part,active,"EBR76332902 | PCB Assembly,Option (Buzzer) | Electronic Part"
+part:383cc1bf252cad6485f2,MCQ68726103,Damper,etc.,active,MCQ68726103 | Damper | etc.
+part:d18fdab6cd98f8d9943c,MGC66401805,"Panel,Control",PD Part,active,"MGC66401805 | Panel,Control | PD Part"
+part:04fa6d504272ef03a12b,MGC66401816,"Panel,Control",PD Part,active,"MGC66401816 | Panel,Control | PD Part"
+part:6ce01b5d16737aa3b7cc,MGC66401804,"Panel,Control",PD Part,active,"MGC66401804 | Panel,Control | PD Part"
+part:774a09debfa97f2a06ea,MGC66401815,"Panel,Control",PD Part,active,"MGC66401815 | Panel,Control | PD Part"
+part:7ec0a7709d7f4cc409c5,MGC66401802,"Panel,Control",,active,"MGC66401802 | Panel,Control"
+part:3c11053d3db8a72bef21,RAA33959167,"Sheet,Steel(STS)",Raw Material,active,"RAA33959167 | Sheet,Steel(STS) | Raw Material"
+part:9922a7f620f9090a3bcb,AKF75720202,Print Assembly,Printing Material,active,AKF75720202 | Print Assembly | Printing Material
+part:4a1ee5aaf7111a3af16e,AKF75720207,Print Assembly,Printing Material,active,AKF75720207 | Print Assembly | Printing Material
+part:6430803f4c0eecd917ab,MAZ65206602,Bracket,,active,MAZ65206602 | Bracket
+part:ea5aded4753fcd6418b3,RAA34399701,"Coil,Steel(STS)",,active,"RAA34399701 | Coil,Steel(STS)"
+part:02112cef50268cc1f969,RAB34410305,"Tape,Acrylic Foam",,active,"RAB34410305 | Tape,Acrylic Foam"
+part:0d8cd976e9749c98b1c1,MCK62028003,"Cover,Lamp",MD Part,active,"MCK62028003 | Cover,Lamp | MD Part"
+part:14b7440934ef6a0fae7a,EAQ60658303,"Lamp,Neon",Electronic Assy,active,"EAQ60658303 | Lamp,Neon | Electronic Assy"
+part:5c6d4ccc5e7aa373d0b5,EBF62174908,"Switch,Rotary",Electronic Assy,active,"EBF62174908 | Switch,Rotary | Electronic Assy"
+part:ded10636251faccd6f33,MHJ65878201,"Shaft,Roller",PD Part,active,"MHJ65878201 | Shaft,Roller | PD Part"
+part:243d253ee013e107459b,MCK71866401,"Cover,Body",MD Part,active,"MCK71866401 | Cover,Body | MD Part"
+part:5421a472721e7a43ec9d,EBF63054502,"Switch,Rotary",Electronic Assy,active,"EBF63054502 | Switch,Rotary | Electronic Assy"
+part:10e300917a7bc7458e76,EBF63054503,"Supporter Assembly,PCB",Electronic Assy,active,"EBF63054503 | Supporter Assembly,PCB | Electronic Assy"
+part:b17635704826bb896777,AJJ76597702,"Supporter Assembly,PCB",Electronic Assy,active,"AJJ76597702 | Supporter Assembly,PCB | Electronic Assy"
+part:c29451eb6c2d641ab5ff,MJH63756801,"Supporter,PCB",MD Part,active,"MJH63756801 | Supporter,PCB | MD Part"
+part:f7cc4b4742f49821ac6a,MJH63756901,Supporter,MD Part,active,MJH63756901 | Supporter | MD Part
+part:e241e9bf66eb85451ee9,8PPC8730001,"Resin,PC",Raw Material,active,"8PPC8730001 | Resin,PC | Raw Material"
+part:778a8bbcb2d92eb2a9e5,EBR80595801,"PCB Assembly,Sub",Electronic Part,active,"EBR80595801 | PCB Assembly,Sub | Electronic Part"
+part:9ed53a1a0ede86145b20,MHY64023901,"Spring,Coil",Fastener,active,"MHY64023901 | Spring,Coil | Fastener"
+part:3f0ffbed4cf2fbcc6bce,1TPL0402418,"Screw,Tapping",Fastener,active,"1TPL0402418 | Screw,Tapping | Fastener"
+part:33a14a9cd5298a69056e,59333020,Grease,etc.,active,59333020 | Grease | etc.
+part:b144823155cf8dd4b84c,EAD63828103,"Harness,Single",Electronic Part,active,"EAD63828103 | Harness,Single | Electronic Part"
+part:304d9306f9de6d862505,EAD63828116,"Harness,Single",Electronic Part,active,"EAD63828116 | Harness,Single | Electronic Part"
+part:f9aab7f27f6bcda774de,EAD65883502,"Harness,Single",Electronic Part,active,"EAD65883502 | Harness,Single | Electronic Part"
+part:9e5712da2fd1caf804e4,EAD63828110,"Harness,Single",Electronic Part,active,"EAD63828110 | Harness,Single | Electronic Part"
+part:ef18e358cbd6bed304ba,AHH73270003,Ring Assembly,Structure Assy,active,AHH73270003 | Ring Assembly | Structure Assy
+part:420b7f95c5911a51e141,AHH30274903,Ring Assembly,Structure Assy,active,AHH30274903 | Ring Assembly | Structure Assy
+part:5956f265d34c9287fe9d,MGZ65564102,"Ring,Knob (AL)",MD Part,active,"MGZ65564102 | Ring,Knob (AL) | MD Part"
+part:bd9e09159e500495052a,MGZ30302101,"Ring,Knob (AL)",MD Part,active,"MGZ30302101 | Ring,Knob (AL) | MD Part"
+part:9f8f2312cad077514b37,MGZ65563901,"Ring,Knob",MD Part,active,"MGZ65563901 | Ring,Knob | MD Part"
+part:e48a0fce18c80003d016,MGZ65575702,"Ring,Knob",MD Part,active,"MGZ65575702 | Ring,Knob | MD Part"
+part:677a0f52aa974c65176b,RAA33657501,"Resin,ABS",Raw Material,active,"RAA33657501 | Resin,ABS | Raw Material"
+part:028d40f59ea56216a71b,EBR31629601,"PCB Assembly,Option",Electronic Part,active,"EBR31629601 | PCB Assembly,Option | Electronic Part"
+part:75ffb0bf85cbdc244d18,EBR44484001,"PCB Assembly,Option",Electronic Part,active,"EBR44484001 | PCB Assembly,Option | Electronic Part"
+part:94589949907de37f06d8,EAX69465401,"PCB,LED Array",etc.,active,"EAX69465401 | PCB,LED Array | etc."
+part:9b34104d436f5ac81e09,0RH2001C622,"Resistor,Chip",etc.,active,"0RH2001C622 | Resistor,Chip | etc."
+part:4cdb9bb1bcc175d9f7e2,EAV64997701,"LED,Chip",etc.,active,"EAV64997701 | LED,Chip | etc."
+part:292ed18e712f0133d892,MGZ30302102,"Ring,Knob (AL 12시X)",MD Part,active,"MGZ30302102 | Ring,Knob (AL 12시X) | MD Part"
+part:b30c1128848714c8cbef,EAD62349836,"Harness,Single",Electronic Part,active,"EAD62349836 | Harness,Single | Electronic Part"
+part:25302c067e3d28dbb8ff,FAB30455602,"Screw,Machine",Fastener,active,"FAB30455602 | Screw,Machine | Fastener"
+part:114f7418435967fbf785,1TTL0402618,"Screw,Tapping",Fastener,active,"1TTL0402618 | Screw,Tapping | Fastener"
+part:64e38ae2a3b47c036c34,3880W1A015D,"Bag,Envelope",etc.,active,"3880W1A015D | Bag,Envelope | etc."
+part:f95ab0327178e20613a8,MEZ57157120,"Label,Service Guide",Printing Material,active,"MEZ57157120 | Label,Service Guide | Printing Material"
+part:f446424fc20da703b509,MEZ68891928,"Label,Barcode",,active,"MEZ68891928 | Label,Barcode"
+part:b1d6ca6eb6acd6658729,AJJ76418406,"Supporter Assembly,PCB",,active,"AJJ76418406 | Supporter Assembly,PCB"
+part:d325870edc0dda42350e,MJH66093801,"Supporter,PCB",,active,"MJH66093801 | Supporter,PCB"
+part:f536f6e9b478958c5617,8PPC8730002,"Resin,PC",,active,"8PPC8730002 | Resin,PC"
+part:4fc1c42ce306c4905ec0,EBR30162712,"PCB Assembly,Sensor",,active,"EBR30162712 | PCB Assembly,Sensor"
+part:ea56f6f5938142fd6cc6,AEZ75995307,Knob Assembly,Structure Assy,active,AEZ75995307 | Knob Assembly | Structure Assy
+part:fbcb04e2ecfacd06c9fa,AEZ30168102,Knob Assembly,Structure Assy,active,AEZ30168102 | Knob Assembly | Structure Assy
+part:bb5f501e53a279882d74,MEY65461107,Knob,MD Part,active,MEY65461107 | Knob | MD Part
+part:8139513f0c14ed52b0c6,MEY30073002,Knob,MD Part,active,MEY30073002 | Knob | MD Part
+part:a675d7ece34e0bdd9a12,AKF75720302,Print Assembly,Printing Material,active,AKF75720302 | Print Assembly | Printing Material
+part:a6a3468e7a3c50b13723,AKF75718137,Print Assembly,Printing Material,active,AKF75718137 | Print Assembly | Printing Material
+part:59a64ec81a712503daea,MEY63814202,,MD Part,active,MEY63814202 | MD Part
+part:376607fdd40542f0111b,MBG30082801,Button,MD Part,active,MBG30082801 | Button | MD Part
+part:a1ccdcdee93f4cb7fa2f,MHY61853903,"Supporter,Housing",MD Part,active,"MHY61853903 | Supporter,Housing | MD Part"
+part:db2134cedc926f5e5fd2,MJH66466001,"Supporter,Housing",MD Part,active,"MJH66466001 | Supporter,Housing | MD Part"
+part:142a76a0635ea6a4813b,8POM9870003,"Resin,POM(Polyacetal)",Raw Material,active,"8POM9870003 | Resin,POM(Polyacetal) | Raw Material"
+part:2b6ef85cd3ae871b0115,MGZ63587301,"Screw,Customized",Fastener,active,"MGZ63587301 | Screw,Customized | Fastener"
+part:299ec7e3fb6280b8cd58,MHY61853904,Spring,etc.,active,MHY61853904 | Spring | etc.
+part:1aaa17f384a8162029f5,AJJ30037701,Supporter Assembly,Structure Assy,active,AJJ30037701 | Supporter Assembly | Structure Assy
+part:1cd823161976ce801366,MGZ65575601,"Ring,Knob",MD Part,active,"MGZ65575601 | Ring,Knob | MD Part"
+part:d30b62ac4c403ba66787,RAA34560801,"Resin,PC-ABS",Raw Material,active,"RAA34560801 | Resin,PC-ABS | Raw Material"
+part:5a716330b47acdcf768d,MEG00487301,"Holder,Locker",MD Part,active,"MEG00487301 | Holder,Locker | MD Part"
+part:97d50a06ac6beec2b90a,MGZ65575602,"Ring,Knob",MD Part,active,"MGZ65575602 | Ring,Knob | MD Part"
+part:2c04c694e3c2a30133f1,AEZ30168103,Knob Assembly,Structure Assy,active,AEZ30168103 | Knob Assembly | Structure Assy
+part:99800cd5d03064b35fbb,MEY30073003,Knob,MD Part,active,MEY30073003 | Knob | MD Part
+part:a3bd61367982cd630552,AKF75718138,Print Assembly,Printing Material,active,AKF75718138 | Print Assembly | Printing Material
+part:37555066818f29d5c2ac,AEZ30168104,Knob Assembly,Structure Assy,active,AEZ30168104 | Knob Assembly | Structure Assy
+part:36c3568b67844d9a273e,MEY30073004,Knob,MD Part,active,MEY30073004 | Knob | MD Part
+part:1877ac063a767c17caef,AKF75718139,Print Assembly,Printing Material,active,AKF75718139 | Print Assembly | Printing Material
+part:cf1f4bb9692e40023853,MJH30019302,"Supporter,Holder",MD Part,active,"MJH30019302 | Supporter,Holder | MD Part"
+part:4fc8af24b8234c15b4c0,AEZ75995310,Knob Assembly,Structure Assy,active,AEZ75995310 | Knob Assembly | Structure Assy
+part:6711aaae3235dfb24080,AEZ30168201,Knob Assembly,Structure Assy,active,AEZ30168201 | Knob Assembly | Structure Assy
+part:00c16c9c4a0fe37b4bed,MEY65461110,Knob,MD Part,active,MEY65461110 | Knob | MD Part
+part:dd902b508c498214e6b3,MEY30073005,Knob,MD Part,active,MEY30073005 | Knob | MD Part
+part:dd020821f25c7d6a4acc,AEZ75995311,,etc.,active,AEZ75995311 | etc.
+part:428458acfeaa18245acc,AJJ30037702,Supporter Assembly,Structure Assy,active,AJJ30037702 | Supporter Assembly | Structure Assy
+part:c1c0ba7cc84e6c7b8b1a,MEY65461111,Knob,MD Part,active,MEY65461111 | Knob | MD Part
+part:2f1612faccae8fd409b2,MEY65476801,Knob,MD Part,active,MEY65476801 | Knob | MD Part
+part:f67832f03b77a8a2fb25,EAD65883501,"Harness,Single",Electronic Part,active,"EAD65883501 | Harness,Single | Electronic Part"
+part:83e39071efbff1e62a04,EAD62349864,"Harness,Single",Electronic Part,active,"EAD62349864 | Harness,Single | Electronic Part"
+part:086f0b02c29649fb416d,MAG64132102,Balance Weight,etc.,active,MAG64132102 | Balance Weight | etc.
+part:c7b54498f764f4c09eed,MCK68473909,"Cover,Rear",PD Part,active,"MCK68473909 | Cover,Rear | PD Part"
+part:d9f6fa72fa7177defc95,MDX64331906,"Grille,Vent",PD Part,active,"MDX64331906 | Grille,Vent | PD Part"
+part:4717d53c33fb29f71d00,MDX65456106,"Grille,Vent",PD Part,active,"MDX65456106 | Grille,Vent | PD Part"
+part:e07756e66abf33de7f5e,MDX64331904,"Grille,Vent",PD Part,active,"MDX64331904 | Grille,Vent | PD Part"
+part:c1525b9a9595b6798abb,MDX65456105,"Grille,Vent",PD Part,active,"MDX65456105 | Grille,Vent | PD Part"
+part:ff401f61dc9cfc1e25eb,RAA32200008,"Sheet,Steel(CR)",Raw Material,active,"RAA32200008 | Sheet,Steel(CR) | Raw Material"
+part:993d5e0239a750e48071,RAA32200036,"Sheet,Steel(CR)",Raw Material,active,"RAA32200036 | Sheet,Steel(CR) | Raw Material"
+part:2a6785cb707ca3443fc4,AAA76370901,"Accessory Assembly,Cavity(Shrink Pkg)",Structure Assy,active,"AAA76370901 | Accessory Assembly,Cavity(Shrink Pkg) | Structure Assy"
+part:00f21889423b65c7493c,AAA76370914,"Accessory Assembly,Cavity(Shrink Pkg)",Structure Assy,active,"AAA76370914 | Accessory Assembly,Cavity(Shrink Pkg) | Structure Assy"
+part:4bb747eb16777e754531,AHT74173802,Shelf Assembly,etc.,active,AHT74173802 | Shelf Assembly | etc.
+part:1ba98ccd3c69f91a0e60,MJS61850004,"Tray,Metal",PD Part,active,"MJS61850004 | Tray,Metal | PD Part"
+part:948d98b331e84056ff78,MJS61850001,"Tray,Metal",PD Part,active,"MJS61850001 | Tray,Metal | PD Part"
+part:e5f542317d6923f347db,9AD1219C003,"Coil,Steel(CR)",Raw Material,active,"9AD1219C003 | Coil,Steel(CR) | Raw Material"
+part:68ff3e7006345e070fae,MJS61849904,"Tray,Metal",PD Part,active,"MJS61849904 | Tray,Metal | PD Part"
+part:6e0ffc0dacae75e582f9,MJS61849901,"Tray,Metal",PD Part,active,"MJS61849901 | Tray,Metal | PD Part"
+part:7257431db3edd326ae20,RAA32200023,"Sheet,Steel(CR)",Raw Material,active,"RAA32200023 | Sheet,Steel(CR) | Raw Material"
+part:395767a6d8993fb90e39,MFL69401940,"Manual,Service",Printing Material,active,"MFL69401940 | Manual,Service | Printing Material"
+part:21f1193c0674bb3d7771,MFL38379786,"Manual,Service",Printing Material,active,"MFL38379786 | Manual,Service | Printing Material"
+part:febde93da99571ab6a6a,MBM66437301,"Card,Warranty",Printing Material,active,"MBM66437301 | Card,Warranty | Printing Material"
+part:ce25bc1c6376ebffee06,MBM67196401,"Card,Instruction",Printing Material,active,"MBM67196401 | Card,Instruction | Printing Material"
+part:b65961740ed14df8ddd2,MEZ57156606,"Label,Warning",Printing Material,active,"MEZ57156606 | Label,Warning | Printing Material"
+part:61ef8aa12bfff5d6bd19,MEZ69101435,"Label,Circuit",Printing Material,active,"MEZ69101435 | Label,Circuit | Printing Material"
+part:5024b20dd7059ff389db,MEZ69101484,"Label,Circuit",Printing Material,active,"MEZ69101484 | Label,Circuit | Printing Material"
+part:d4306ed3a8efe1ec7ea0,MBM64916789,"Card,Technical(Online)",Printing Material,active,"MBM64916789 | Card,Technical(Online) | Printing Material"
+part:1c445e6013f3dada2d39,MBM67575519,"Card,Technical(Online)",Printing Material,active,"MBM67575519 | Card,Technical(Online) | Printing Material"
+part:8674c57e8d52af1f98d5,1SZZW5N001A,"Screw,Customized",Fastener,active,"1SZZW5N001A | Screw,Customized | Fastener"
+part:70a978921dd191065eba,1TTG0402418,"Screw,Tapping",Fastener,active,"1TTG0402418 | Screw,Tapping | Fastener"
+part:55770944cb8dbb1d2644,1SZZW2A004H,"Screw,Customized",Fastener,active,"1SZZW2A004H | Screw,Customized | Fastener"
+part:4054524e3c3a35d44dee,1ATF0502610,"Screw,Taptite",Fastener,active,"1ATF0502610 | Screw,Taptite | Fastener"
+part:067b41372b0087eedaf6,1SZZW5N001R,"Screw,Customized",Fastener,active,"1SZZW5N001R | Screw,Customized | Fastener"
+part:616833147ade391e96cb,1WZZW3Z003C,"Washer,Customized",Fastener,active,"1WZZW3Z003C | Washer,Customized | Fastener"
+part:012101b00952a135750a,MAY66060610,Box,etc.,active,MAY66060610 | Box | etc.
+part:8489eb32f0ee4783ecda,MAY66060612,Box,etc.,active,MAY66060612 | Box | etc.
+part:05344a331ed2052e0350,MEZ64034810,"Label,Barcode",Printing Material,active,"MEZ64034810 | Label,Barcode | Printing Material"
+part:ebdda00be479c43d9c43,AGG74419317,"Packing Assembly,Electric Oven",etc.,active,"AGG74419317 | Packing Assembly,Electric Oven | etc."
+part:88595017dfbcaf45938f,MFZ67488401,"Packing,Base",etc.,active,"MFZ67488401 | Packing,Base | etc."
+part:1cfa664d8cb203979171,RAA32339201,"Resin,EPS",Raw Material,active,"RAA32339201 | Resin,EPS | Raw Material"
+part:7db2e47ef44d6ecb396f,MFZ63953007,"Packing,Accessory",etc.,active,"MFZ63953007 | Packing,Accessory | etc."
+part:c392a5a540ff14efd9fa,MAB62761310,Angle,etc.,active,MAB62761310 | Angle | etc.
+part:c929d2905d25442a291a,MAB62761345,Angle,etc.,active,MAB62761345 | Angle | etc.
+part:e3f6ab59cf6808821358,MAB62761346,Angle,etc.,active,MAB62761346 | Angle | etc.
+part:7897a9d96eb35a0347f4,MAB62761340,Angle,etc.,active,MAB62761340 | Angle | etc.
+part:5cdd2b54435b80301cdf,MFZ64771704,"Bag,Sheet",etc.,active,"MFZ64771704 | Bag,Sheet | etc."
+part:538e95f4454db3026ef6,MAF64527524,"Bag,Sheet",etc.,active,"MAF64527524 | Bag,Sheet | etc."
+part:b952ff8483f4ff1d0477,AGG75040844,"Packing Assembly,Electric Oven",Structure Assy,active,"AGG75040844 | Packing Assembly,Electric Oven | Structure Assy"
+part:7a5bf13a62cfddfa29d7,AGG00366061,"Packing Assembly,Electric Oven",Structure Assy,active,"AGG00366061 | Packing Assembly,Electric Oven | Structure Assy"
+part:0a7b98ae44383a4977dd,MCR67468503,"Decor,Guard(Rear)",PD Part,active,"MCR67468503 | Decor,Guard(Rear) | PD Part"
+part:0bf7d57ec2117ee7eaeb,AAA31560302,Accessory Assembly,Structure Assy,active,AAA31560302 | Accessory Assembly | Structure Assy
+part:03e23b36ba9cd7731d94,MFZ00494802,"Packing,Gasket",MD Part,active,"MFZ00494802 | Packing,Gasket | MD Part"
+part:742333c6a95672380192,AAA75909508,"Accessory Assembly,Upper",Structure Assy,active,"AAA75909508 | Accessory Assembly,Upper | Structure Assy"
+part:cfc94b6e43f7250ce5aa,MFZ67239501,"Packing,Upper",etc.,active,"MFZ67239501 | Packing,Upper | etc."
+part:7243351b0dae8cda4bc4,MAB62761334,Angle,etc.,active,MAB62761334 | Angle | etc.
+part:e08e8aae62064ecfc86f,7250W5D0004,"Tape,OPP",etc.,active,"7250W5D0004 | Tape,OPP | etc."
+part:c3e5a91322b6e548b060,AAA77065763,"Accessory Assembly,Cavity",Structure Assy,active,"AAA77065763 | Accessory Assembly,Cavity | Structure Assy"
+part:5c5df2d6dd0f9fbc1f0a,AAA31189764,"Accessory Assembly,Cavity",Structure Assy,active,"AAA31189764 | Accessory Assembly,Cavity | Structure Assy"
+part:34309b3c1a2884d46081,4Z50545A,"Bag,Envelope",etc.,active,"4Z50545A | Bag,Envelope | etc."
+part:d58a715fabb4257b6220,MHL63411411,Shelf,etc.,active,MHL63411411 | Shelf | etc.
+part:c34d2b1cc101f7bceb13,MHL63411413,Shelf,etc.,active,MHL63411413 | Shelf | etc.
+part:3fee30b451736c7be16e,MHL64891810,Shelf,etc.,active,MHL64891810 | Shelf | etc.
+part:6a092d9edd02af31d4bf,MFL68920559,"Manual,Owners",Printing Material,active,"MFL68920559 | Manual,Owners | Printing Material"
+part:7908e05272ead3f7edfa,MFL68920599,"Manual,Owners",Printing Material,active,"MFL68920599 | Manual,Owners | Printing Material"
+part:3e807194758b7e4e2393,MBM66277621,"Card,User Guide",Printing Material,active,"MBM66277621 | Card,User Guide | Printing Material"
+part:fd58c7563041f8a6f7e8,MBM66277643,"Card,User Guide",Printing Material,active,"MBM66277643 | Card,User Guide | Printing Material"
+part:3a56be29bb73c873f112,MBM67511601,"Card,User Guide",Printing Material,active,"MBM67511601 | Card,User Guide | Printing Material"
+part:49da2136620a54cc3e33,MBM65451114,"Card,Registration",Printing Material,active,"MBM65451114 | Card,Registration | Printing Material"
+part:90ea1b6f883af0de7e11,MBM65451107,"Card,Registration",Printing Material,active,"MBM65451107 | Card,Registration | Printing Material"
+part:f19f3ed97970dacbe291,AAA76664609,"Accessory Assembly,Base",Structure Assy,active,"AAA76664609 | Accessory Assembly,Base | Structure Assy"
+part:93efbb890d236f462055,MBM37524801,"Card,Template",Printing Material,active,"MBM37524801 | Card,Template | Printing Material"
+part:b21d60b4137af87d1f33,AAA74970602,Accessory Assembly,etc.,active,AAA74970602 | Accessory Assembly | etc.
+part:a7f9ec5bec3ae8c2b532,FAK30249601,"Anchor,Customized",Fastener,active,"FAK30249601 | Anchor,Customized | Fastener"
+part:1aead325e9a7a642ed6d,1SZZW1N003A,"Screw,Customized",Fastener,active,"1SZZW1N003A | Screw,Customized | Fastener"
+part:6a2c2e650bc00869190d,MAZ34877103,"Bracket,Idle",PD Part,active,"MAZ34877103 | Bracket,Idle | PD Part"
+part:51e981f685fbf857b54d,5001W5N001B,Accessory,etc.,active,5001W5N001B | Accessory | etc.
+part:d1d35a81c3a75a0f8eee,MFZ67241901,Packing,etc.,active,MFZ67241901 | Packing | etc.
+part:0df01439cab438f690c5,MFZ64633602,"Packing,Accessory",etc.,active,"MFZ64633602 | Packing,Accessory | etc."
+part:32b246ffc497d980bd1d,MFZ64771707,"Packing,Accessory",etc.,active,"MFZ64771707 | Packing,Accessory | etc."
+part:a506f5c7928b474abd61,MAB63341603,Angle,etc.,active,MAB63341603 | Angle | etc.
+part:f00f7338d041d7380e4a,MAB63341611,Angle,etc.,active,MAB63341611 | Angle | etc.
+part:25d79e702b00cab50304,MAB62761337,Angle,etc.,active,MAB62761337 | Angle | etc.
+part:2c56cb591548588b2b50,MAB62761350,Angle,etc.,active,MAB62761350 | Angle | etc.
+part:0bdc2acd6b9d2973e724,MAB62761329,Angle,etc.,active,MAB62761329 | Angle | etc.
+part:95c183356f4b60a22697,MAF64527503,"Bag,Sheet",etc.,active,"MAF64527503 | Bag,Sheet | etc."
+part:7a9b80f8e84e33bbf623,8PPP5B80001,"Resin,PP",Raw Material,active,"8PPP5B80001 | Resin,PP | Raw Material"
+part:426ef0302072cd3f4ff3,MEZ69028403,"Label,Warning",Printing Material,active,"MEZ69028403 | Label,Warning | Printing Material"
+part:647e6f647305c6a21117,MEZ67714707,"Label,Warning",Printing Material,active,"MEZ67714707 | Label,Warning | Printing Material"
+part:3cf44399c4af3b3b2c12,ACM76198219,"Controller Assembly,Touch",Structure Assy,active,"ACM76198219 | Controller Assembly,Touch | Structure Assy"
+part:db02554fb7f19ad6faac,EBR37653208,"PCB Assembly,Sub",Electronic Assy,active,"EBR37653208 | PCB Assembly,Sub | Electronic Assy"
+part:6f87a6655ead92666434,ADC30054001,"Door Assembly,Full",Structure Assy,active,"ADC30054001 | Door Assembly,Full | Structure Assy"
+part:a260b0b545082692cfca,ADC30054017,"Door Assembly,Full",Structure Assy,active,"ADC30054017 | Door Assembly,Full | Structure Assy"
+part:41ad2bf25cc302d00e4e,ACM76198220,"Controller Assembly,Touch",Structure Assy,active,"ACM76198220 | Controller Assembly,Touch | Structure Assy"
+part:37495cc349c0578e42f7,ADC30054002,"Door Assembly,Full",Structure Assy,active,"ADC30054002 | Door Assembly,Full | Structure Assy"
+part:3c0669e32b4b59e09a18,ADC30054018,"Door Assembly,Full",Structure Assy,active,"ADC30054018 | Door Assembly,Full | Structure Assy"
+part:b0d17189ee6633da2b61,EBR37653206,"PCB Assembly,Sub",Electronic Assy,active,"EBR37653206 | PCB Assembly,Sub | Electronic Assy"
+part:74ce49de4c84ae592f56,AAA30802420,"Accessory Assembly,Base",,active,"AAA30802420 | Accessory Assembly,Base"
+part:3a1712d1b14b5db4a56f,AAA30802421,"Accessory Assembly,Base",,active,"AAA30802421 | Accessory Assembly,Base"
+part:097bb678a86097de52d2,AAA30802422,"Accessory Assembly,Base",,active,"AAA30802422 | Accessory Assembly,Base"
+part:19d58bef6265b5d10d60,AFN30095215,Manual Assembly,,active,AFN30095215 | Manual Assembly
+part:0909f8188845c24d5a34,AFN30095216,Manual Assembly,,active,AFN30095216 | Manual Assembly
+part:342014ad9c60815edae7,MBM65176327,"Card,Warranty",,active,"MBM65176327 | Card,Warranty"
+part:b71d4d1aac55a2579ff6,MEZ67849714,"Label,Rating",,active,"MEZ67849714 | Label,Rating"
+part:da453369bca67f51f5ee,MEZ67849715,"Label,Rating",,active,"MEZ67849715 | Label,Rating"
+part:9ae53d4c91fddda986f7,MEZ67849716,"Label,Rating",,active,"MEZ67849716 | Label,Rating"
+part:b575fb4d329267b99a5d,EAG00460901,"Jack,DC Power",전장,active,"EAG00460901 | Jack,DC Power | 전장"
+part:f1ec408e97da14c40eeb,AGL30246404,"Panel Assembly,Rear",Ass'y,active,"AGL30246404 | Panel Assembly,Rear | Ass'y"
+part:f8baaccebf5caba92ded,MJH30012501,"Supporter,PCB",사출,active,"MJH30012501 | Supporter,PCB | 사출"
+part:078c0617c565905c422f,EBR44926401,"PCB Assembly,Power",전장,active,"EBR44926401 | PCB Assembly,Power | 전장"
+part:e2373c3fe0b317b88784,AEH76188604,Hinge Assembly,절삭,active,AEH76188604 | Hinge Assembly | 절삭
+part:70fb085674d1892a7eb5,MAK65405601,Bar,PD,active,MAK65405601 | Bar | PD
+part:558b8a5f567f79573a0d,MEK65194401,"Housing,Case",PD,active,"MEK65194401 | Housing,Case | PD"
+part:f713b9676c84286d40d6,MFC64337201,Lever,PD,active,MFC64337201 | Lever | PD
+part:6bdd951d809e6144786b,MEK65194501,"Housing,Case",MD,active,"MEK65194501 | Housing,Case | MD"
+part:46724347b0da1406ba63,AEH76188605,Hinge Assembly,절삭,active,AEH76188605 | Hinge Assembly | 절삭
+part:59ef2ea786c756dafa99,MCK30007502,"Cover,Heater",PD,active,"MCK30007502 | Cover,Heater | PD"
+part:9638ea938e0af7974d47,MCK30007501,"Cover,Heater",PD,active,"MCK30007501 | Cover,Heater | PD"
+part:9feb2835a8e96b3dfdb5,RAA33996738,"Sheet,Steel(CR)",PD,active,"RAA33996738 | Sheet,Steel(CR) | PD"
+part:c377781fc95e79e9005a,AGL30045401,"Panel Assembly, Side",Ass'y,active,"AGL30045401 | Panel Assembly, Side | Ass'y"
+part:3999b97e608bdc0756e1,MGC66413905,"Panel,Side",PD,active,"MGC66413905 | Panel,Side | PD"
+part:29bb086ec5e7ee3d2e6e,MCK30010802,"Cover,Harness",MD,active,"MCK30010802 | Cover,Harness | MD"
+part:b4a75658726524e39f88,EAD66035711,"Harness,Single",전장,active,"EAD66035711 | Harness,Single | 전장"
+part:0e800de010de4cf45848,MCK30010801,"Cover,Harness",MD,active,"MCK30010801 | Cover,Harness | MD"
+part:52738f14cc4c1c667d95,AEV30168704,Insulator Assembly,Ass'y,active,AEV30168704 | Insulator Assembly | Ass'y
+part:1219acf5cfaa8d4f87c5,EAD61878023,"Harness,Single",전장,active,"EAD61878023 | Harness,Single | 전장"
+part:2ecaaa719890a40170a3,MJH31224103,"Supporter,PCB",MD,active,"MJH31224103 | Supporter,PCB | MD"
+part:ba75281930ac6bf4c60e,EBR41789501,Camera PCB(DQ1),전장,active,EBR41789501 | Camera PCB(DQ1) | 전장
+part:81f02dabe2ef91d49b79,ACM76198224,"Controller Assembly,Touch",Ass'y,active,"ACM76198224 | Controller Assembly,Touch | Ass'y"
+part:9593adbc5ae7c74e58de,ACM76203214,"Controller Assembly,Sub",Ass'y,active,"ACM76203214 | Controller Assembly,Sub | Ass'y"
+part:1efddf7a60170f894d04,AJX75334307,Window Assembly,Ass'y,active,AJX75334307 | Window Assembly | Ass'y
+part:8e6820dceed7efa10268,MKC67486209,"Window,Glass",절삭,active,"MKC67486209 | Window,Glass | 절삭"
+part:5a825b699553b7c7fec6,AKF75721701,Print Assembly,Print,active,AKF75721701 | Print Assembly | Print
+part:006de39103df2cb44543,AKF75721709,Print Assembly,Print,active,AKF75721709 | Print Assembly | Print
+part:b4310a523d6b9c74ecb8,MGC30048301,"Panel,Control",MD,active,"MGC30048301 | Panel,Control | MD"
+part:8a36be5615dbfa82b636,EBR43884101,"PCB Assembly,Sub",전장,active,"EBR43884101 | PCB Assembly,Sub | 전장"
+part:47d729250d5cd616fc1c,EAJ30079301,LCD Module,전장,active,EAJ30079301 | LCD Module | 전장
+part:91ece64e410eb5f570a3,EBD60661402,Sensor Assembly,전장,active,EBD60661402 | Sensor Assembly | 전장
+part:01db9e8b45faa17e76fe,EAD61878032,"Harness,Single",전장,active,"EAD61878032 | Harness,Single | 전장"
+part:dd31f5dac9532633d774,ADC30054016,"Door Assembly,Full",Ass'y,active,"ADC30054016 | Door Assembly,Full | Ass'y"
+part:9d8f8dd494c6c8af067b,AJX75342301,Window Assembly,Ass'y,active,AJX75342301 | Window Assembly | Ass'y
+part:93e9f933171906faf0b5,AJX75342303,Window Assembly,Ass'y,active,AJX75342303 | Window Assembly | Ass'y
+part:a4329285a9a054d12b8b,ABL72955601,Camera Assembly,Ass'y,active,ABL72955601 | Camera Assembly | Ass'y
+part:f999bb95d4585849ac15,MJH30012401,"Supporter,Camera",MD,active,"MJH30012401 | Supporter,Camera | MD"
+part:1f9f417b1c7e580a7f9f,EAD66035712,"Harness,Single",전장,active,"EAD66035712 | Harness,Single | 전장"
+part:eacc54e4d018207a6089,MFZ00487101,"Packing,Gasket",절삭,active,"MFZ00487101 | Packing,Gasket | 절삭"
+part:2c4bf63c0e04817486a4,MKC67485706,"Window,Glass",절삭,active,"MKC67485706 | Window,Glass | 절삭"
+part:a4620c21e7f1b2a10e26,AKF75721601,Print Assembly,Print,active,AKF75721601 | Print Assembly | Print
+part:dcf7756cf213c4963afe,AKF75721606,Print Assembly,Print,active,AKF75721606 | Print Assembly | Print
+part:7abbf98b75a2f3663815,MEG00487001,"Holder,Wire",MD,active,"MEG00487001 | Holder,Wire | MD"
+part:f6f8da900c4dafcb2332,MKC67485802,"Window,Glass",절삭,active,"MKC67485802 | Window,Glass | 절삭"
+part:fe457d809cc87abe0bef,MFZ67449902,"Packing,Door",절삭,active,"MFZ67449902 | Packing,Door | 절삭"
+part:c6d553b96a8e63afc3da,AAA30802483,"Accessory Assembly,Base",Ass'y,active,"AAA30802483 | Accessory Assembly,Base | Ass'y"
+part:9e4d9e1d450fb0aff78c,EBD30229501,"Sensor,Temperature",전장,active,"EBD30229501 | Sensor,Temperature | 전장"
+part:e05d375b74d6c49f4fc8,MHL64900801,Shelf,절삭,active,MHL64900801 | Shelf | 절삭
+part:edaf5a358779ccdf4354,AFN30095297,Manual Assembly,인쇄물,active,AFN30095297 | Manual Assembly | 인쇄물
+part:8054379f92c4dce50e81,MEZ67849956,"Label,Energy",인쇄물,active,"MEZ67849956 | Label,Energy | 인쇄물"
+part:61cbad414b52731051ec,MFL71927532,"Manual,Owners",인쇄물,active,"MFL71927532 | Manual,Owners | 인쇄물"
+part:68fdbd550861ea8a8c2b,MFL70959953,"Manual,Service",ETC,active,"MFL70959953 | Manual,Service | ETC"
+part:ebeead6a18554862528f,MFZ67394701,"Packing,Base",Packing,active,"MFZ67394701 | Packing,Base | Packing"
+part:122102c12db68cfddb36,MAB62761339,Angle,Packing,active,MAB62761339 | Angle | Packing
+part:fe2e6864050335fb0f92,MAB62761348,Angle,Packing,active,MAB62761348 | Angle | Packing
+part:0fc40df2bf61435bca97,MFZ63953011,"Packing,Accessory",Packing,active,"MFZ63953011 | Packing,Accessory | Packing"
+part:55d00e6118339f1b4c82,ABU74574401,"Cavity Assembly,welding",Ass'y,active,"ABU74574401 | Cavity Assembly,welding | Ass'y"
+part:c100159917a977b669fb,MGJ67456001,"Plate,U Bending(Lower)",PD,active,"MGJ67456001 | Plate,U Bending(Lower) | PD"
+part:1384f2e5450a88fec4e7,RAA33996740,"Sheet,Steel(CR)",PD,active,"RAA33996740 | Sheet,Steel(CR) | PD"
+part:b3fb08918e9434874b05,RAA33996741,"Sheet,Steel(CR)",PD,active,"RAA33996741 | Sheet,Steel(CR) | PD"
+part:4b51e6c3d5300fea286f,AGU30091601,"Plate Assembly,Rear",PD,active,"AGU30091601 | Plate Assembly,Rear | PD"
+part:5adfc9e2c3f495ca939f,RAA33996739,"Sheet,Steel(CR)",PD,active,"RAA33996739 | Sheet,Steel(CR) | PD"
+part:54e6dc3c88d7946b103a,MAZ65985001,"Bracket,Pipe",PD,active,"MAZ65985001 | Bracket,Pipe | PD"
+part:a16b0c7a819b136a032c,RAA33959310,"Coil,Steel(STS)",PD,active,"RAA33959310 | Coil,Steel(STS) | PD"
+part:b99aa34a6d4a663be79a,MGE64935702,"Pipe,Bending",PD,active,"MGE64935702 | Pipe,Bending | PD"
+part:241de0a279ae99577609,AEG30888501,Heater Assembly,전장,active,AEG30888501 | Heater Assembly | 전장
+part:2210fc5eb6ca52530c70,RAA32519136,"Sheet,Steel(Alcot)",PD,active,"RAA32519136 | Sheet,Steel(Alcot) | PD"
+part:a30874842e975fac7b99,MEE64289302,"Heater,Sheath",전장,active,"MEE64289302 | Heater,Sheath | 전장"
+part:061b502551353eb9d38b,MDS67331001,"Gasket,Sealing",전장,active,"MDS67331001 | Gasket,Sealing | 전장"
+part:a1c4d1399862750c2e09,RAC35717601,Sealant,절삭,active,RAC35717601 | Sealant | 절삭
+part:532c565a2a19e3f61c68,AEV73730203,Insulator Assembly,절삭,active,AEV73730203 | Insulator Assembly | 절삭
+part:093dbb83f46f75acaad8,RAA33956543,"Sheet,Steel(GI)",PD,active,"RAA33956543 | Sheet,Steel(GI) | PD"
+part:14b5e911c2f2b71a4256,MEE64285801,"Heater,Sheath",전장,active,"MEE64285801 | Heater,Sheath | 전장"
+part:da2fda82377e6764973a,EBD64245201,Sensor Assembly,Ass'y,active,EBD64245201 | Sensor Assembly | Ass'y
+part:a3cf574e6d63c64e7e1a,MCD64968501,"Connector,Bar",사출,active,"MCD64968501 | Connector,Bar | 사출"
+part:9ba129efb632115f58f5,RAA35497802,"Resin,PP",사출,active,"RAA35497802 | Resin,PP | 사출"
+part:b1f95c6c416f4536d032,EBD64245202,Sensor Assembly,Ass'y,active,EBD64245202 | Sensor Assembly | Ass'y
+part:d887e92cc25c596594ee,MCD64968502,"Connector,Bar",사출,active,"MCD64968502 | Connector,Bar | 사출"
+part:8defaf92714226e0e759,MFZ67001001,"Packing,Gasket",절삭,active,"MFZ67001001 | Packing,Gasket | 절삭"
+part:6a7c2fde79d94283570b,MFZ67001002,"Packing,Gasket",절삭,active,"MFZ67001002 | Packing,Gasket | 절삭"
+part:feb81a2a24d565f128b7,ABQ30017701,Case Assembly,Ass'y,active,ABQ30017701 | Case Assembly | Ass'y
+part:ce0da4811d47225c1242,MBN66266901,"Case,Upper",사출,active,"MBN66266901 | Case,Upper | 사출"
+part:ec883b42d9a54bab72cb,MBN66267201,"Case,Lower",사출,active,"MBN66267201 | Case,Lower | 사출"
+part:a1028be198b8c55c8497,RAA31737267,"Coil,Steel(GI)",PD,active,"RAA31737267 | Coil,Steel(GI) | PD"
+part:4c01a8d00a9820514fd0,MJU66793801,Tube,절삭,active,MJU66793801 | Tube | 절삭
+part:ca0cf873f87e56082dab,9BFMB018D00,"Bracket,Idle",PD,active,"9BFMB018D00 | Bracket,Idle | PD"
+part:34971b2fe65ef78885b5,RAA33956541,"Sheet,Steel(GI)",PD,active,"RAA33956541 | Sheet,Steel(GI) | PD"
+part:29caf81e313e24dd4596,RAA33959005,"Coil,Steel(STS)",PD,active,"RAA33959005 | Coil,Steel(STS) | PD"
+part:3bc416f6d38d482f314e,RAA33956547,"Sheet,Steel(GI)",PD,active,"RAA33956547 | Sheet,Steel(GI) | PD"
+part:f88d507ed9c50ca75168,RAA31629923,"Coil,Steel(Alcot)",PD,active,"RAA31629923 | Coil,Steel(Alcot) | PD"
+part:38e882e1b501bacf5e5f,RAA33959006,"Coil,Steel(STS)",PD,active,"RAA33959006 | Coil,Steel(STS) | PD"
+part:f3f46da3d404b6889d04,RAA33956540,"Sheet,Steel(GI)",PD,active,"RAA33956540 | Sheet,Steel(GI) | PD"
+part:46f3e18f71b9ebc74b17,RAA33956544,"Sheet,Steel(GI)",PD,active,"RAA33956544 | Sheet,Steel(GI) | PD"
+part:ac2c119c921cf7ee1665,AKU30949301,"Motor Assembly,Sub",Ass'y,active,"AKU30949301 | Motor Assembly,Sub | Ass'y"
+part:61fe601883d571bb9a4b,AHA76486202,Pump Assembly,전장,active,AHA76486202 | Pump Assembly | 전장
+part:6a6023d003533b56460f,AHA75854104,Pump Assembly,전장,active,AHA75854104 | Pump Assembly | 전장
+part:45bed4bbc4e2733120c0,MJU65727811,Tube,절삭,active,MJU65727811 | Tube | 절삭
+part:7cd15c85ba7f2102e53e,MFZ65297001,"Packing,Gasket",절삭,active,"MFZ65297001 | Packing,Gasket | 절삭"
+part:d2bc590bfc4da6709579,RCL30824402,"Coil,Steel(GI)",PD,active,"RCL30824402 | Coil,Steel(GI) | PD"
+part:410675b8cec036fe156f,EBR44926201,"PCB Assembly,Main",전장,active,"EBR44926201 | PCB Assembly,Main | 전장"
+part:0c6f3129e0b04c4e5982,MJH66307001,"Supporter,PCB",MD,active,"MJH66307001 | Supporter,PCB | MD"
+part:17af2ed783e87c1037b7,RAA31326401,"Resin,PC",MD,active,"RAA31326401 | Resin,PC | MD"
+part:a6489911832c3b05ff20,EBR30162707,"PCB Assembly,Sensor",전장,active,"EBR30162707 | PCB Assembly,Sensor | 전장"
+part:d842d106dcc0eadec3d7,MJH66307401,"Supporter,Holder",MD,active,"MJH66307401 | Supporter,Holder | MD"
+part:567053e2ef356fca8332,ABK73569301,Cam Assembly,Ass'y,active,ABK73569301 | Cam Assembly | Ass'y
+part:e714bd171203cc27b628,AEN75461002,"Housing Assembly,Water",Ass'y,active,"AEN75461002 | Housing Assembly,Water | Ass'y"
+part:197485abae98d8c9ad6a,MEK65194201,Housing,MD,active,MEK65194201 | Housing | MD
+part:57f4b505775fc8644b34,MFZ657510001,"Packing,Gasket",절삭,active,"MFZ657510001 | Packing,Gasket | 절삭"
+part:a75aa474e42e0923e2de,RAA33804005,"Coil,Steel(GI)",PD,active,"RAA33804005 | Coil,Steel(GI) | PD"
+part:5d71fcee3bd55a0284fb,AJL75318602,"Tank Assembly,Water",Ass'y,active,"AJL75318602 | Tank Assembly,Water | Ass'y"
+part:cdbfa23bc5236f286b62,MJM64049801,"Tank,Water",MD,active,"MJM64049801 | Tank,Water | MD"
+part:0673debb9c4c5e59d411,MCK71854001,"Cover,Top",MD,active,"MCK71854001 | Cover,Top | MD"
+part:be0e10f6bb5b449fc101,MDS62009503,Gasket,절삭,active,MDS62009503 | Gasket | 절삭
+part:722bdd54fc88e96552ca,MJX65109601,Valve,절삭,active,MJX65109601 | Valve | 절삭
+part:34583ce69549a513c6ac,MFZ67509901,"Packing,Gasket",절삭,active,"MFZ67509901 | Packing,Gasket | 절삭"
+part:f5bb3549e18a26182e04,MHY65704101,Spring,절삭,active,MHY65704101 | Spring | 절삭
+part:7fcd351ca91a643e3ef2,MAF00108301,"Bag,Envelope",절삭,active,"MAF00108301 | Bag,Envelope | 절삭"
+part:ba9d0346d4ec42457f33,MDQ66815401,"Frame,Door",MD,active,"MDQ66815401 | Frame,Door | MD"
+part:454ed8a3b500b7431bbd,MDQ66815402,"Frame,Door",MD,active,"MDQ66815402 | Frame,Door | MD"
+part:e8735cc7e12ccf0c42db,MDQ66815403,"Frame,Door",MD,active,"MDQ66815403 | Frame,Door | MD"
+part:8551200db3cf0bf82b65,MDQ66815404,"Frame,Door",MD,active,"MDQ66815404 | Frame,Door | MD"
+part:27b926cdb7513e1e67e6,AKF75721801,Print Assembly,Print,active,AKF75721801 | Print Assembly | Print
+part:44ad4b73dc225454c53b,MDQ66815602,"Frame,Decor",PD,active,"MDQ66815602 | Frame,Decor | PD"
+part:cabecbb95f4f6de56ce5,MDQ66815601,"Frame,Decor",PD,active,"MDQ66815601 | Frame,Decor | PD"
+part:4e28dfafcb92ed4bde81,RAA33804007,"Coil,Steel(GI)",PD,active,"RAA33804007 | Coil,Steel(GI) | PD"
+part:91b71eb63828557c381c,MCR68474401,"Decor,Door",MD,active,"MCR68474401 | Decor,Door | MD"
+part:2a117113f42d5046e0c3,MCK71854103,"Cover,Front",PD,active,"MCK71854103 | Cover,Front | PD"
+part:fa2f0ae48a6eec9a37ff,MCK71854101,"Cover,Front",PD,active,"MCK71854101 | Cover,Front | PD"
+part:d7ccef9b2ab8d835eaef,RAA33804008,"Coil,Steel(GI)",PD,active,"RAA33804008 | Coil,Steel(GI) | PD"
+part:2513ac571cceeb4810cb,MCK71854104,"Cover,Front",PD,active,"MCK71854104 | Cover,Front | PD"
+part:03094c47ef361c462161,MCK71854102,"Cover,Front",PD,active,"MCK71854102 | Cover,Front | PD"
+part:e66b67d71fcf4f4d79ee,MDS67743101,"Gasket,Sealing",절삭,active,"MDS67743101 | Gasket,Sealing | 절삭"
+part:710cb2212bd6de68c966,RAA33956539,"Sheet,Steel(GI)",PD,active,"RAA33956539 | Sheet,Steel(GI) | PD"
+part:3d18948748db2aaf4ebf,RAA33956538,"Sheet,Steel(GI)",PD,active,"RAA33956538 | Sheet,Steel(GI) | PD"
+part:b28f83b39aa4506255a0,5072JA3003F,"Damper,Noise",절삭,active,"5072JA3003F | Damper,Noise | 절삭"
+part:93eb7e8fc034caaa90df,MAY70002707,Box,포장물,active,MAY70002707 | Box | 포장물
+part:4c1061ffcfc3385ea829,MFZ67394802,"Packing,Upper",포장물,active,"MFZ67394802 | Packing,Upper | 포장물"
+part:05a43944eeefa09bb568,MAB62761347,Angle,포장물,active,MAB62761347 | Angle | 포장물
+part:6d5bf46ec6b8b4125716,RAB00557001,"Tape,PETP",포장물,active,"RAB00557001 | Tape,PETP | 포장물"
+part:28cf2774d84ed64b27b3,RAB00557201,"Tape,OPP",포장물,active,"RAB00557201 | Tape,OPP | 포장물"
+part:7051172e9effcf966ea8,RAB00557101,"Film,Polyethylene(PE)",포장물,active,"RAB00557101 | Film,Polyethylene(PE) | 포장물"

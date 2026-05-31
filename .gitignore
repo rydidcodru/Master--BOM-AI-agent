@@ -1,0 +1,21 @@
+# 환경 변수 (API 키 포함) — 절대 커밋하지 말 것
+.env
+*/.env
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# 임시 파일
+~$*
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 업로드된 입력 파일 (개인 데이터)
+input/*.pptx
+input/*.xlsx

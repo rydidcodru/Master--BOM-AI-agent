@@ -1,0 +1,69 @@
+# Deployment compose for the BOM knowledge graph.
+#
+# `docker compose -f docker-compose.deploy.yml up -d` will:
+#   1. start Neo4j (with apoc + CSV import settings)
+#   2. wait until it is healthy
+#   3. run the loader: constraints/indexes + load the CSVs in outputs/neo4j_csv
+#
+# Setup:
+#   cp .env.example .env      # then edit NEO4J_PASSWORD
+#   docker compose -f docker-compose.deploy.yml up -d
+#
+# Data lives in named volumes (neo4j_data, ...). To wipe and reload from
+# scratch: `docker compose -f docker-compose.deploy.yml down -v`.
+
+services:
+  neo4j:
+    image: neo4j:5.26
+    container_name: bom-neo4j
+    restart: unless-stopped
+    ports:
+      - "${NEO4J_HTTP_PORT:-7474}:7474"   # HTTP / Neo4j Browser
+      - "${NEO4J_BOLT_PORT:-7687}:7687"   # Bolt
+    environment:
+      NEO4J_AUTH: "neo4j/${NEO4J_PASSWORD:?set NEO4J_PASSWORD in .env}"
+      NEO4J_dbms_security_auth__minimum__password__length: "1"
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_apoc_export_file_enabled: "true"
+      NEO4J_apoc_import_file_enabled: "true"
+      NEO4J_db_import_csv_legacy__quote__escaping: "false"
+      NEO4J_dbms_security_procedures_unrestricted: "apoc.*"
+      NEO4J_server_memory_heap_initial__size: "${NEO4J_HEAP_INITIAL:-2G}"
+      NEO4J_server_memory_heap_max__size: "${NEO4J_HEAP_MAX:-4G}"
+      NEO4J_server_memory_pagecache_size: "${NEO4J_PAGECACHE:-2G}"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_import:/var/lib/neo4j/import
+      - neo4j_plugins:/plugins
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+      start_period: 60s
+
+  loader:
+    image: neo4j:5.26
+    container_name: bom-loader
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    environment:
+      NEO4J_HOST: neo4j
+      NEO4J_USER: neo4j
+      NEO4J_PASSWORD: "${NEO4J_PASSWORD:?set NEO4J_PASSWORD in .env}"
+    entrypoint: ["bash", "/loader.sh"]
+    volumes:
+      - neo4j_import:/import                 # shared with neo4j's import dir
+      - ./outputs/neo4j_csv:/csv:ro          # source CSVs
+      - ./outputs/neo4j_load:/load:ro        # load_all.cypher
+      - ./cypher:/cypher:ro                  # constraints_indexes.cypher
+      - ./load_to_neo4j.sh:/loader.sh:ro
+    restart: "no"
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_import:
+  neo4j_plugins:

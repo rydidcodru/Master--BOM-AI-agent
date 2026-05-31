@@ -1,0 +1,13 @@
+[project]
+name = "etl"
+version = "0.2.0"
+description = "Excel → Postgres + pgvector ETL for dev part master"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "psycopg[binary]>=3.2.0",
+]
+
+[tool.uv]
+dev-dependencies = []
