@@ -70,16 +70,19 @@ st.markdown("""
 _DEFAULTS: dict = {
     "step": 1,
     "tmp_paths": [],
-    "change_points": [],
-    "search_results": [],
-    "selections": {},       # {sr_idx: [candidate_dict, ...]}
-    "master_rows": [],      # STEP 4: 조립된 Master BOM 행
-    "master_excel": None,   # STEP 4: Excel bytes
-    "new_model": "",        # STEP 4: New Model/Grade
-    "base_model": "",       # STEP 4: Base Model/Grade
-    "base_bom_bytes": None, # STEP 1: base_bom.xlsx bytes
-    "base_bom_name": None,  # STEP 1: base_bom.xlsx 파일명
-    "upload_key": 0,        # 업로더 리셋용
+    "change_points": [],        # STEP 1 결과
+    "search_results": [],       # (레거시 호환)
+    "bom_explore_results": [],  # STEP 3 결과: [{change_point, bom_parts}]
+    "confirmed_parts": [],      # STEP 3 확정 부품 [{...part, change_point_ref}]
+    "history_results": [],      # STEP 4 결과: [{confirmed_part, histories}]
+    "selections": {},           # STEP 4 선택: {idx: {confirmed_part, selected_history, custom_reason}}
+    "master_rows": [],          # STEP 5 결과
+    "master_excel": None,       # STEP 5 Excel bytes
+    "new_model": "",
+    "base_model": "",
+    "base_bom_bytes": None,
+    "base_bom_name": None,
+    "upload_key": 0,
 }
 for _k, _v in _DEFAULTS.items():
     if _k not in st.session_state:
@@ -153,19 +156,20 @@ with st.sidebar:
 
     _step_label(1, "PPTX 업로드 & 파싱")
     _step_label(2, "파싱 결과 확인")
-    _step_label(3, "후보 선정")
-    _step_label(4, "Master BOM 작성")
+    _step_label(3, "변경 부품 확정")
+    _step_label(4, "이력 조회 & 후보 선택")
+    _step_label(5, "Master BOM 작성")
 
     st.divider()
 
     if st.session_state.get("base_bom_name"):
         st.caption(f"📂 Base BOM: {st.session_state.base_bom_name}")
 
-    if st.session_state.step >= 3 and st.session_state.search_results:
-        total = len(st.session_state.search_results)
+    if st.session_state.step >= 3 and st.session_state.bom_explore_results:
+        total = sum(len(r["bom_parts"]) for r in st.session_state.bom_explore_results)
         sel_cnt = sum(1 for v in st.session_state.selections.values() if v)
-        st.metric("분석 항목", total)
-        st.metric("후보 선택됨", sel_cnt)
+        st.metric("탐색 부품", total)
+        st.metric("이력 선택됨", sel_cnt)
 
     if st.session_state.step > 1:
         if st.button("🔄 처음부터 다시", use_container_width=True):
@@ -310,169 +314,274 @@ elif st.session_state.step == 2:
 
     with col_search:
         search_btn = st.button(
-            "🔍 이력 검색 시작 →",
+            "🔍 변경 부품 탐색 →",
             type="primary",
             use_container_width=True,
+            disabled=not st.session_state.get("base_bom_bytes"),
+            help="base_bom.xlsx를 업로드해야 활성화됩니다.",
         )
         if search_btn:
             # 편집 내용 반영
             updated_cps = edited_df.to_dict("records")
             for cp_orig, row in zip(st.session_state.change_points, updated_cps):
                 cp_orig.update(row)
-            # aliases 없는 항목 보정
             for cp in st.session_state.change_points:
                 if not cp.get("aliases"):
                     cp["aliases"] = [cp.get("part", "")]
 
-            from runner import step3_search_and_rank
+            from runner import step3_explore_bom
 
-            with st.status("🔄 Neo4j 검색 & LLM 유사도 판단 중...", expanded=True) as status:
-                st.write(f"{len(st.session_state.change_points)}개 항목 병렬 검색...")
-                results = step3_search_and_rank(st.session_state.change_points)
-                st.session_state.search_results = results
-                status.update(
-                    label=f"✅ 검색 완료 — {len(results)}개 결과",
-                    state="complete",
+            with st.status("🔄 base_bom 탐색 중...", expanded=True) as status:
+                st.write(f"{len(st.session_state.change_points)}개 변경점 탐색...")
+                explore_results = step3_explore_bom(
+                    st.session_state.change_points,
+                    st.session_state.base_bom_bytes,
                 )
+                st.session_state.bom_explore_results = explore_results
+                total = sum(len(r["bom_parts"]) for r in explore_results)
+                status.update(label=f"✅ 탐색 완료 — 총 {total}개 부품 발견", state="complete")
 
             st.session_state.step = 3
             st.rerun()
 
 
 # ════════════════════════════════════════════════════════════
-# STEP 3 : 유사 이력 후보 선정
+# STEP 3 : base_bom 탐색 결과 확인 & 변경 부품 확정
 # ════════════════════════════════════════════════════════════
 elif st.session_state.step == 3:
-    st.title("STEP 3 — 유사 이력 후보 선정")
+    st.title("STEP 3 — 변경 부품 확정")
     st.markdown(
-        "각 변경점마다 LLM이 추천한 유사 이력 후보가 표시됩니다.  \n"
-        "참고할 항목을 체크박스로 선택하세요."
+        "base_bom에서 찾은 변경 대상 부품 목록입니다.  \n"
+        "불필요한 부품은 체크를 해제하고 **변경 부품 확정** 버튼을 눌러주세요."
     )
 
-    results = st.session_state.search_results
-    if not results:
-        st.warning("검색 결과가 없습니다. STEP 2로 돌아가세요.")
+    explore_results = st.session_state.bom_explore_results
+    if not explore_results:
+        st.warning("탐색 결과가 없습니다. STEP 2로 돌아가세요.")
         if st.button("← STEP 2로"):
             st.session_state.step = 2
             st.rerun()
         st.stop()
 
-    # PPTX 파일별 탭 분리
-    pptx_names = list(dict.fromkeys(
-        sr["change_point"].get("source_pptx", "기타") for sr in results
+    # 모듈별 탭 분리
+    modules = list(dict.fromkeys(
+        r["change_point"].get("module", "기타") for r in explore_results
+        if r.get("bom_parts")
     ))
-    tabs = st.tabs([f"📄 {n}" for n in pptx_names]) if len(pptx_names) > 1 else [st.container()]
+    tabs = st.tabs(modules) if len(modules) > 1 else [st.container()]
 
-    for tab, pptx_name in zip(tabs, pptx_names):
+    confirmed_map: dict[str, bool] = {}  # part_no → checked
+
+    for tab, module in zip(tabs, modules):
         with tab:
-            file_items = [
-                (i, sr) for i, sr in enumerate(results)
-                if sr["change_point"].get("source_pptx") == pptx_name
+            module_results = [
+                r for r in explore_results
+                if r["change_point"].get("module") == module and r.get("bom_parts")
             ]
-
-            for sr_idx, sr in file_items:
-                cp = sr["change_point"]
-                ranked = sr.get("ranked", [])
-                pool_size = len(sr.get("candidates", []))
+            for er_idx, er in enumerate(module_results):
+                cp = er["change_point"]
+                bom_parts = er["bom_parts"]
 
                 with st.container(border=True):
-                    # 변경점 헤더
-                    h_col, m_col = st.columns([3, 1])
-                    with h_col:
-                        st.markdown(
-                            f"### {cp.get('module','')} &nbsp;›&nbsp; **{cp.get('part','')}**"
-                        )
-                        st.markdown(
-                            f"🔄 **변경내역** : {cp.get('change_detail','')}  \n"
-                            f"💡 **변경사유** : {cp.get('change_reason','')}"
-                        )
-                    with m_col:
-                        st.caption(f"Neo4j 후보풀: {pool_size}건")
-                        st.caption(f"LLM 추천: {len(ranked)}건")
-                        retry = sr.get("retry_count", 0)
-                        if retry:
-                            st.caption(f"검색 시도: {retry+1}회")
-
+                    st.markdown(
+                        f"**{cp.get('module','')} › {cp.get('part','')}**  \n"
+                        f"🔄 {cp.get('change_detail','')}  \n"
+                        f"💡 {cp.get('change_reason','')}"
+                    )
+                    st.caption(f"base_bom 하위 부품 {len(bom_parts)}개")
                     st.divider()
 
-                    candidates = sr.get("candidates", [])
-                    using_fallback = not ranked and bool(candidates)
-
-                    if not ranked and not candidates:
-                        st.warning("유사한 과거 이력을 찾지 못했습니다.")
-                        continue
-
-                    if using_fallback:
-                        st.warning(
-                            f"LLM이 유사 후보를 선정하지 못했습니다. "
-                            f"Neo4j 후보풀 {len(candidates)}건을 직접 확인하세요."
-                        )
-                        display_list = candidates
-                        st.markdown("**📋 Neo4j 원본 후보풀 — 직접 선택하세요**")
-                    else:
-                        display_list = ranked
-                        st.markdown("**📋 유사 이력 후보 — 참고할 항목을 선택하세요**")
-
-                    cur_sel = st.session_state.selections.get(sr_idx, [])
-                    sel_ids = {c.get("changeId") for c in cur_sel}
-
-                    new_sel = []
-                    for idx_c, c in enumerate(display_list):
-                        # 폴백 후보는 rank 필드가 없으므로 순번 부여
-                        if using_fallback and "rank" not in c:
-                            c = {**c, "rank": idx_c + 1}
-                        cid = c.get("changeId", "")
-                        is_sel = cid in sel_ids
-                        chk_col, card_col = st.columns([0.05, 0.95])
+                    for p in bom_parts:
+                        pno = p["part_no"]
+                        key = f"bom_chk_{er_idx}_{pno}"
+                        prev = st.session_state.get(key, True)
+                        chk_col, info_col = st.columns([0.05, 0.95])
                         with chk_col:
-                            checked = st.checkbox(
-                                "",
-                                value=is_sel,
-                                key=f"chk_{sr_idx}_{cid}_{idx_c}",
-                                label_visibility="collapsed",
+                            checked = st.checkbox("", value=prev, key=key,
+                                                  label_visibility="collapsed")
+                        with info_col:
+                            st.markdown(
+                                f"`{p['lvl']:8}` **{p['description']}**  "
+                                f"<span style='color:#888;font-size:0.8em'>"
+                                f"part_no={pno} | {p['type']}</span>",
+                                unsafe_allow_html=True,
                             )
-                        with card_col:
-                            _render_candidate(c, checked, key=f"sel_{sr_idx}_{cid}_{idx_c}")
-                        if checked:
-                            new_sel.append(c)
+                        confirmed_map[pno] = checked
 
-                    st.session_state.selections[sr_idx] = new_sel
-                    if new_sel:
-                        st.success(f"✅ {len(new_sel)}건 선택됨")
+    # 빈 결과 처리
+    no_parts = [r for r in explore_results if not r.get("bom_parts")]
+    if no_parts:
+        with st.expander(f"⚠️ base_bom 매칭 실패 {len(no_parts)}건"):
+            for r in no_parts:
+                cp = r["change_point"]
+                st.markdown(f"- {cp.get('module')} › **{cp.get('part')}**")
 
-    # ── 하단 확정 버튼 ────────────────────────────────────────
     st.divider()
-    total_sel = sum(1 for v in st.session_state.selections.values() if v)
+    sel_cnt = sum(1 for v in confirmed_map.values() if v)
     c_left, c_right = st.columns([3, 1])
     with c_left:
-        st.markdown(f"현재 **{total_sel}개** 항목에 후보가 선택되어 있습니다.")
+        st.markdown(f"**{sel_cnt}개** 부품이 선택되어 있습니다.")
     with c_right:
         confirm_btn = st.button(
-            "✅ 선택 확정",
-            disabled=total_sel == 0,
+            "✅ 변경 부품 확정 →",
+            disabled=sel_cnt == 0,
             type="primary",
             use_container_width=True,
         )
 
     if confirm_btn:
+        # 확정 부품 조립: 체크된 것만 + change_point_ref 추가
+        confirmed: list[dict] = []
+        for er in explore_results:
+            cp = er["change_point"]
+            for p in er.get("bom_parts", []):
+                if confirmed_map.get(p["part_no"], True):
+                    confirmed.append({**p, "change_point_ref": cp})
+
+        from runner import step4_search_history
+        st.session_state.confirmed_parts = confirmed
+
+        with st.status(f"🔄 {len(confirmed)}개 부품 Neo4j 이력 조회 중...", expanded=True) as status:
+            history_results = step4_search_history(confirmed)
+            st.session_state.history_results = history_results
+            status.update(label="✅ 이력 조회 완료", state="complete")
+
         st.session_state.step = 4
         st.rerun()
 
 
 # ════════════════════════════════════════════════════════════
-# STEP 4 : Master BOM 작성 & Excel 다운로드
+# STEP 4 : 이력 조회 결과 확인 & 후보 선택
 # ════════════════════════════════════════════════════════════
 elif st.session_state.step == 4:
-    st.title("STEP 4 — Master BOM 작성")
+    st.title("STEP 4 — 이력 조회 & 후보 선택")
     st.markdown(
-        "선정된 후보를 바탕으로 Master BOM을 작성합니다.  \n"
-        "변경사유는 과거 이력 문체를 참고해 GPT-4o가 자동 생성합니다."
+        "각 확정 부품마다 Neo4j에서 찾은 과거 변경 이력입니다.  \n"
+        "참고할 이력을 선택하거나, 이력이 없으면 변경사유를 직접 입력하세요."
     )
 
-    results = st.session_state.search_results
-    selections = st.session_state.selections
+    history_results = st.session_state.history_results
+    if not history_results:
+        st.warning("이력 조회 결과가 없습니다. STEP 3으로 돌아가세요.")
+        if st.button("← STEP 3으로"):
+            st.session_state.step = 3
+            st.rerun()
+        st.stop()
 
-    # ── 모델명 입력 ───────────────────────────────────────────
+    selections: dict = st.session_state.selections
+
+    for idx, hr in enumerate(history_results):
+        part      = hr["confirmed_part"]
+        histories = hr["histories"]
+        cp_ref    = part.get("change_point_ref", {})
+
+        with st.container(border=True):
+            h_col, m_col = st.columns([3, 1])
+            with h_col:
+                st.markdown(
+                    f"**{part.get('lvl','')}** &nbsp; **{part.get('description','')}**  \n"
+                    f"`{part.get('part_no','')}` &nbsp;|&nbsp; {part.get('type','')}"
+                )
+                st.caption(
+                    f"변경점: {cp_ref.get('change_detail','')}  |  "
+                    f"출처: {cp_ref.get('module','')} › {cp_ref.get('part','')}"
+                )
+            with m_col:
+                st.caption(f"과거 이력: {len(histories)}건")
+
+            st.divider()
+
+            cur_sel = selections.get(idx, {})
+
+            if not histories:
+                st.info("관련 과거 이력이 없습니다. 변경사유를 직접 입력하세요.")
+                custom = st.text_input(
+                    "변경사유 직접 입력",
+                    value=cur_sel.get("custom_reason", ""),
+                    key=f"custom_{idx}",
+                    placeholder="예) 제품 치수 변경에 따른 Size 변경",
+                )
+                selections[idx] = {
+                    "confirmed_part": part,
+                    "selected_history": None,
+                    "custom_reason": custom,
+                }
+                continue
+
+            st.markdown("**📋 과거 이력 — 참고할 항목을 선택하세요 (선택 안 해도 됩니다)**")
+
+            sel_change_id = cur_sel.get("selected_history", {}).get("changeId") if cur_sel.get("selected_history") else None
+
+            new_hist_sel = None
+            for h_idx, h in enumerate(histories):
+                is_sel = (h.get("changeId") == sel_change_id)
+                hchk_col, hcard_col = st.columns([0.05, 0.95])
+                with hchk_col:
+                    checked = st.checkbox(
+                        "", value=is_sel,
+                        key=f"hist_{idx}_{h_idx}",
+                        label_visibility="collapsed",
+                    )
+                with hcard_col:
+                    with st.expander(
+                        f"**{h.get('modelName','?')}** | {h.get('changingPoint','')[:40]}",
+                        expanded=is_sel,
+                    ):
+                        c1, c2 = st.columns(2)
+                        with c1:
+                            st.markdown(f"**변경점**: {h.get('changingPoint','')}")
+                            st.markdown(f"**변경사유**: {h.get('changingReason','')}")
+                        with c2:
+                            base = h.get("basePartNoRaw") or "-"
+                            new  = h.get("newPartNoRaw")  or "-"
+                            st.markdown(f"**P/No**: `{base}` → `{new}`")
+                            st.markdown(f"**분류**: {h.get('classification','')}")
+                        related = h.get("relatedParts") or []
+                        if related:
+                            st.caption(f"관련 변경 부품: {', '.join(str(r) for r in related[:8])}")
+                if checked:
+                    new_hist_sel = h
+
+            selections[idx] = {
+                "confirmed_part":   part,
+                "selected_history": new_hist_sel,
+                "custom_reason":    "",
+            }
+
+    st.session_state.selections = selections
+
+    st.divider()
+    c_left, c_right = st.columns([3, 1])
+    with c_left:
+        sel_cnt = sum(1 for v in selections.values() if v)
+        st.markdown(f"**{len(history_results)}개** 부품 확인 완료")
+    with c_right:
+        next_btn = st.button(
+            "📝 Master 작성 →",
+            type="primary",
+            use_container_width=True,
+        )
+
+    if next_btn:
+        st.session_state.step = 5
+        st.rerun()
+
+
+# ════════════════════════════════════════════════════════════
+# STEP 5 : Master BOM 작성 & Excel 다운로드
+# ════════════════════════════════════════════════════════════
+elif st.session_state.step == 5:
+    st.title("STEP 5 — Master BOM 작성")
+    st.markdown("확정된 부품과 선택한 이력을 바탕으로 Master BOM을 생성합니다.")
+
+    selections = st.session_state.selections
+    if not selections:
+        st.warning("선택 정보가 없습니다. STEP 4로 돌아가세요.")
+        if st.button("← STEP 4로"):
+            st.session_state.step = 4
+            st.rerun()
+        st.stop()
+
     with st.container(border=True):
         st.markdown("**모델 정보**")
         mc1, mc2 = st.columns(2)
@@ -480,34 +589,29 @@ elif st.session_state.step == 4:
             base_model = st.text_input(
                 "Base Model/Grade",
                 value=st.session_state.base_model,
-                placeholder="예) WSED7612B.AKSQEUR",
+                placeholder="예) WSED7613S / A",
             )
         with mc2:
             new_model = st.text_input(
                 "New Model/Grade",
                 value=st.session_state.new_model,
-                placeholder="예) WSED7612B.AKSZLSL / D",
+                placeholder="예) WS7D4731S / A",
             )
         st.session_state.base_model = base_model
         st.session_state.new_model  = new_model
 
     st.divider()
 
-    # ── Master 생성 버튼 ──────────────────────────────────────
     gen_col, _ = st.columns([1, 2])
     with gen_col:
-        gen_btn = st.button(
-            "📝 Master BOM 생성",
-            type="primary",
-            use_container_width=True,
-            disabled=not any(v for v in selections.values()),
-        )
+        gen_btn = st.button("📝 Master BOM 생성", type="primary", use_container_width=True)
 
     if gen_btn:
-        from runner import step4_build_master
-        with st.status("🔄 Master BOM 작성 중... (GPT-4o 변경사유 생성)", expanded=True) as status:
-            rows, excel_bytes = step4_build_master(
-                results, selections,
+        from runner import step5_build_master
+        confirmed_selections = list(selections.values())
+        with st.status("🔄 Master BOM 작성 중...", expanded=True) as status:
+            rows, excel_bytes = step5_build_master(
+                confirmed_selections,
                 new_model=new_model,
                 base_model=base_model,
             )
@@ -515,51 +619,24 @@ elif st.session_state.step == 4:
             st.session_state.master_excel = excel_bytes
             status.update(label=f"✅ Master BOM {len(rows)}행 생성 완료", state="complete")
 
-    # ── 미리보기 & 다운로드 ───────────────────────────────────
     if st.session_state.master_rows:
         import pandas as pd
-
         rows = st.session_state.master_rows
-
-        # 표시용 DataFrame
         PREVIEW_COLS = {
-            "No":               "No",
-            "BOM_Level":        "BOM Level",
-            "Part_Type":        "Part Type",
-            "Base_PNo":         "Base P/No",
-            "New_PNo":          "New P/No",
-            "Class_Desc":       "부품명",
-            "Qty_Base":         "Qty Base",
-            "Qty_New":          "Qty New",
-            "Changing_Point":   "변경점",
-            "Changing_Reason":  "변경사유",
-            "Supplier":         "양산처",
-            "Classification":   "신규/변경",
+            "No": "No", "BOM_Level": "BOM Level", "Part_Type": "Part Type",
+            "Base_PNo": "Base P/No", "New_PNo": "New P/No",
+            "Class_Desc": "부품명", "Changing_Point": "변경점",
+            "Changing_Reason": "변경사유", "Supplier": "양산처",
         }
         df = pd.DataFrame(rows)[list(PREVIEW_COLS.keys())].rename(columns=PREVIEW_COLS)
-
         st.markdown(f"**Master BOM 미리보기 — {len(rows)}행**")
-        st.dataframe(
-            df,
-            use_container_width=True,
-            hide_index=True,
-            column_config={
-                "No":       st.column_config.NumberColumn(width="small"),
-                "BOM Level":st.column_config.TextColumn(width="small"),
-                "Part Type":st.column_config.TextColumn(width="medium"),
-                "Base P/No":st.column_config.TextColumn(width="medium"),
-                "New P/No": st.column_config.TextColumn(width="medium"),
-                "부품명":   st.column_config.TextColumn(width="large"),
-                "변경점":   st.column_config.TextColumn(width="large"),
-                "변경사유": st.column_config.TextColumn(width="large"),
-            },
-        )
+        st.dataframe(df, use_container_width=True, hide_index=True)
 
         st.divider()
         dl_col, back_col = st.columns([1, 1])
         with dl_col:
             st.download_button(
-                label="⬇️ Excel 다운로드 (Master BOM.xlsx)",
+                label="⬇️ Excel 다운로드 (Master_BOM.xlsx)",
                 data=st.session_state.master_excel,
                 file_name="Master_BOM.xlsx",
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -567,6 +644,6 @@ elif st.session_state.step == 4:
                 type="primary",
             )
         with back_col:
-            if st.button("← 후보 선정으로 돌아가기", use_container_width=True):
-                st.session_state.step = 3
+            if st.button("← STEP 4로 돌아가기", use_container_width=True):
+                st.session_state.step = 4
                 st.rerun()

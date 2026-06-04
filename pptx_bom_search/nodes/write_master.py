@@ -81,6 +81,68 @@ def _type_to_part_type(raw_type: str) -> str:
     return mapping.get(raw_type or "", raw_type or "")
 
 
+def build_master_rows_from_confirmed(confirmed_selections: list[dict]) -> list[dict]:
+    """
+    확정 부품 + 선택 이력 → Master BOM 행 목록 조립.
+
+    confirmed_selections: [
+      {
+        "confirmed_part": {part_no, lvl, description, type, maker, change_point_ref},
+        "selected_history": history_dict or None,
+        "custom_reason": str   # 이력 없을 때 직접 입력한 변경사유
+      }, ...
+    ]
+    """
+    rows = []
+    no = 1
+    seen_pno: set[str] = set()
+
+    for sel in confirmed_selections:
+        part    = sel["confirmed_part"]
+        history = sel.get("selected_history")
+        custom  = sel.get("custom_reason", "")
+        cp_ref  = part.get("change_point_ref", {})
+
+        pno = part.get("part_no", "")
+        if pno in seen_pno:
+            continue
+        seen_pno.add(pno)
+
+        # 변경점: 원본 PPTX change_detail
+        changing_point = cp_ref.get("change_detail", "") or "하위 부품 변경"
+
+        # 변경사유: 이력 있으면 LLM 생성, 없으면 직접 입력값
+        if history:
+            changing_reason = _generate_changing_reason(
+                changing_point,
+                cp_ref.get("change_reason", ""),
+                [history],
+            )
+        else:
+            changing_reason = custom or changing_point
+
+        rows.append({
+            "No":              no,
+            "BOM_Level":       part.get("lvl", ""),
+            "Part_Type":       _type_to_part_type(part.get("type", "")),
+            "Base_PNo":        pno,
+            "New_PNo":         "←",
+            "Class_Desc":      part.get("description", ""),
+            "Qty_Base":        part.get("qty") or 1,
+            "Qty_New":         "←",
+            "Changing_Point":  changing_point,
+            "Changing_Reason": changing_reason,
+            "Supplier":        part.get("maker", ""),
+            "Classification":  history.get("classification", "") if history else "",
+            "source_pptx":     cp_ref.get("source_pptx", ""),
+            "module":          cp_ref.get("module", ""),
+            "part":            cp_ref.get("part", ""),
+        })
+        no += 1
+
+    return rows
+
+
 def _make_row(no: int, hier_row: dict, cp: dict,
               changing_point: str, changing_reason: str,
               supplier: str) -> dict:
