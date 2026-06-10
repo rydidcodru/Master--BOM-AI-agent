@@ -1,0 +1,49 @@
+fromPartId,toPartId,caseId,documentId,lineId,classification,changingPoint,changingReason
+part:7902789fed81511c9c37,part:b575fb4d329267b99a5d,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:37.0,Change,부품 변경,3점식 Meat Probe로 변경
+part:4ba28de8d636d905f5ab,part:f1ec408e97da14c40eeb,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:45.0,Change,부품 변경,BLDC 기능 추가
+part:c2ce11dc1a36a9f5c738,part:e2373c3fe0b317b88784,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:99.0,Change,부품 변경,북미향 힌지 적용
+part:7018e3b2729d4d4a74e1,part:70fb085674d1892a7eb5,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:100.0,Change,부품 변경,북미향 힌지 적용
+part:ab4eb4861202e0e32dfc,part:558b8a5f567f79573a0d,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:102.0,Change,부품 변경,북미향 힌지 적용
+part:885def0a8c35d0e91f06,part:f713b9676c84286d40d6,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:103.0,Change,부품 변경,북미향 힌지 적용
+part:8ec73e82828ca2c4411f,part:6bdd951d809e6144786b,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:107.0,Change,부품 변경,북미향 힌지 적용
+part:f287e6dcd93750ae8785,part:7b21980591f1d5857403,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:108.0,Change,부품 변경,북미향 힌지 적용
+part:3fdfe03b2e4275c7ad55,part:46724347b0da1406ba63,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:109.0,Change,부품 변경,북미향 힌지 적용
+part:7018e3b2729d4d4a74e1,part:70fb085674d1892a7eb5,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:110.0,Change,부품 변경,북미향 힌지 적용
+part:ab4eb4861202e0e32dfc,part:558b8a5f567f79573a0d,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:112.0,Change,부품 변경,북미향 힌지 적용
+part:885def0a8c35d0e91f06,part:f713b9676c84286d40d6,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:113.0,Change,부품 변경,북미향 힌지 적용
+part:8ec73e82828ca2c4411f,part:6bdd951d809e6144786b,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:117.0,Change,부품 변경,북미향 힌지 적용
+part:004ed41210fe9497f390,part:aec22280c2957c204bfc,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:121.0,Change,부품 변경,BLDC 기능 추가
+part:08ebc49375c6f485ae7f,part:0c6f986acc1404e0ef7f,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:123.0,Change,부품 변경,BLDC 기능 추가
+part:3312bf924ffce1f9bc03,part:59ef2ea786c756dafa99,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:124.0,Change,부품 변경,BLDC 기능 추가
+part:9a5fe98def49a35f5354,part:9638ea938e0af7974d47,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:125.0,Change,부품 변경,BLDC 기능 추가
+part:ab959055c5b2edf71832,part:6d042dca176384b83eaa,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:268.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경"
+part:180adac40b8a3f551f15,part:8a36be5615dbfa82b636,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:273.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경(Power PCB)"
+part:f3103fb774781496a939,part:47d729250d5cd616fc1c,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:275.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경"
+part:89d0c10c906bb36bcfb0,part:eb32088a5848e02902a2,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:279.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경(Back Lighting PCB)"
+part:7c36cc8c3ac8cdccb274,part:89d0c10c906bb36bcfb0,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:280.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경(Display PCB)"
+part:53ec5c2bae2360960d68,part:9e51464074c2aa97b05b,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:315.0,Change,부품 변경,업체 이원화 부품 적용
+part:20fda7b6260b9f07c745,part:9e4d9e1d450fb0aff78c,case:e0bda931d1ac6b5ae9d4f711,doc:02ab38ce51f03cb8a038327b,doc:02ab38ce51f03cb8a038327b:line:381.0,Change,부품 변경,1→3점 인식 Meat Probe 적용
+part:7902789fed81511c9c37,part:b575fb4d329267b99a5d,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:37.0,Change,부품 변경,3점식 Meat Probe로 변경
+part:4ba28de8d636d905f5ab,part:f1ec408e97da14c40eeb,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:45.0,Change,부품 변경,BLDC 기능 추가
+part:c2ce11dc1a36a9f5c738,part:e2373c3fe0b317b88784,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:99.0,Change,부품 변경,북미향 힌지 적용
+part:7018e3b2729d4d4a74e1,part:70fb085674d1892a7eb5,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:100.0,Change,부품 변경,북미향 힌지 적용
+part:ab4eb4861202e0e32dfc,part:558b8a5f567f79573a0d,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:102.0,Change,부품 변경,북미향 힌지 적용
+part:885def0a8c35d0e91f06,part:f713b9676c84286d40d6,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:103.0,Change,부품 변경,북미향 힌지 적용
+part:8ec73e82828ca2c4411f,part:6bdd951d809e6144786b,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:107.0,Change,부품 변경,북미향 힌지 적용
+part:f287e6dcd93750ae8785,part:7b21980591f1d5857403,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:108.0,Change,부품 변경,북미향 힌지 적용
+part:3fdfe03b2e4275c7ad55,part:46724347b0da1406ba63,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:109.0,Change,부품 변경,북미향 힌지 적용
+part:7018e3b2729d4d4a74e1,part:70fb085674d1892a7eb5,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:110.0,Change,부품 변경,북미향 힌지 적용
+part:ab4eb4861202e0e32dfc,part:558b8a5f567f79573a0d,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:112.0,Change,부품 변경,북미향 힌지 적용
+part:885def0a8c35d0e91f06,part:f713b9676c84286d40d6,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:113.0,Change,부품 변경,북미향 힌지 적용
+part:8ec73e82828ca2c4411f,part:6bdd951d809e6144786b,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:117.0,Change,부품 변경,북미향 힌지 적용
+part:004ed41210fe9497f390,part:aec22280c2957c204bfc,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:121.0,Change,부품 변경,BLDC 기능 추가
+part:08ebc49375c6f485ae7f,part:0c6f986acc1404e0ef7f,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:123.0,Change,부품 변경,BLDC 기능 추가
+part:3312bf924ffce1f9bc03,part:59ef2ea786c756dafa99,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:124.0,Change,부품 변경,BLDC 기능 추가
+part:9a5fe98def49a35f5354,part:9638ea938e0af7974d47,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:125.0,Change,부품 변경,BLDC 기능 추가
+part:ab959055c5b2edf71832,part:6d042dca176384b83eaa,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:268.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경"
+part:180adac40b8a3f551f15,part:8a36be5615dbfa82b636,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:273.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경(Power PCB)"
+part:f3103fb774781496a939,part:47d729250d5cd616fc1c,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:275.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경"
+part:89d0c10c906bb36bcfb0,part:eb32088a5848e02902a2,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:279.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경(Back Lighting PCB)"
+part:7c36cc8c3ac8cdccb274,part:89d0c10c906bb36bcfb0,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:280.0,Change,부품 변경,"6.8"" 적용에 따른 부품 변경(Display PCB)"
+part:53ec5c2bae2360960d68,part:9e51464074c2aa97b05b,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:315.0,Change,부품 변경,업체 이원화 부품 적용
+part:20fda7b6260b9f07c745,part:9e4d9e1d450fb0aff78c,case:f7363a1f22a38fad81a1a5c7,doc:094f5701c69d57ed3caf4e2f,doc:094f5701c69d57ed3caf4e2f:line:381.0,Change,부품 변경,1→3점 인식 Meat Probe 적용

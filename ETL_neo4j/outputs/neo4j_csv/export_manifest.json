@@ -1,0 +1,622 @@
+{
+  "createdAt": "2026-05-28T03:18:55.143928+00:00",
+  "parserVersion": "bom_graph_etl.v0.1",
+  "docs": {
+    "current_excel_csv_design.md": {
+      "path": "docs\\current_excel_csv_design.md",
+      "sha1": "7233b1be3076973b1c1c2ffba3ca34cb74978bd6",
+      "bytes": 9888
+    },
+    "neo4j_bom_schema.md": {
+      "path": "docs\\neo4j_bom_schema.md",
+      "sha1": "0071af2255e8b74e313ec5b18b68c6b3b0a42785",
+      "bytes": 11489
+    }
+  },
+  "files": [
+    {
+      "file": "data\\240430 BDO30 SKS Transitional 개발부품Master List Ver.20200814 Part DMS v2.xlsx",
+      "sheets": [],
+      "status": "failed",
+      "errors": [
+        "workbook open failed: Unable to read workbook: could not assign names from data\\240430 BDO30 SKS Transitional 개발부품Master List Ver.20200814 Part DMS v2.xlsx.\nThis is most probably because the workbook source files contain some invalid XML.\nPlease see the exception for more details."
+      ]
+    },
+    {
+      "file": "data\\250213 사우디 개발부품Master List.xlsm",
+      "sheets": [
+        {
+          "sheet": "변경부품 list (BK STS)",
+          "rows": 17,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list (BK Glass)",
+          "rows": 17,
+          "changes": 0,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\250424 모리셔스향 파급 개발 개발부품마스터.xlsx",
+      "sheets": [
+        {
+          "sheet": "WSED7667M(Best)",
+          "rows": 8,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WS7D7632WB(Good)",
+          "rows": 8,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WSED7612S(Good)",
+          "rows": 8,
+          "changes": 0,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\BO24 북미 부품 개발 완료 Activity 240409.xlsx",
+      "sheets": [
+        {
+          "sheet": "초품리스트_240409",
+          "rows": 0,
+          "changes": 0,
+          "headerRow": 3
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\BO24 북유럽 CE 개발부품 마스터 250113.xlsm",
+      "sheets": [
+        {
+          "sheet": "변경부품 list_Best1",
+          "rows": 16,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Better1",
+          "rows": 16,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Best",
+          "rows": 17,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Better",
+          "rows": 17,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Good1, BK",
+          "rows": 14,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Good2, BK",
+          "rows": 14,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Good1, STS",
+          "rows": 14,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Good2, STS",
+          "rows": 14,
+          "changes": 0,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\BO24 오븐 사우디향 부품 개발 완료 Master 240214.xlsx",
+      "sheets": [],
+      "status": "skipped",
+      "errors": [
+        "no BOM-like sheet found"
+      ]
+    },
+    {
+      "file": "data\\BO24 오븐 이집트향 부품 개발 완료 Master 240306.xlsx",
+      "sheets": [
+        {
+          "sheet": "변경부품 list_Good",
+          "rows": 25,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Better",
+          "rows": 24,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Best",
+          "rows": 26,
+          "changes": 0,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\BO24 유럽향 VI Steam Heater 개발 부품 마스터.xlsm",
+      "sheets": [
+        {
+          "sheet": "변경부품 list_Best1",
+          "rows": 16,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Better1",
+          "rows": 16,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Best",
+          "rows": 17,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Better",
+          "rows": 17,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WSED7665B.AK1QEUR",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WSED7664S.AS1QEUR",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WS9D7651WS.AS1QEUR",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WS9D7651B.AK1QEUR",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WS9D7673CB.AK1QEUR",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WS9D7672CS.AS1QEUR",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WSED7665B.AK1QEUS",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WSED7665B.AK1QEUE",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WS9D7651WS.AS1QEUE",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "WS9D7651WB.AB1QEUS",
+          "rows": 3,
+          "changes": 0,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\BO24 포르투갈 그리스 부품 개발 완료 Activity 240627.xlsm",
+      "sheets": [
+        {
+          "sheet": "변경부품 list_Better1",
+          "rows": 16,
+          "changes": 0,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\BO24 포르투갈, 그리스 개발부품 마스터 240516.xlsm",
+      "sheets": [
+        {
+          "sheet": "변경부품 list_Better1",
+          "rows": 16,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Good2,STS",
+          "rows": 13,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Good2,BK STS",
+          "rows": 13,
+          "changes": 0,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\BO24 호주 B700 nonpyro 개발부품 마스터 241120.xlsx",
+      "sheets": [
+        {
+          "sheet": "변경 부품 list(BO605G1S5)",
+          "rows": 12,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경 부품 list(BO605G1GL5)",
+          "rows": 9,
+          "changes": 0,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\BO24 호주향 개발부품 마스터 240221.xlsm",
+      "sheets": [
+        {
+          "sheet": "변경부품 list_Best",
+          "rows": 27,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Better",
+          "rows": 25,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "변경부품 list_Good",
+          "rows": 26,
+          "changes": 0,
+          "headerRow": 8
+        },
+        {
+          "sheet": "BOM Compare_Best",
+          "rows": 68,
+          "changes": 0,
+          "headerRow": 0
+        },
+        {
+          "sheet": "Good Base Assembly 비교단가",
+          "rows": 49,
+          "changes": 0,
+          "headerRow": 14
+        },
+        {
+          "sheet": "Better Base Assembly 비교단가",
+          "rows": 53,
+          "changes": 0,
+          "headerRow": 14
+        },
+        {
+          "sheet": "Best Base Assembly 비교단가",
+          "rows": 60,
+          "changes": 0,
+          "headerRow": 14
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\UAE 24인치 오븐 부품 개발 List 230731.xlsx",
+      "sheets": [
+        {
+          "sheet": "신규 개발리스트",
+          "rows": 85,
+          "changes": 67,
+          "headerRow": 8
+        },
+        {
+          "sheet": "신규 개발리스트_UAE",
+          "rows": 47,
+          "changes": 44,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\★통합 개발부품Master Integrated Dev Part Master v1.2 동유럽향.xlsx",
+      "sheets": [
+        {
+          "sheet": "Good-1 BK",
+          "rows": 6,
+          "changes": 2,
+          "headerRow": 7
+        },
+        {
+          "sheet": "Goood-2 BK",
+          "rows": 6,
+          "changes": 2,
+          "headerRow": 7
+        },
+        {
+          "sheet": "Good-1 STS",
+          "rows": 6,
+          "changes": 2,
+          "headerRow": 7
+        },
+        {
+          "sheet": "Good-2 STS",
+          "rows": 6,
+          "changes": 2,
+          "headerRow": 7
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\★통합 개발부품Master Integrated Dev Part Master v1.2 싱가포르향 (1) (1).xlsx",
+      "sheets": [
+        {
+          "sheet": "Master(Best)",
+          "rows": 9,
+          "changes": 4,
+          "headerRow": 7
+        },
+        {
+          "sheet": "Master(Better)",
+          "rows": 9,
+          "changes": 4,
+          "headerRow": 7
+        },
+        {
+          "sheet": "Master(Good)",
+          "rows": 9,
+          "changes": 4,
+          "headerRow": 7
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\개발변경부품Master Best 221226.xlsx",
+      "sheets": [
+        {
+          "sheet": "개발변경부품리스트",
+          "rows": 290,
+          "changes": 205,
+          "headerRow": 1
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\개발변경부품Master Better 221226.xlsx",
+      "sheets": [
+        {
+          "sheet": "개발변경부품리스트",
+          "rows": 290,
+          "changes": 205,
+          "headerRow": 1
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\개발변경부품Master Good 221226.xlsx",
+      "sheets": [
+        {
+          "sheet": "개발변경부품리스트",
+          "rows": 290,
+          "changes": 205,
+          "headerRow": 1
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\개발변경부품리스트 전개모델 230110.xlsx",
+      "sheets": [
+        {
+          "sheet": "개발변경부품리스트",
+          "rows": 293,
+          "changes": 12,
+          "headerRow": 1
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\개발부품Master Single IH Final.xlsx",
+      "sheets": [
+        {
+          "sheet": "Master",
+          "rows": 1241,
+          "changes": 119,
+          "headerRow": 7
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\개발부품마스터 BO24 CIS Best.xlsx",
+      "sheets": [
+        {
+          "sheet": "Best",
+          "rows": 3,
+          "changes": 3,
+          "headerRow": 5
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\개발부품마스터 BO24 CIS Better.xlsx",
+      "sheets": [
+        {
+          "sheet": "Better",
+          "rows": 3,
+          "changes": 3,
+          "headerRow": 5
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\개발부품마스터 BO24 동유럽 Better 250424.xlsx",
+      "sheets": [
+        {
+          "sheet": "Better",
+          "rows": 2,
+          "changes": 2,
+          "headerRow": 5
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\이라크 24인치 오븐 부품개발 완료 List 230731.xlsx",
+      "sheets": [
+        {
+          "sheet": "신규 개발리스트",
+          "rows": 85,
+          "changes": 67,
+          "headerRow": 8
+        },
+        {
+          "sheet": "신규 개발리스트_UAE",
+          "rows": 39,
+          "changes": 39,
+          "headerRow": 8
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\참고용_Extra_결과 (1).xlsx",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 83,
+          "changes": 83,
+          "headerRow": 7
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    },
+    {
+      "file": "data\\통합 개발부품Master Extra v1.1.xlsx",
+      "sheets": [
+        {
+          "sheet": "Master",
+          "rows": 409,
+          "changes": 89,
+          "headerRow": 7
+        }
+      ],
+      "status": "ok",
+      "errors": []
+    }
+  ],
+  "summary": {
+    "csvDir": "outputs\\neo4j_csv",
+    "files": 26,
+    "reviewCases": 65,
+    "sourceDocuments": 65,
+    "bomLines": 3949,
+    "bomEdges": 3228,
+    "parts": 1629,
+    "rawParts": 9281,
+    "changeRecords": 1163,
+    "impactEdges": 2456,
+    "skippedFiles": [
+      {
+        "file": "data\\240430 BDO30 SKS Transitional 개발부품Master List Ver.20200814 Part DMS v2.xlsx",
+        "sheets": [],
+        "status": "failed",
+        "errors": [
+          "workbook open failed: Unable to read workbook: could not assign names from data\\240430 BDO30 SKS Transitional 개발부품Master List Ver.20200814 Part DMS v2.xlsx.\nThis is most probably because the workbook source files contain some invalid XML.\nPlease see the exception for more details."
+        ]
+      },
+      {
+        "file": "data\\BO24 오븐 사우디향 부품 개발 완료 Master 240214.xlsx",
+        "sheets": [],
+        "status": "skipped",
+        "errors": [
+          "no BOM-like sheet found"
+        ]
+      }
+    ]
+  }
+}
