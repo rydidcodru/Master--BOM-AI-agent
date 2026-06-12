@@ -1,0 +1,27 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', system-ui, -apple-system, sans-serif;
+  background: #f9fafb;
+  color: #111827;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* AG Grid 행 높이 조정 */
+.ag-theme-alpine {
+  font-size: 13px;
+  height: 100%;
+}
+
+.ag-theme-alpine .ag-header {
+  background: #f3f4f6;
+}
