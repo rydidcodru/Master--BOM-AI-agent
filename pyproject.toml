@@ -1,0 +1,82 @@
+[project]
+name = "lg-bom-mvp"
+version = "0.1.0"
+description = "LG appliance development-parts master + BOM preprocessing pipeline (MVP)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Excel / tabular
+    "openpyxl>=3.1",
+    "python-calamine>=0.2",
+    "pandas>=2.2",
+    "pyarrow>=16.0",
+    # Schema / validation
+    "pydantic>=2.7",
+    "jsonschema>=4.22",
+    "pandera>=0.20",
+    # DB (Step 5)
+    "sqlalchemy>=2.0",
+    "psycopg2-binary>=2.9",
+    "pgvector>=0.3",
+    # Local LLM client (light — server runs separately)
+    "ollama>=0.2",
+    # Entity resolution
+    "rapidfuzz>=3.9",
+    # CLI / logging
+    "typer>=0.12",
+    "rich>=13.7",
+    "structlog>=24.1",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# Local embedding fallback (BGE-M3 via sentence-transformers; ~2GB). Kept
+# optional per DECISIONS D-004 — Ollama serves embeddings in normal operation.
+embed = [
+    "sentence-transformers>=3.0",
+]
+# Visualization for docs/walkthrough.md (matplotlib + pillow stack).
+viz = [
+    "matplotlib>=3.8",
+]
+# Anthropic Claude provider (opt-in via LLM_PROVIDER=anthropic). Official SDK only.
+# >=0.49: first release with the `thinking` param (added 0.47, Claude 3.7) + stable JSON.
+anthropic = [
+    "anthropic>=0.49",
+]
+# Streamlit BOM Agent UI (src/ui/, 260508 통합). Optional — CLI는 ui 없이도 동작.
+ui = [
+    "streamlit>=1.30",
+    "streamlit-float>=0.3",
+    "tiktoken>=0.7",      # 토크나이저 (UI 일부가 import)
+    "python-dotenv>=1.0", # 원본 rag_client가 load_dotenv 호출 — 호환 위해
+    # UI 내부 별도 chroma 컬렉션(chroma_structured)을 BOM 업로드 시 runtime
+    # 인덱싱·검색에 사용. dev_part_master(PostgreSQL)와는 분리된 캐시 용도.
+    "chromadb>=0.5",
+    # 심의회 PPT(.pptx) 업로드 + 모델 정보 추출
+    "python-pptx>=1.0",
+    # 정형화·검색 검수 페이지(inspect_app)의 Claude provider + .env 로딩
+    "anthropic>=0.49",
+]
+dev = [
+    "pytest>=8.2",
+    "pytest-asyncio>=0.23",
+    "hypothesis>=6.100",
+    "mypy>=1.10",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+ignore_missing_imports = true

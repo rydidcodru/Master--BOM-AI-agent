@@ -1,0 +1,123 @@
+# v2.0 Step 1 — 시트 단위 양식 분류 시그니처.
+#
+# preprocessing_v2.md §8-8 그대로. 시트 1개에 대해 3종 신호(시트명/행1마커/max_col 범위)를
+# 매칭해 가중 합산. 신호 ≥2 일치 → confidence 1.0, 1개 → 0.7, 0개 → unknown.
+# LLM 호출 0회 — 전부 결정론적.
+
+forms:
+  # ── 변경부품 list family (91/95/96/97 sub-variant) ──
+  # 같은 양식이 시간 흐름에 따라 컬럼 5~6개 삽입돼 진화. 헤더 이름 기반 매핑 필수.
+  변경부품_list_family:
+    sheet_name_patterns:
+      - "^변경.?부품 list"
+      - "^변경 부품 list\\("
+      - "^WS[ED9][D9][0-9]"           # 모델별 시트 (Steam Heater 케이스)
+      - "^BO\\d{3}[A-Z]"              # 호주 B700 모델별 시트
+      - "^WDEK\\d"
+      - "^LSIU\\d"
+    row1_markers:
+      - col: 2
+        value: "New & Changing Part"
+      - col: 2
+        value: "New&Changing Part"
+    max_col_range: [91, 100]
+    confidence_full: 1.0
+    confidence_partial: 0.7
+    # 어댑터가 max_col로 sub-variant(91/95/96/97) 결정 → form_version 부여
+    sub_variants:
+      변경부품_list_91: [91, 92]
+      변경부품_list_95: [93, 95]
+      변경부품_list_96: [96, 96]
+      변경부품_list_97: [97, 100]
+
+  # ── 신규부품리스트 (BO24 패밀리, 75col) ──
+  신규부품리스트_75:
+    sheet_name_patterns:
+      - "^신규부품리스트$"
+      - "^신규부품 리스트$"
+    row1_markers:
+      # Key-In / LOV 마커가 다수 출현하는 입력방식 헤더
+      - col_range: [1, 75]
+        value_in: ["Key-In", "LOV"]
+        min_count: 20
+    max_col_range: [70, 80]
+    confidence_full: 1.0
+    confidence_partial: 0.7
+
+  # ── v1.2 통합 마스터 (미래 표준, 현재 빈 템플릿) ──
+  v1_2_template_59:
+    file_name_patterns: ["v1[._]?2", "통합.*Integrated"]
+    sheet_name_patterns:
+      - "^Master\\(Best\\)"
+      - "^Good-"
+      - "^Goood-"
+      - "^Better-"
+      - "^Best-"
+      - "^History$"
+      # CIS/동유럽 단독 Best/Better/Good 시트 (대시 없음, 66col) — 추출실패 보강
+      - "^Best$"
+      - "^Better$"
+      - "^Good$"
+    row1_markers:
+      - col: 2
+        value_regex: "^공통.*Common"
+    max_col_range: [55, 70]   # 66col Best/Better 포함하도록 확장
+    confidence_full: 1.0
+    confidence_partial: 0.7
+
+  # ── base_master 구버전 (24col) ──
+  base_master_24:
+    sheet_name_patterns:
+      - "^개발변경부품리스트$"
+      - "^개발변경부품 리스트$"
+    file_name_patterns: ["base_master"]
+    row2_markers:
+      - col: 2
+        value: "No."
+      - col: 1
+        value_regex: "^P\\/[nN]o"
+    max_col_range: [20, 28]
+    confidence_full: 1.0
+    confidence_partial: 0.7
+
+  # ── UAE 24인치 신규 개발리스트 (46~58col) ──
+  UAE_신규개발_58:
+    sheet_name_patterns:
+      - "^신규 개발리스트"
+      - "^신규개발리스트"
+    file_name_patterns: ["UAE", "이라크"]
+    row2_markers:
+      - col: 2
+        value: "New & Changing Part"
+    max_col_range: [40, 60]
+    confidence_full: 1.0
+    confidence_partial: 0.7
+
+  # ── BOM ag-grid (36col) ──
+  # WDEK/LSIU/base_bom 모두 동일 단일 시트 양식. parts + bom_edges 양쪽 적재.
+  BOM_ag_grid_36:
+    sheet_name_patterns:
+      - "^ag-grid$"
+      - "^aggrid$"
+    file_name_patterns: ["base_bom", "_CVZ_EKHQ", "ag.?grid"]
+    max_col_range: [30, 40]
+    min_row: 100
+    confidence_full: 1.0
+    confidence_partial: 0.7
+
+  # D-011: activity_master_meta family 제거. 해당 시트는 unknown으로 분류됨.
+
+# ── 우선순위 (동점 시 위 → 아래 순으로 채택) ──
+priority:
+  - 변경부품_list_family
+  - 신규부품리스트_75
+  - BOM_ag_grid_36
+  - v1_2_template_59
+  - UAE_신규개발_58
+  - base_master_24
+
+# 분류 임계
+threshold:
+  full: 0.99       # 신호 ≥2 매칭
+  partial: 0.69    # 신호 1 매칭
+  unknown: 0.0

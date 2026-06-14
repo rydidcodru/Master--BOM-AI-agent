@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# uv
+.uv/
+
+# Data — raw inputs and derived artifacts are not versioned
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/quarantine/*
+!data/quarantine/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+data/golden/*
+!data/golden/.gitkeep
+!data/golden/README.md
+
+# Caches
+.cache/
+.diskcache/
+.pytest_cache/
+.mypy_cache/
+
+# UI runtime cache (chromadb persistent client — bge-m3 임베딩 인덱스)
+src/ui/chroma_structured/
+src/ui/data/
+src/ui/.streamlit/
+
+# Env
+.env
+
+# Input decks (심의회 PPT 등 입력 데이터 — data/raw와 동일 취급, 비버전)
+data/ppt/
+
+# Scratch / ad-hoc dev scripts + outputs (루트 _*.py 등, 비버전)
+/_*.py
+/_*.json
+/rag_demo*.txt
+*.log
+scripts/_*.py
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Archived scratch/eval artifacts
+_archive/
+
+# 공유용 스냅샷 산출물 (추적 안 함)
+share/
+share*.zip
+
+# session scratch / runtime
+out/
+*.log
+streamlit.log
+*.tmp

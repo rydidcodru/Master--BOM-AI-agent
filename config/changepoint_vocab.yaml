@@ -1,0 +1,73 @@
+# config/changepoint_vocab.yaml
+# 변경점 어휘 v3 — 행위는 닫힌 enum, 대상/속성은 열린 슬롯(grounding 검증).
+# 시드 기준: 코퍼스 관찰 라벨. Phase 0 수확(2026-06-12, change_line 1512행)으로 확정.
+#   - 비공란 changepoint 1500행 / 공란(-, 빈값) 12행(0.8%). 고유 라벨 161종.
+#   - 상위 30개 라벨이 비공란 라인의 57.3% 커버.
+#   - generic_map의 모든 label은 수확 결과 실재(attested) 검증 완료 — 미실재 라벨 없음.
+version: "0.1"
+
+split_tokens: ["및", ",", "/", "그리고", "+"]
+
+actions: [변경, 추가, 삭제, 적용, 축소, 확대, 통합, 분리, 보강, 교체]
+
+action_cues:        # 변이형 → enum. 결정론 1차 추출과 LLM 프롬프트 단서 공용.
+  삭제: [제거, 폐지, 불요, 미사용, 미적용, 제외, 단종]
+  추가: [신설, 신규, 도입, 증설, 부착]
+  적용: [반영, 채용, 채택]
+  변경: [수정, 개정, 갱신, 개선, 변환]
+  축소: [소형화, 슬림화, 박형화, 다운사이징]
+  확대: [대형화, 증대, 확장]
+  통합: [공용화, 일원화, 단일화, 공용]
+  분리: [이원화, 분할, 별도화]
+  보강: [강화, 보완]
+  교체: [대체, 대치]
+
+tail_modality: [필요, 예정, 요망, 검토, 진행, 할 것, 함, 코자 함]
+
+label_aliases:      # 표기 흔들림/오타 → canonical 라벨 (수확 관찰 사례)
+  품번 변경: [품변 변경, 하위 PCB 품번변경]
+  사이즈 축소: [사이즈축소]
+  하위 부품 변경: [하위부품 변경, Assembly 하위 부품 변경]
+  언어 변경: [언어변경]
+  서픽스 변경: [Suffix 변경]
+
+token_canon:        # 토큰 수준 정규화 — 부품명 canon과 공유
+  Assembly: [Assmebly, ASSY, Assy, ASM, 어셈블리, 조립체]
+  매뉴얼: [메뉴얼, Manual, manual]
+  Harness: [Harmess, 하네스]
+  Warranty: [Wrranty, 워런티]
+
+generic_map:        # (키워드 ±action 조건) → 코퍼스 일반 라벨. attested만 유지.
+  # ── 시드 12종 (전부 attested: n=수확 빈도) ──
+  - {keywords: [재질, 소재, 원재료, 법랑, 도금, 코팅, 수지], label: 하위 원재료 변경}   # n=10
+  - {keywords: [치수, 사이즈, 두께, 폭, 크기], when_action: [축소], label: 사이즈 축소}  # n=24
+  - {keywords: [구성, 레이아웃, 배치], label: 하위 구성 변경}                            # n=45
+  - {keywords: [조립], label: 조립 구조 변경}                                            # n=4 (구조보다 앞 — 조립이 더 구체)
+  - {keywords: [구조, 형상, 형태], label: 구조 변경}                                     # n=15
+  - {keywords: [인쇄, 표기, 문구], label: 인쇄 변경}                                     # n=2
+  - {keywords: [수량, 사용량], label: 사용량 변경}                                       # n=1 (수량 변경 계열 n=8)
+  - {keywords: [품번, "P/No"], label: 품번 변경}                                          # n=81
+  - {keywords: [모델명], label: 모델명 변경}                                              # n=10
+  - {keywords: [사양, 스펙, Spec], label: "Spec 변경"}                                    # n=5
+  - {keywords: [부품], when_action: [추가], label: 부품 추가}                             # n=16
+  - {keywords: [부품], when_action: [삭제], label: 부품 삭제}                             # n=3
+  - {keywords: [부품], when_action: [변경, 교체], label: 부품 변경}                       # n=8
+  # ── Phase 0 수확 보강 (상위 ~30 고빈도, attested) ──
+  - {keywords: [하위 부품, 하위부품], label: 하위 부품 변경}                              # n=63
+  - {keywords: [언어], when_action: [추가], label: 언어 추가}                             # n=16
+  - {keywords: [언어], label: 언어 변경}                                                  # n=8 (언어변경 n=12, LCD Display 언어 변경 n=42)
+  - {keywords: [외관], label: 외관 변경}                                                  # n=38
+  - {keywords: [디자인], label: 디자인 변경}                                              # n=11
+  - {keywords: [매뉴얼, Manual], when_action: [추가], label: 신규 매뉴얼}                 # n=33
+  - {keywords: [서픽스, Suffix], label: 서픽스 변경}                                      # n=24 (+Suffix 변경 n=9)
+  - {keywords: [S/W, SW, 소프트웨어], label: "S/W 변경"}                                  # n=18
+  - {keywords: [하네스, Harness], label: 하네스 변경}                                     # n=8
+  - {keywords: [라벨, Label], label: 라벨 변경}                                           # n=4
+
+attribute_map:      # generic_map 역방향 — J4-a 룰 게이팅용 (라벨 → change_attribute)
+  사이즈 축소: 치수
+  하위 원재료 변경: 재질
+  구조 변경: 조립
+  조립 구조 변경: 조립
+  Spec 변경: 사양
+  외관 변경: 색상

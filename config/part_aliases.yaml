@@ -1,0 +1,45 @@
+# config/part_aliases.yaml — 부품/모듈명 별칭 (canonical: [variants])
+# P7.1(v2 패치). canonicalize_part_name이 token_canon에 더해 이 별칭을 적용한다
+# (단어 단위 치환 + 다단어 최장 일치). ①.5 닻 탐색·②.5 매칭·parts 채널 전처리가 동시 혜택.
+#
+# ⚠️ 사람 검수 전제 — 자동 반영 금지. 아래는 **보수적 시드**이며 도메인 전문가 사인오프 필요.
+#
+# 수확(2026-06-12, change_line↔dev_part_master base_pno=part_no_new 조인, n≥3):
+#   · 대부분이 base_pno→new_pno **변환 쌍**(같은 부품의 표기 차이 아님 — 예: "Card,Warranty"↔
+#     "Label,guide")이라 별칭으로 부적합 → 자동 반영하지 않음(보류).
+#   · 콤마/공백 변형("Label, Energy"↔"Label,Energy")은 canonicalize가 콤마를 공백으로
+#     바꿔 **이미 흡수** → 별칭 불필요.
+#   · 코퍼스 part_name은 영문 카탈로그명 위주라 수확에서 한↔영 쌍은 안 나왔다. 그러나 ①.5
+#     닻은 PPT의 **한글 모듈명**을 영문 BOM 노드명과 매칭하므로, trgm 0점 한↔영을 메우는
+#     아래 도메인 표준 쌍을 **큐레이션 시드**로 둔다(영문 canonical).
+#
+# canonical(영문 표준) : [한글/오타 변형들]
+aliases:
+  # ── 한↔영 모듈/부품 표준어 (trgm 0점 구간 — 효과 최대, 검수 후 확장) ──
+  Door: [도어]
+  Heater: [히터]
+  Cover: [커버]
+  Cavity: [캐비티]
+  Controller: [컨트롤러, 콘트롤러]
+  Bracket: [브래킷, 브라켓]
+  Harness: [하네스]
+  Hinge: [힌지]
+  Motor: [모터]
+  Fan: [팬]
+  Panel: [패널]
+  Tray: [트레이]
+  Handle: [핸들]
+  Label: [라벨]
+  Knob: [놉, 노브]
+  Sensor: [센서]
+  Camera: [카메라]
+  Display: [디스플레이]
+  Glass: [글라스, 유리]
+  Packing: [패킹]
+  Gasket: [가스켓, 개스킷]
+  # ── 콤마 제거로도 안 잡히는 오타 (token_canon 미수록분) ──
+  Carton: [Cartoon]      # "Label,Cartoon"(관측 n=12) → Label Carton
+  Warranty: [Wrranty]    # 표기 오타
+
+# 1:N 충돌(한 variant가 두 canonical에 걸림) 발견 시 여기로 분리 후 협의 — 현재 없음.
+conflicts: {}

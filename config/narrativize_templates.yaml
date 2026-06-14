@@ -1,0 +1,40 @@
+# v2.0 Step 5 — narrativize 템플릿 (D-011 Phase F 단순화 후).
+#
+# core → 자연어 4~6문장. LLM 호출 0회.
+#
+# D-011 변경:
+#   - 6개 조건부 절(drbfm/hsms/mold/test/supplier/nonstd) 모두 제거
+#   - payload_triggers 섹션 전체 제거
+#   - 핵심 절(part_meta/model_meta/base_part/change_point/change_reason/stage)만 유지
+
+change_event_template: |
+  변경부품 {part_no}({part_name}{part_meta_clause}).
+  모델 {new_model_code}{model_meta_clause}.
+  {change_type_phrase}{base_part_clause}
+  {change_point_clause}
+  {change_reason_clause}
+  {stage_clause}
+
+# 조건부 절 — 값 있을 때만 채워서 본문에 삽입.
+clauses:
+  part_meta_clause: ", BOM Level {bom_level}, 부품 유형 {part_type}"
+  model_meta_clause: " ({region}향, {grade} 등급)"
+  base_part_clause: " 기존 {base_part_no}에서 변경됨."
+  change_point_clause: "변경점: {change_point}"
+  change_reason_clause: "변경 사유: {change_reason}"
+  stage_clause: "현 개발 단계: {event_stage_korean}."
+
+# 매핑 사전
+change_type_korean:
+  New: "신규 등록(New)."
+  Change: "변경(Change)."
+  Carry-over: "기존 유지(Carry-over)."
+
+event_stage_korean:
+  CP: "컨셉 단계 (CP)"
+  PP: "양산 준비 단계 (PP)"
+  DV: "설계 검증 단계 (DV)"
+  PV: "공정 검증 단계 (PV)"
+  PQ: "양산 품질 검증 단계 (PQ)"
+  MP: "양산 (MP)"
+  PreMP: "양산 직전 (PreMP)"
