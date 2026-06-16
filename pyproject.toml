@@ -1,0 +1,27 @@
+[project]
+name = "dev-parts-backend"
+version = "0.1.0"
+description = "SQLite-backed dev parts loader and RAG-ready API skeleton"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "certifi>=2026.5.20",
+    "fastapi>=0.115.0",
+    "openai>=2.41.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "uvicorn[standard]>=0.30.0",
+]
+
+[project.scripts]
+devparts = "dev_parts_backend.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+package = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
